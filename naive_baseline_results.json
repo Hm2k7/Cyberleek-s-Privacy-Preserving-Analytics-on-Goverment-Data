@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "title": "Cyberleek Naive Non-Private Baseline",
+    "role": "Person 2 - Core Privacy Technique Engineer",
+    "privacy_guarantee": "NONE (Centralized Raw Data Pooling)",
+    "compliance_status": "NON-COMPLIANT (Violates UAE PDPL Art. 1 / Health ICT Law Art. 13)",
+    "purpose": "Ground truth reference for measuring DP utility loss and FL accuracy"
+  },
+  "population_statistics": {
+    "total_records": 15000,
+    "hospital_counts": {
+      "A": 8000,
+      "B": 5000,
+      "C": 2000
+    },
+    "national_diabetes_prevalence": 0.2663333333333333,
+    "national_hypertension_prevalence": 0.3182,
+    "national_readmission_rate": 0.19113333333333332,
+    "hospital_diabetes_prevalence": {
+      "A": 0.30175,
+      "B": 0.209,
+      "C": 0.268
+    },
+    "hospital_hypertension_prevalence": {
+      "A": 0.361,
+      "B": 0.2602,
+      "C": 0.292
+    },
+    "hospital_readmission_rate": {
+      "A": 0.208875,
+      "B": 0.1672,
+      "C": 0.18
+    },
+    "diabetes_by_age_group": {
+      "<40": 0.09844311377245508,
+      "40-60": 0.2358764294248165,
+      ">60": 0.44341522351993556
+    },
+    "diabetes_by_gender": {
+      "F": 0.2666372202591284,
+      "M": 0.26608187134502925
+    },
+    "diabetes_by_nationality": {
+      "Emirati": 0.3166805439911185,
+      "Filipino": 0.18972332015810275,
+      "Other": 0.18470539072294193,
+      "South Asian": 0.24004085801838612
+    },
+    "mean_age": 50.7304,
+    "std_age": 16.303332044372095,
+    "mean_bmi": 27.59282,
+    "std_bmi": 4.671330560223735,
+    "mean_los": 4.9726,
+    "mean_hba1c_overall": 6.0647407513212395,
+    "mean_hba1c_diabetic": 7.800206398348813,
+    "mean_hba1c_nondiabetic": 5.400444400553032,
+    "mean_bp_systolic_overall": 128.93026666666665,
+    "mean_bp_systolic_hypertensive": 145.5646344018437,
+    "mean_bp_systolic_normotensive": 121.16691111762981
+  },
+  "readmission_predictive_model": {
+    "train_samples": 12000,
+    "test_samples": 3000,
+    "test_positive_prevalence": 0.191,
+    "accuracy": 0.612,
+    "precision": 0.2634107285828663,
+    "recall": 0.5741710296684118,
+    "f1_score": 0.3611416026344676,
+    "roc_auc": 0.6256044743868249,
+    "confusion_matrix": [
+      [
+        1507,
+        920
+      ],
+      [
+        244,
+        329
+      ]
+    ],
+    "model_coefficients": {
+      "age": 0.3671997749844025,
+      "bmi": 0.010026908886776648,
+      "blood_pressure_systolic": 0.01059337297978564,
+      "blood_pressure_diastolic": 0.07048410370842209,
+      "hba1c": 0.05104002625710806,
+      "length_of_stay": 0.12039863657803816,
+      "gender_M": 0.03512763500145374,
+      "nationality_Filipino": 0.10066874968429207,
+      "nationality_Other": 0.08428628108668934,
+      "nationality_South Asian": 0.05696784581735588,
+      "smoking_status_Former": 0.1588135982415621,
+      "smoking_status_Never": 0.20044816533700854,
+      "has_diabetes": 0.388355327061115,
+      "has_hypertension": -0.069875480716986,
+      "has_obesity": 0.05435515673097041
+    },
+    "model_intercept": -0.4091004442177732
+  }
+}
