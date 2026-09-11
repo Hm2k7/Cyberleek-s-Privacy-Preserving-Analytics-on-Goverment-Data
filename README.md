@@ -1,108 +1,66 @@
-# Cyberleek — Privacy-Preserving Analytics on Sensitive Government Data
+# Cyberleek using differential privacy for the statistics and federated learning for the model, then proving the protection works by attacking it.
 
-**Team Name:** Cyberleek
-**Domain:** UAE Healthcare Data Privacy (MOHAP, DOH Abu Dhabi, DHA Dubai)
-**Status:** All four workstreams complete, tested, and reproducible end-to-end.
+Everything runs locally on synthetic data. No external services, no GPU, no network access required.
 
-## Brief Description
-A demonstrator that computes actionable population health analytics and trains a predictive readmission-risk model across sensitive (simulated) UAE healthcare datasets held by three separate hospitals, while provably limiting what any party — including the central aggregator — can learn about an individual. Powered by mathematically verified **Differential Privacy** and decentralized **Federated Learning**, and validated with two real adversarial attacks that succeed against the naive baseline and collapse under the privacy technique.
+## Requirements
 
-## Who Buys This / What It Replaces
-See `scenario.md` for the full legal and business case. In short: **MOHAP, DOH Abu Dhabi, and DHA Dubai** need cross-hospital diabetes/hypertension/readmission statistics for national health planning, but UAE PDPL (Federal Decree-Law No. 45/2021) and Health ICT Law No. 2/2019 Art. 13 forbid pooling raw patient records across institutional boundaries. Today they rely on (A) manual quarterly aggregate reporting — slow, error-prone, and still re-identifiable at small cell counts — or (B) an illegal centralized data lake. Cyberleek replaces both with cryptographically-bounded DP releases and FL model training that keep raw records inside each hospital's perimeter.
+- Python 3.10 or newer
+- `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib` (see `requirements.txt`)
 
-## Quick Start
+## Setup
 
 ```bash
-# 1. Set up environment (fresh — no dependencies are pre-installed)
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
+```
 
-# 2. [Person 1] Generate & validate synthetic UAE hospital data
-.venv/bin/python generate_dataset.py
+## Running it
+
+The dataset is already committed, so you can start at step 2. Each script prints its own summary and writes a JSON file you can inspect.
+
+```bash
+# 1. (Optional) Regenerate the synthetic hospital data expect "42/42 checks passed"
 .venv/bin/python validate_dataset.py
 
-# 3. [Person 2] Verify DP mathematical core & budget accounting (11/11 tests)
-.venv/bin/python test_privacy.py
-
-# 4. [Person 2] Run naive (non-private) baseline benchmark
-.venv/bin/python naive_baseline.py
-
-# 5. [Person 2] Run differentially private analytics engine
-.venv/bin/python dp_analytics.py --epsilon 1.0
-
-# 6. [Person 2] Run federated learning: standard FedAvg, then DP-FedAvg
-.venv/bin/python federated_learning.py --rounds 15 --local-epochs 3
-.venv/bin/python federated_learning.py --rounds 15 --local-epochs 3 --dp --epsilon 2.0
-
-# 7. [Person 3] Run the attack demonstration (real MIA + differencing attack)
+# 3. Check the DP math and budget accounting membership inference + differencing    -> attack_results.json
 .venv/bin/python attack_demo.py
 
-# 8. [Person 4] Run the privacy-utility trade-off sweep (~45s, 20 trials/epsilon)
+# 8. Sweep the privacy budget (~45s)  -> tradeoff_curves.png, tradeoff_summary.json
 .venv/bin/python tradeoff_analysis.py --trials 20
 ```
 
-Every script is independently seeded and deterministic — `generate_dataset.py` reproduces byte-identical CSVs on every run, and each downstream script prints its own pass/fail or verdict summary so a grader can verify each step without reading code.
+Steps 4 26.6% (true value 26.63%), error well under 0.1pp |
+| `federated_learning.py` | FedAvg ROC-AUC with no raw data shared |
+| `federated_learning.py --dp` | ROC-AUC drops to 0.05) |
+| `tradeoff_analysis.py` | Two curves written to `tradeoff_curves.png` |
 
-## Project Structure
+Full numbers are in [`docs/results.md`](docs/results.md).
 
-```text
-.
-├── data/                                # Synthetic datasets
-│   ├── hospital_a_abu_dhabi.csv         # 8,000 records (older / Emirati skewed)
-│   ├── hospital_b_dubai.csv             # 5,000 records (diverse / younger population)
-│   ├── hospital_c_rak.csv               # 2,000 records (mixed demographics)
-│   └── README.md                        # Dataset documentation & schemas
-├── docs/
-│   └── dp_mechanism_guide.md            # [Person 2] Mathematical & legal justification
-├── generate_dataset.py                  # [Person 1] Synthetic data generator (seedable, deterministic)
-├── validate_dataset.py                  # [Person 1] Dataset validation (42/42 checks)
-├── scenario.md                          # [Person 1] UAE legal & business problem context
-├── naive_baseline.py                    # [Person 2] Non-private centralized baseline (ground truth)
-├── naive_baseline_results.json          # [Person 2] Baseline population stats + model metrics
-├── dp_core.py                           # [Person 2] DP primitives, sensitivity clipping, budget ledger
-├── dp_analytics.py                      # [Person 2] Provable DP analytics CLI & API
-├── dp_analytics_results.json            # [Person 2] DP query results & audit log
-├── federated_learning.py                # [Person 2] Multi-client FedAvg & DP-FedAvg simulation
-├── federated_learning_results.json      # [Person 2] Standard FedAvg results
-├── federated_learning_dp_results.json   # [Person 2] DP-FedAvg results + zCDP accounting
-├── test_privacy.py                      # [Person 2] Property & statistical verification tests (11/11)
-├── attack_demo.py                       # [Person 3] Real membership-inference + differencing attacks
-├── attack_results.json                  # [Person 3] Attack ROC-AUC / attacker-advantage / verdicts
-├── tradeoff_analysis.py                 # [Person 4] Epsilon sweep across both privacy tracks
-├── tradeoff_curves.png                  # [Person 4] Published privacy-utility trade-off plots
-├── tradeoff_summary.json                # [Person 4] Full sweep data + MOHAP policy recommendation
-├── Cyberleek_Report.pdf                 # 5-page submission report (objective → validation → results)
-├── Cyberleek_Report.docx                # Editable source of the submission report
-├── requirements.txt                     # Dependencies (numpy, pandas, scipy, scikit-learn, matplotlib)
-├── README.md                            # Project overview (this file)
-└── HANDOVER.md                          # Full build history, bug-fix log, and API reference
+## Useful options
+
+```bash
+# Tighter or looser privacy budget for the statistics
+python dp_analytics.py --epsilon 0.5
+
+# Longer federated training, custom DP parameters
+python federated_learning.py --rounds 30 --local-epochs 5 --lr 0.05 \
+                            --dp --epsilon 5.0 --delta 1e-5 --clip-norm 0.05
+
+# Faster trade-off sweep
+python tradeoff_analysis.py --trials 5
 ```
 
-## Roles & Responsibilities (all complete)
-
-### Person 1 — Data & Scenario Lead
-- **Synthetic Dataset:** 15,000 realistic EHR records split across 3 UAE hospitals with realistic demographic distributions, clinical correlations, and non-identical schemas.
-- **Scenario Framing:** UAE MOHAP/DOH/DHA business case under PDPL and Health ICT Law (`scenario.md`).
-- **Validation:** `validate_dataset.py`, 42/42 statistical consistency checks.
-
-### Person 2 — Core Privacy Technique Engineer
-- **Naive Benchmark:** Non-private ground truth for population statistics and centralized readmission prediction.
-- **Differential Privacy Engine:** Laplace & Gaussian mechanisms from first principles, hard sensitivity clipping, cryptographic `PrivacyBudgetTracker` enforcing sequential (Σεᵢ) and parallel (max εᵢ on disjoint hospital silos) composition.
-- **Federated Learning:** FedAvg and DP-FedAvg (Gaussian noise calibrated via zCDP composition across all 15 rounds to one stated total (ε, δ) budget) — raw records never leave hospital custody, only weight updates are exchanged.
-- **Testing:** `test_privacy.py`, 11/11 tests passing.
-
-### Person 3 — Attack & Vulnerability Engineer
-- `attack_demo.py` retrains the real models in-process and runs two real attacks — no numbers are hard-coded:
-  1. **Membership Inference (Yeom et al. 2018, loss-threshold):** an unregularized off-the-shelf model leaks membership (attack AUC 0.65); the DP-FedAvg model collapses this to chance (AUC 0.49).
-  2. **Differencing/Reconstruction:** naive aggregate counts perfectly reconstruct a target patient's diabetes status (AUC 1.00, attacker advantage 1.00); DP analytics cuts attacker advantage by ~95% at the same per-query ε the analytics engine actually uses, and a live epsilon sweep shows that residual shrinking monotonically as ε decreases. A `PrivacyBudgetTracker` demo also shows a real deployment halts the query campaign after a handful of queries, independent of the noise itself.
-
-### Person 4 — Trade-off & Business Impact Lead
-- `tradeoff_analysis.py` sweeps ε across both tracks (20 independent trials per point) and plots MAE-vs-ε for DP analytics alongside ROC-AUC/accuracy-vs-ε for DP-FedAvg (`tradeoff_curves.png`), then derives two **separate** MOHAP operating-point recommendations (see below) — reusing one track's ε for the other would misstate its real privacy cost.
-
-## Concrete Tasks Solved
-
-1. **National & Hospital-Level Diabetes Prevalence:** Computed under pure ε-DP (ε = 1.0) with absolute error <0.03% (single audited run) / <0.13% (mean of 20 noise trials) and full 95% theoretical confidence bounds.
-2. **30-Day Hospital Readmission Risk:** Decentralized FedAvg training achieves **58.9% accuracy / 0.639 ROC-AUC** across 3 hospitals with zero raw data sharing, matching the centralized baseline's discriminative power (0.626 ROC-AUC). Under DP-FedAvg (total ε=2.0 over the full run), utility drops substantially (ROC-AUC ≈ 0.48) — see HANDOVER.md §2 for the full trade-off and why the DP-analytics "ε≈1" operating point does not carry over to this model (its own knee sits around ε≈20, per the trade-off sweep).
-3. **Attack validation:** both a membership-inference and a differencing/reconstruction attack succeed against the naive, non-private outputs and collapse to near-chance under the corresponding privacy technique — see `attack_results.json` and Section 4 of `Cyberleek_Report.pdf`.
-
-See `Cyberleek_Report.pdf` for the assembled 5-page write-up (objective → proposed solution → validation → results → conclusions & limitations).
+Most scripts also take `--data-dir` (default `data/`), `--output` (where to write the JSON), and `--seed`. For `federated_learning.py --dp`, `--epsilon` is the **total** budget for the whole run, not per round data/                                # 15,000 synthetic records across 3 hospitals
+hospital_a_abu_dhabi.csv         # 8,000 records
+hospital_b_dubai.csv             # 5,000 records
+hospital_c_rak.csv               # 2,000 records
+README.md                        # Schema documentation
+            generate_dataset.py                  # Synthetic data generator
+test_privacy.py                      # 11 tests on the DP math and budget ledger
+dp_analytics.py                      # DP statistics engine
+federated_learning.py                # FedAvg and DP-FedAvg
+tradeoff_analysis.py                 # Privacy budget sweep and plots
+Cyberleek_Report.pdf                 # Write-up (objective results)
+the problem, who deploys this, and what it replaces
+- [`docs/results.md`](docs/results.md) importing the modules instead of using the CLIs
+- [`docs/verification.md`](docs/verification.md) why these mechanisms, and the legal mapping
