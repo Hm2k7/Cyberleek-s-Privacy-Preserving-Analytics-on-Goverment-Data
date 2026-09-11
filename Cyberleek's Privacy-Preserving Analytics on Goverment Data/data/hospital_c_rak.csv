@@ -1,0 +1,2001 @@
+patient_id,age,gender,nationality,bmi,has_diabetes,has_hypertension,has_obesity,smoking_status,blood_pressure_systolic,blood_pressure_diastolic,hba1c,admission_date,discharge_date,length_of_stay,readmitted_30_days,referral_source
+SH-00001,41,M,Other,30.8,False,False,True,Never,113,75,5.5,2024-12-16,2024-12-21,5,False,Emergency
+SH-00002,33,M,Other,29.4,True,False,False,Never,107,76,8.1,2024-06-30,2024-07-11,11,False,GP
+SH-00003,48,M,Emirati,31.7,False,True,True,Never,156,96,5.4,2025-08-18,2025-08-23,5,False,Walk-in
+SH-00004,63,M,Emirati,23.4,False,False,False,Current,130,76,5.6,2025-05-17,2025-05-18,1,False,Emergency
+SH-00005,36,M,Emirati,24.9,True,False,False,Never,151,75,8.7,2025-08-01,2025-08-04,3,False,Emergency
+SH-00006,58,M,South Asian,29.5,False,True,False,Current,160,84,,2024-01-18,2024-01-20,2,False,Walk-in
+SH-00007,73,M,Emirati,32.3,True,True,True,Current,146,97,7.5,2024-10-28,2024-11-07,10,False,Walk-in
+SH-00008,50,F,Other,31.2,True,True,True,Never,128,82,9.1,2025-04-06,2025-04-11,5,False,Walk-in
+SH-00009,78,M,South Asian,33.5,True,True,True,Current,136,88,7.3,2024-04-02,2024-04-17,15,False,Emergency
+SH-00010,69,F,South Asian,31.3,False,False,True,Never,124,72,5.4,2024-08-19,2024-08-31,12,True,GP
+SH-00011,28,M,South Asian,22.8,False,True,False,Never,132,93,5.3,2025-03-13,2025-03-15,2,False,GP
+SH-00012,75,M,Emirati,32.0,True,False,True,Current,118,79,8.6,2024-02-02,2024-02-15,13,False,GP
+SH-00013,59,M,Emirati,36.4,True,True,True,Current,142,95,8.9,2025-12-26,2025-12-28,2,False,GP
+SH-00014,72,M,Emirati,27.3,False,True,False,Never,129,86,4.9,2024-08-12,2024-08-17,5,False,GP
+SH-00015,34,M,Emirati,18.3,False,False,False,Never,120,80,5.8,2024-04-23,2024-04-29,6,False,Walk-in
+SH-00016,55,F,Emirati,38.1,True,True,True,Never,152,83,7.6,2024-02-14,2024-02-19,5,True,GP
+SH-00017,44,F,South Asian,28.1,False,False,False,Never,123,77,5.5,2024-05-27,2024-05-30,3,False,Walk-in
+SH-00018,78,F,Emirati,31.7,True,False,True,Never,151,74,8.9,2025-09-23,2025-09-30,7,True,Walk-in
+SH-00019,76,M,Other,27.8,True,True,False,Current,153,99,9.5,2024-03-26,2024-03-28,2,False,GP
+SH-00020,61,F,South Asian,27.2,False,False,False,Never,121,74,5.0,2024-08-08,2024-08-19,11,False,Walk-in
+SH-00021,46,F,Emirati,29.3,True,False,False,Never,135,76,8.0,2024-11-25,2024-12-01,6,False,Walk-in
+SH-00022,56,F,Emirati,28.4,False,False,False,Never,125,76,5.5,2024-07-10,2024-07-13,3,False,Walk-in
+SH-00023,57,M,South Asian,23.4,False,True,False,Never,163,96,4.9,2024-01-23,2024-02-06,14,True,Emergency
+SH-00024,66,F,Emirati,27.2,True,False,False,Never,122,79,6.8,2024-11-29,2024-12-02,3,True,Walk-in
+SH-00025,42,M,Emirati,32.0,True,False,True,Never,127,88,8.1,2024-02-15,2024-02-23,8,False,Emergency
+SH-00026,47,M,South Asian,25.7,False,True,False,Never,142,104,4.8,2024-03-27,2024-03-30,3,False,Walk-in
+SH-00027,55,M,Other,36.6,False,False,True,Never,124,85,4.9,2024-08-25,2024-08-29,4,True,Walk-in
+SH-00028,21,F,Emirati,23.2,False,False,False,Never,133,70,4.7,2025-02-03,2025-02-06,3,False,GP
+SH-00029,46,F,Emirati,33.2,False,False,True,Never,121,74,5.1,2024-11-25,2024-11-29,4,False,Walk-in
+SH-00030,45,F,Emirati,25.4,False,False,False,Never,125,72,5.2,2024-10-19,2024-10-28,9,True,GP
+SH-00031,56,M,Emirati,30.6,False,True,True,Never,128,101,5.4,2024-10-30,2024-11-02,3,False,Walk-in
+SH-00032,21,F,South Asian,19.0,False,False,False,Current,123,75,5.2,2025-03-16,2025-03-21,5,False,Walk-in
+SH-00033,46,M,Emirati,23.9,False,False,False,Never,102,76,6.0,2024-05-09,2024-05-16,7,False,Emergency
+SH-00034,58,M,Emirati,32.3,True,True,True,Never,149,80,5.5,2025-04-19,2025-04-25,6,False,Walk-in
+SH-00035,31,M,Emirati,25.4,False,False,False,Never,120,80,6.3,2024-11-29,2024-12-02,3,False,Walk-in
+SH-00036,57,F,Other,31.1,False,False,True,Never,116,72,5.8,2025-08-15,2025-08-17,2,False,GP
+SH-00037,41,M,Emirati,21.9,False,True,False,Never,120,89,4.9,2025-03-26,2025-04-04,9,False,Emergency
+SH-00038,36,M,Emirati,21.4,True,False,False,Never,140,77,9.1,2024-12-09,2024-12-17,8,False,Walk-in
+SH-00039,54,M,South Asian,25.4,False,True,False,Never,169,79,5.3,2025-12-17,2025-12-24,7,False,GP
+SH-00040,66,F,Emirati,34.6,True,True,True,Never,140,82,7.3,2024-01-12,2024-01-14,2,True,Walk-in
+SH-00041,62,M,Emirati,31.5,False,False,True,Current,108,83,5.9,2025-11-03,2025-11-09,6,False,GP
+SH-00042,29,F,South Asian,24.9,False,False,False,Never,117,77,5.0,2025-07-17,2025-07-20,3,False,GP
+SH-00043,31,F,Emirati,30.6,False,False,True,Never,108,80,5.2,2025-07-01,2025-07-10,9,False,Emergency
+SH-00044,64,F,Emirati,31.7,True,False,True,Never,136,67,5.2,2025-02-07,2025-02-11,4,True,Emergency
+SH-00045,62,M,Emirati,30.1,True,True,True,Current,140,73,7.4,2024-03-15,2024-03-19,4,False,GP
+SH-00046,38,F,Emirati,30.6,False,False,True,Never,103,65,5.3,2024-12-15,2024-12-23,8,False,GP
+SH-00047,44,F,South Asian,31.7,False,False,True,Never,124,74,5.3,2025-01-17,2025-01-20,3,False,GP
+SH-00048,53,F,Emirati,21.6,True,False,False,Never,129,77,10.3,2025-09-29,2025-10-03,4,True,GP
+SH-00049,21,F,Other,23.2,False,False,False,Never,126,69,5.9,2024-08-21,2024-08-25,4,False,GP
+SH-00050,51,M,Other,33.5,False,True,True,Never,149,100,5.3,2025-03-11,2025-03-14,3,False,Emergency
+SH-00051,42,F,Other,32.8,False,True,True,Never,134,100,4.6,2024-05-03,2024-05-08,5,False,Walk-in
+SH-00052,33,M,Emirati,25.0,False,False,False,Never,126,73,5.6,2024-11-07,2024-11-16,9,False,Walk-in
+SH-00053,65,M,Emirati,27.8,False,True,False,Never,145,96,5.4,2025-03-28,2025-04-03,6,False,Emergency
+SH-00054,46,M,South Asian,25.7,False,False,False,Never,130,78,5.5,2025-03-26,2025-04-01,6,True,Walk-in
+SH-00055,38,F,Other,22.0,False,False,False,Never,121,81,5.3,2025-10-22,2025-10-31,9,False,Emergency
+SH-00056,62,M,South Asian,29.2,False,False,False,Current,132,71,5.8,2025-06-05,2025-06-08,3,False,Walk-in
+SH-00057,77,M,South Asian,25.3,False,True,False,Never,143,101,5.5,2024-03-04,2024-03-06,2,False,GP
+SH-00058,46,M,Emirati,28.6,False,False,False,Former,130,90,5.3,2025-07-04,2025-07-06,2,False,GP
+SH-00059,42,F,Emirati,28.5,False,False,False,Never,116,73,,2024-04-05,2024-04-11,6,False,Walk-in
+SH-00060,72,M,Emirati,30.8,True,True,True,Never,128,80,5.6,2025-12-22,2025-12-24,2,False,Emergency
+SH-00061,66,F,South Asian,26.4,False,False,False,Never,121,75,6.1,2025-04-22,2025-04-24,2,False,GP
+SH-00062,66,M,South Asian,28.3,False,False,False,Never,137,84,4.9,2024-04-16,2024-04-18,2,False,GP
+SH-00063,62,M,Emirati,25.3,False,False,False,Never,134,68,5.2,2024-07-27,2024-07-29,2,False,GP
+SH-00064,68,M,Emirati,31.2,True,True,True,Never,136,110,11.3,2024-02-06,2024-02-09,3,True,GP
+SH-00065,35,M,Emirati,23.6,False,False,False,Never,135,76,5.5,2025-07-14,2025-07-18,4,True,Emergency
+SH-00066,37,M,Emirati,24.0,False,False,False,Never,128,83,5.4,2025-07-13,2025-07-14,1,False,GP
+SH-00067,71,F,Emirati,35.6,True,True,True,Never,133,94,8.1,2024-08-26,2024-08-31,5,True,Walk-in
+SH-00068,21,F,Other,26.3,False,False,False,Never,140,76,5.5,2025-10-17,2025-10-22,5,False,GP
+SH-00069,39,M,Other,31.2,True,False,True,Never,146,79,7.8,2025-06-26,2025-07-06,10,False,GP
+SH-00070,65,M,Emirati,26.5,False,False,False,Never,102,75,5.8,2024-07-09,2024-07-11,2,False,GP
+SH-00071,43,F,South Asian,39.4,False,False,True,Never,135,73,5.2,2024-10-10,2024-10-14,4,False,Emergency
+SH-00072,36,F,Emirati,30.2,True,False,True,Never,122,79,10.7,2025-06-10,2025-06-13,3,False,Walk-in
+SH-00073,30,M,South Asian,27.3,False,False,False,Current,124,77,5.3,2025-12-29,2026-01-04,6,False,Emergency
+SH-00074,45,F,Emirati,28.0,True,False,False,Never,123,76,7.0,2025-02-25,2025-03-01,4,False,GP
+SH-00075,31,F,Emirati,16.0,False,False,False,Never,122,70,5.0,2024-09-04,2024-09-07,3,False,GP
+SH-00076,80,M,South Asian,29.1,True,False,False,Former,126,89,8.4,2025-04-04,2025-04-09,5,True,Walk-in
+SH-00077,86,M,Emirati,23.6,True,True,False,Never,145,82,8.1,2024-10-28,2024-11-02,5,True,GP
+SH-00078,70,M,South Asian,36.5,True,True,True,Never,152,81,8.8,2025-06-13,2025-06-18,5,True,GP
+SH-00079,53,M,Emirati,25.5,True,True,False,Never,131,98,6.5,2024-04-22,2024-04-26,4,True,GP
+SH-00080,47,F,Emirati,29.7,True,True,False,Never,164,85,6.8,2024-07-29,2024-08-08,10,True,Walk-in
+SH-00081,49,F,Emirati,31.7,True,False,True,Current,118,70,5.1,2025-10-09,2025-10-16,7,True,Emergency
+SH-00082,46,M,Emirati,22.3,False,False,False,Never,118,65,5.6,2025-02-24,2025-03-05,9,True,Walk-in
+SH-00083,56,M,Other,31.6,True,True,True,Never,156,80,7.8,2025-03-25,2025-03-28,3,False,Emergency
+SH-00084,42,M,Other,18.6,False,False,False,Never,109,72,5.9,2025-03-16,2025-03-19,3,False,Emergency
+SH-00085,30,F,South Asian,25.1,False,False,False,Never,113,67,5.7,2024-05-20,2024-05-27,7,False,Walk-in
+SH-00086,32,F,Emirati,33.5,False,True,True,Never,134,86,,2024-05-01,2024-05-03,2,False,Walk-in
+SH-00087,38,F,Emirati,30.1,False,False,True,Never,117,69,5.6,2024-11-13,2024-11-17,4,False,GP
+SH-00088,52,F,Emirati,34.4,True,True,True,Never,133,87,7.3,2025-06-13,2025-07-02,19,False,Walk-in
+SH-00089,27,M,Other,16.3,False,False,False,Current,116,76,,2024-02-25,2024-02-27,2,False,GP
+SH-00090,62,M,Other,28.3,True,True,False,Never,120,94,7.6,2025-03-10,2025-03-16,6,False,GP
+SH-00091,26,M,Other,21.2,False,False,False,Never,104,70,6.0,2025-08-11,2025-08-16,5,False,GP
+SH-00092,31,M,Emirati,26.6,True,True,False,Current,136,95,9.1,2025-10-07,2025-10-12,5,False,Walk-in
+SH-00093,54,F,South Asian,21.3,False,False,False,Never,114,82,5.3,2024-11-06,2024-11-10,4,True,Emergency
+SH-00094,63,F,Other,31.5,False,True,True,Never,142,93,6.0,2025-06-04,2025-06-15,11,False,Walk-in
+SH-00095,38,M,Other,25.1,False,False,False,Current,138,73,5.0,2024-07-15,2024-07-17,2,False,Walk-in
+SH-00096,47,F,South Asian,23.7,False,False,False,Never,103,69,,2025-08-08,2025-08-11,3,False,Emergency
+SH-00097,61,F,Emirati,30.4,True,True,True,Never,148,101,9.9,2025-10-10,2025-10-15,5,False,Walk-in
+SH-00098,43,F,Emirati,16.6,True,False,False,Never,122,80,8.3,2024-12-19,2024-12-26,7,False,GP
+SH-00099,39,M,Other,28.7,False,False,False,Current,115,72,5.3,2025-06-11,2025-06-14,3,False,Emergency
+SH-00100,30,M,Other,24.8,False,False,False,Never,134,75,5.1,2025-01-01,2025-01-04,3,False,GP
+SH-00101,51,M,South Asian,33.9,False,True,True,Never,143,86,5.2,2024-07-09,2024-07-16,7,False,Walk-in
+SH-00102,54,M,Other,32.7,False,False,True,Current,134,71,5.8,2024-07-05,2024-07-11,6,False,Walk-in
+SH-00103,61,F,Emirati,25.3,False,False,False,Never,124,72,5.7,2024-03-04,2024-03-16,12,True,Walk-in
+SH-00104,26,M,Emirati,22.6,False,False,False,Current,119,77,5.3,2024-04-07,2024-04-15,8,False,GP
+SH-00105,43,M,Other,22.7,False,False,False,Current,121,64,,2025-11-11,2025-11-23,12,True,GP
+SH-00106,58,F,Emirati,28.6,True,True,False,Never,148,87,7.8,2024-07-02,2024-07-13,11,False,GP
+SH-00107,64,M,Emirati,31.7,True,True,True,Never,144,89,9.8,2024-10-14,2024-10-18,4,False,GP
+SH-00108,48,F,Emirati,28.7,False,False,False,Never,130,92,5.3,2025-12-01,2025-12-05,4,False,Walk-in
+SH-00109,62,M,Emirati,30.8,True,False,True,Never,145,69,4.6,2025-07-18,2025-07-20,2,False,GP
+SH-00110,52,M,Emirati,28.0,False,True,False,Never,123,92,5.3,2025-05-13,2025-05-18,5,False,Walk-in
+SH-00111,40,M,Emirati,25.3,False,False,False,Never,136,77,5.6,2024-04-15,2024-04-18,3,True,GP
+SH-00112,64,M,South Asian,32.8,True,True,True,Never,140,102,8.6,2025-01-31,2025-02-03,3,False,Walk-in
+SH-00113,28,M,South Asian,16.2,False,False,False,Current,104,68,5.1,2025-06-14,2025-06-16,2,False,Walk-in
+SH-00114,69,F,Emirati,36.6,True,True,True,Never,123,95,5.9,2025-09-18,2025-09-21,3,True,GP
+SH-00115,52,F,Emirati,19.5,True,False,False,Never,130,74,7.1,2024-10-09,2024-10-13,4,False,GP
+SH-00116,25,M,Other,18.2,False,False,False,Current,123,78,4.9,2024-01-30,2024-02-03,4,False,Walk-in
+SH-00117,31,F,Emirati,32.4,True,False,True,Never,119,91,9.2,2024-12-20,2024-12-24,4,False,Walk-in
+SH-00118,58,M,South Asian,32.9,False,False,True,Never,115,77,5.1,2024-06-27,2024-07-04,7,False,Emergency
+SH-00119,63,F,Emirati,24.8,True,False,False,Never,131,75,6.2,2024-08-23,2024-08-25,2,False,Walk-in
+SH-00120,22,M,Emirati,16.7,False,False,False,Never,125,73,5.8,2025-11-04,2025-11-07,3,False,Walk-in
+SH-00121,39,F,Emirati,23.8,False,True,False,Never,156,80,6.0,2025-05-19,2025-05-22,3,False,GP
+SH-00122,42,F,Other,21.7,False,False,False,Never,131,80,4.8,2025-10-04,2025-10-06,2,False,Walk-in
+SH-00123,64,M,South Asian,34.0,True,False,True,Current,111,77,9.9,2024-05-10,2024-05-16,6,False,GP
+SH-00124,69,M,Emirati,29.7,True,False,False,Former,120,67,5.7,2024-05-13,2024-05-18,5,False,GP
+SH-00125,26,F,South Asian,16.1,False,False,False,Never,131,72,5.5,2025-02-18,2025-02-23,5,False,Emergency
+SH-00126,45,F,Emirati,30.5,True,False,True,Never,124,74,7.5,2024-12-08,2024-12-13,5,False,GP
+SH-00127,59,M,Emirati,24.8,True,False,False,Never,119,73,9.3,2024-05-09,2024-05-11,2,True,GP
+SH-00128,58,M,Emirati,27.5,False,True,False,Never,156,76,,2024-07-02,2024-07-06,4,False,Walk-in
+SH-00129,37,F,South Asian,24.2,False,False,False,Never,114,68,5.5,2024-11-04,2024-11-07,3,False,GP
+SH-00130,54,M,Emirati,36.2,True,False,True,Never,127,73,6.8,2025-08-10,2025-08-14,4,False,GP
+SH-00131,50,F,South Asian,23.6,False,False,False,Never,143,79,5.2,2024-08-26,2024-09-06,11,False,GP
+SH-00132,32,M,Other,23.6,False,False,False,Former,116,86,6.7,2024-07-29,2024-08-05,7,False,Emergency
+SH-00133,51,M,Emirati,25.2,True,True,False,Former,153,106,7.6,2024-03-29,2024-04-07,9,True,GP
+SH-00134,54,M,South Asian,29.9,True,True,False,Never,150,89,5.4,2024-10-23,2024-10-29,6,False,Walk-in
+SH-00135,24,F,Emirati,26.5,False,False,False,Never,125,78,5.2,2025-02-03,2025-02-12,9,False,Walk-in
+SH-00136,49,F,Emirati,27.5,True,False,False,Former,115,77,7.3,2025-07-09,2025-07-12,3,False,Walk-in
+SH-00137,54,M,Emirati,28.0,False,False,False,Never,114,81,5.5,2024-07-26,2024-08-04,9,True,GP
+SH-00138,19,F,Emirati,26.3,False,False,False,Never,112,72,5.6,2025-09-24,2025-10-03,9,True,Walk-in
+SH-00139,45,F,South Asian,32.7,False,False,True,Never,127,74,5.5,2024-09-06,2024-09-12,6,False,GP
+SH-00140,62,F,Emirati,31.6,True,False,True,Never,122,91,,2025-06-17,2025-06-23,6,False,Walk-in
+SH-00141,50,F,South Asian,30.2,True,False,True,Never,130,80,7.7,2025-05-15,2025-05-19,4,False,GP
+SH-00142,63,F,South Asian,28.0,False,False,False,Never,110,66,5.7,2025-07-24,2025-07-27,3,False,GP
+SH-00143,49,M,Emirati,27.6,False,False,False,Current,140,80,5.4,2025-09-01,2025-09-04,3,False,Walk-in
+SH-00144,53,M,South Asian,25.0,False,False,False,Never,122,82,5.7,2024-04-12,2024-04-19,7,False,Walk-in
+SH-00145,43,F,South Asian,24.2,False,False,False,Never,122,73,5.8,2024-02-23,2024-02-29,6,False,GP
+SH-00146,80,M,South Asian,31.5,True,True,True,Never,158,100,7.2,2024-08-17,2024-08-24,7,False,Emergency
+SH-00147,52,F,Emirati,23.7,False,False,False,Never,124,74,5.1,2024-05-17,2024-05-20,3,False,Walk-in
+SH-00148,61,M,South Asian,39.7,False,True,True,Never,145,87,5.2,2025-07-26,2025-08-04,9,True,GP
+SH-00149,64,F,South Asian,28.4,True,True,False,Never,123,73,6.6,2024-09-17,2024-09-23,6,False,Walk-in
+SH-00150,56,F,Emirati,28.8,True,True,False,Never,143,90,8.2,2024-09-15,2024-09-17,2,False,Emergency
+SH-00151,54,F,Emirati,28.7,False,False,False,Never,134,85,5.2,2024-09-19,2024-09-21,2,False,Walk-in
+SH-00152,44,M,South Asian,25.0,True,True,False,Current,142,96,11.7,2025-03-18,2025-03-21,3,False,Emergency
+SH-00153,62,F,Emirati,33.5,False,False,True,Never,114,74,5.9,2024-01-24,2024-01-29,5,False,Walk-in
+SH-00154,44,F,Emirati,30.3,False,False,True,Never,116,73,5.8,2025-06-12,2025-06-14,2,False,Walk-in
+SH-00155,55,F,South Asian,27.3,False,True,False,Never,149,96,5.9,2025-11-10,2025-11-12,2,True,GP
+SH-00156,37,M,Other,27.8,True,False,False,Never,119,82,5.9,2024-12-03,2024-12-04,1,True,Walk-in
+SH-00157,66,M,South Asian,35.0,True,True,True,Never,157,79,9.2,2025-01-30,2025-02-05,6,False,Walk-in
+SH-00158,66,M,South Asian,31.7,True,True,True,Never,137,82,7.6,2025-07-17,2025-07-21,4,False,GP
+SH-00159,80,M,Other,33.0,False,True,True,Never,158,97,5.2,2025-01-09,2025-01-10,1,True,GP
+SH-00160,60,F,South Asian,36.9,True,False,True,Current,109,73,5.6,2024-08-30,2024-09-02,3,False,GP
+SH-00161,24,F,South Asian,16.9,False,False,False,Former,129,68,5.6,2025-01-08,2025-01-09,1,False,GP
+SH-00162,44,F,South Asian,34.2,False,False,True,Never,110,77,,2025-11-13,2025-11-20,7,False,Walk-in
+SH-00163,64,M,Emirati,29.1,False,True,False,Never,139,97,5.3,2025-08-22,2025-08-25,3,False,Walk-in
+SH-00164,26,F,South Asian,21.1,False,False,False,Never,109,77,5.5,2024-07-10,2024-07-14,4,False,Walk-in
+SH-00165,44,M,Emirati,29.0,False,False,False,Current,143,82,5.3,2025-01-29,2025-02-13,15,True,GP
+SH-00166,39,F,Emirati,32.3,False,False,True,Never,107,76,5.3,2025-09-08,2025-09-11,3,False,GP
+SH-00167,29,M,South Asian,21.4,False,False,False,Current,131,96,5.0,2024-09-20,2024-09-23,3,False,Emergency
+SH-00168,28,F,Other,24.1,False,False,False,Never,113,70,5.2,2025-12-04,2025-12-11,7,False,Walk-in
+SH-00169,20,F,South Asian,21.0,False,False,False,Never,134,62,5.3,2025-02-06,2025-02-08,2,False,Walk-in
+SH-00170,60,F,South Asian,30.2,True,False,True,Never,146,78,9.0,2025-10-13,2025-10-30,17,False,Emergency
+SH-00171,38,F,Other,18.7,False,False,False,Never,101,70,,2024-01-29,2024-02-02,4,False,Emergency
+SH-00172,18,F,Emirati,28.7,False,False,False,Never,131,82,,2025-11-18,2025-11-27,9,True,Walk-in
+SH-00173,69,M,South Asian,22.1,False,False,False,Never,116,78,5.9,2025-02-06,2025-02-08,2,True,Walk-in
+SH-00174,72,M,Emirati,27.6,False,True,False,Current,163,83,5.6,2025-06-27,2025-07-04,7,False,Walk-in
+SH-00175,47,M,Other,28.9,False,False,False,Never,122,73,5.8,2024-02-02,2024-02-07,5,True,Emergency
+SH-00176,40,F,Emirati,25.3,False,True,False,Former,148,93,5.4,2024-07-27,2024-07-31,4,False,GP
+SH-00177,57,F,Emirati,28.7,False,False,False,Never,112,80,6.2,2024-02-19,2024-02-22,3,True,Walk-in
+SH-00178,45,M,Emirati,27.5,False,False,False,Never,107,66,5.6,2024-11-29,2024-12-01,2,False,Emergency
+SH-00179,66,F,Other,31.4,False,True,True,Never,154,79,6.0,2024-04-25,2024-04-28,3,True,Emergency
+SH-00180,63,F,Emirati,28.1,True,True,False,Never,149,93,7.8,2025-06-01,2025-06-03,2,False,Walk-in
+SH-00181,21,M,South Asian,32.3,False,False,True,Never,112,77,,2024-09-12,2024-09-15,3,False,Walk-in
+SH-00182,67,F,Emirati,23.7,True,True,False,Never,137,84,7.4,2025-02-08,2025-02-12,4,False,Emergency
+SH-00183,35,F,Other,28.5,False,False,False,Never,111,78,5.6,2024-12-23,2024-12-27,4,False,Walk-in
+SH-00184,49,M,Other,19.8,False,False,False,Former,140,74,5.8,2024-06-20,2024-06-25,5,True,GP
+SH-00185,25,M,Emirati,25.9,False,False,False,Never,136,79,4.9,2025-10-20,2025-10-24,4,False,GP
+SH-00186,59,F,Other,33.1,False,False,True,Never,107,81,,2025-06-26,2025-07-04,8,False,GP
+SH-00187,56,M,Emirati,32.7,True,True,True,Never,148,100,9.4,2024-01-09,2024-01-15,6,False,Walk-in
+SH-00188,73,M,Other,25.3,False,False,False,Never,130,77,5.6,2024-10-02,2024-10-04,2,False,Walk-in
+SH-00189,57,M,Emirati,26.5,False,True,False,Never,128,93,5.9,2024-04-29,2024-05-02,3,False,Emergency
+SH-00190,46,F,Emirati,30.0,True,False,True,Never,103,74,5.3,2025-10-30,2025-11-04,5,False,GP
+SH-00191,45,F,Emirati,24.6,False,False,False,Never,133,87,4.7,2024-11-07,2024-11-10,3,False,Walk-in
+SH-00192,26,M,South Asian,22.9,False,False,False,Never,118,70,5.4,2025-11-17,2025-11-22,5,False,Emergency
+SH-00193,75,M,Other,26.2,True,True,False,Never,156,86,7.8,2025-02-02,2025-02-04,2,False,GP
+SH-00194,18,M,Other,19.6,False,True,False,Current,152,77,5.8,2024-12-20,2024-12-27,7,False,Walk-in
+SH-00195,59,F,Emirati,26.8,False,False,False,Never,117,85,5.1,2024-09-26,2024-10-04,8,False,GP
+SH-00196,39,F,Emirati,22.5,False,False,False,Never,115,88,4.8,2025-10-24,2025-10-27,3,False,Emergency
+SH-00197,73,M,Emirati,28.3,False,False,False,Never,136,68,5.2,2024-08-17,2024-08-19,2,False,Walk-in
+SH-00198,56,M,Emirati,33.3,False,True,True,Never,138,103,4.6,2025-09-17,2025-09-22,5,False,Emergency
+SH-00199,88,M,South Asian,32.9,False,True,True,Never,159,91,5.8,2025-05-05,2025-05-07,2,False,Emergency
+SH-00200,47,F,Other,27.0,False,False,False,Never,115,79,5.0,2025-07-21,2025-07-29,8,False,GP
+SH-00201,64,M,Other,30.9,True,False,True,Former,119,80,7.0,2024-11-26,2024-11-30,4,False,Emergency
+SH-00202,58,M,South Asian,21.9,True,True,False,Current,127,98,6.6,2024-12-22,2024-12-30,8,True,GP
+SH-00203,60,M,Emirati,32.2,False,True,True,Never,128,92,6.1,2024-02-28,2024-03-05,6,False,Walk-in
+SH-00204,34,F,Other,25.6,False,False,False,Never,106,81,5.4,2025-07-18,2025-07-22,4,False,Walk-in
+SH-00205,59,M,Emirati,27.7,True,True,False,Former,167,91,7.6,2025-05-12,2025-05-15,3,False,GP
+SH-00206,27,F,South Asian,35.8,False,True,True,Never,126,75,5.1,2024-11-24,2024-12-01,7,False,Walk-in
+SH-00207,59,M,Other,31.5,False,False,True,Current,109,76,5.4,2024-07-30,2024-08-04,5,False,Emergency
+SH-00208,51,M,Emirati,31.5,False,False,True,Current,126,72,6.0,2025-02-26,2025-03-08,10,True,GP
+SH-00209,54,F,Emirati,27.7,False,False,False,Never,112,77,5.6,2024-02-01,2024-02-06,5,False,GP
+SH-00210,75,F,Emirati,33.8,True,True,True,Never,166,75,9.1,2025-11-07,2025-11-10,3,False,Emergency
+SH-00211,69,F,Other,34.9,False,False,True,Never,135,60,,2025-07-10,2025-07-13,3,True,GP
+SH-00212,65,F,Emirati,33.2,True,True,True,Never,135,94,9.6,2025-07-15,2025-07-19,4,False,Walk-in
+SH-00213,36,F,Emirati,22.2,True,False,False,Never,122,74,6.7,2025-12-23,2026-01-02,10,True,GP
+SH-00214,90,M,South Asian,37.1,True,True,True,Never,149,83,8.6,2025-11-13,2025-11-15,2,False,GP
+SH-00215,69,F,South Asian,29.7,True,True,False,Never,160,93,7.4,2024-05-27,2024-05-31,4,False,GP
+SH-00216,56,F,Emirati,25.1,False,False,False,Never,107,81,5.4,2025-12-02,2025-12-05,3,False,GP
+SH-00217,42,M,Other,24.8,True,False,False,Never,140,80,8.3,2025-09-26,2025-10-04,8,True,GP
+SH-00218,75,F,Other,28.9,False,True,False,Never,177,88,5.7,2024-07-04,2024-07-10,6,False,GP
+SH-00219,78,M,Emirati,37.1,True,True,True,Never,136,111,6.3,2024-06-23,2024-06-28,5,False,Emergency
+SH-00220,69,M,South Asian,29.6,True,False,False,Never,116,69,8.1,2024-07-16,2024-07-23,7,True,Emergency
+SH-00221,59,M,South Asian,32.8,True,True,True,Never,152,91,7.8,2024-10-01,2024-10-03,2,True,GP
+SH-00222,60,M,Emirati,23.9,False,False,False,Current,124,76,5.1,2024-02-11,2024-02-15,4,True,GP
+SH-00223,41,F,Other,27.1,False,True,False,Never,158,89,5.8,2024-05-05,2024-05-10,5,False,Walk-in
+SH-00224,41,M,Emirati,21.7,False,False,False,Never,134,83,5.7,2025-12-29,2026-01-02,4,False,Walk-in
+SH-00225,19,F,South Asian,23.7,False,False,False,Never,106,75,5.3,2025-04-29,2025-05-04,5,False,Walk-in
+SH-00226,54,M,Emirati,26.7,False,False,False,Never,118,78,5.8,2024-11-08,2024-11-13,5,False,GP
+SH-00227,37,M,South Asian,24.1,False,False,False,Former,117,67,5.4,2025-01-08,2025-01-13,5,False,GP
+SH-00228,84,M,Emirati,30.7,True,False,True,Never,113,70,6.8,2025-08-14,2025-08-18,4,False,GP
+SH-00229,63,M,South Asian,24.9,False,True,False,Never,165,83,5.3,2025-06-12,2025-06-16,4,False,Walk-in
+SH-00230,57,F,Emirati,31.4,False,False,True,Never,115,77,5.8,2024-04-23,2024-04-27,4,False,GP
+SH-00231,33,F,Emirati,24.5,False,False,False,Never,115,80,5.5,2024-07-27,2024-08-05,9,False,Walk-in
+SH-00232,25,F,Other,20.4,False,False,False,Never,125,86,5.9,2024-12-29,2025-01-03,5,False,Walk-in
+SH-00233,25,M,South Asian,19.7,True,False,False,Never,124,82,6.8,2025-08-01,2025-08-04,3,False,GP
+SH-00234,57,M,Other,31.6,False,False,True,Never,117,69,5.7,2025-06-12,2025-06-14,2,False,Walk-in
+SH-00235,42,M,South Asian,22.4,False,False,False,Never,117,76,4.7,2025-08-12,2025-08-22,10,False,Walk-in
+SH-00236,67,M,South Asian,29.7,False,False,False,Never,120,70,5.7,2025-11-18,2025-11-30,12,False,GP
+SH-00237,88,F,Other,33.4,True,True,True,Never,142,102,7.7,2024-10-30,2024-11-05,6,False,GP
+SH-00238,62,M,South Asian,34.9,True,True,True,Never,162,93,7.2,2025-02-27,2025-03-02,3,False,GP
+SH-00239,56,M,Emirati,31.3,False,False,True,Never,118,71,5.2,2024-08-14,2024-08-20,6,False,Walk-in
+SH-00240,59,M,Emirati,30.1,True,False,True,Never,123,74,7.8,2025-09-27,2025-10-03,6,True,Walk-in
+SH-00241,53,F,Emirati,29.5,False,False,False,Never,106,71,5.3,2025-12-05,2025-12-09,4,False,GP
+SH-00242,26,M,South Asian,29.2,False,False,False,Never,123,69,5.8,2024-03-08,2024-03-17,9,False,Walk-in
+SH-00243,80,F,South Asian,35.4,False,True,True,Never,148,95,5.6,2024-01-19,2024-01-23,4,False,Walk-in
+SH-00244,46,M,Emirati,21.4,False,False,False,Current,128,80,5.0,2025-08-18,2025-08-20,2,False,GP
+SH-00245,72,F,Other,28.5,False,False,False,Never,107,71,5.2,2024-12-30,2025-01-03,4,False,Walk-in
+SH-00246,53,F,South Asian,26.9,True,False,False,Never,107,81,8.0,2025-08-31,2025-09-15,15,False,GP
+SH-00247,69,M,Emirati,22.9,False,True,False,Never,135,103,5.8,2024-10-31,2024-11-03,3,False,Walk-in
+SH-00248,53,M,Emirati,23.2,False,False,False,Never,134,82,5.0,2024-10-31,2024-11-07,7,True,GP
+SH-00249,46,M,Other,22.9,False,True,False,Never,152,96,5.2,2024-11-27,2024-12-03,6,False,Walk-in
+SH-00250,61,F,Emirati,28.8,False,True,False,Never,168,93,5.0,2024-08-21,2024-08-28,7,False,Emergency
+SH-00251,65,F,Emirati,32.6,False,True,True,Never,136,101,4.7,2025-09-07,2025-09-10,3,True,GP
+SH-00252,22,M,Other,21.7,False,False,False,Never,148,81,5.7,2024-11-26,2024-11-28,2,False,Walk-in
+SH-00253,61,F,Other,25.4,True,True,False,Never,141,102,5.0,2024-01-29,2024-02-06,8,False,Walk-in
+SH-00254,47,F,Emirati,28.5,False,True,False,Never,147,88,5.5,2025-12-23,2025-12-27,4,False,Walk-in
+SH-00255,80,F,Emirati,39.8,True,True,True,Never,144,89,,2025-11-07,2025-11-10,3,False,GP
+SH-00256,37,F,Emirati,28.2,False,False,False,Never,126,77,5.5,2024-03-21,2024-03-23,2,False,GP
+SH-00257,63,F,Other,31.0,True,True,True,Never,135,84,6.9,2025-02-24,2025-03-01,5,False,Walk-in
+SH-00258,38,F,Emirati,17.7,False,False,False,Never,116,79,5.7,2025-11-09,2025-11-22,13,False,GP
+SH-00259,47,F,Emirati,23.1,False,True,False,Never,151,98,5.2,2025-03-14,2025-03-17,3,False,Walk-in
+SH-00260,39,F,South Asian,24.3,True,True,False,Never,150,108,7.2,2025-03-05,2025-03-16,11,False,GP
+SH-00261,44,F,Emirati,23.4,True,True,False,Current,151,87,9.6,2025-05-21,2025-05-24,3,False,GP
+SH-00262,23,M,South Asian,16.0,False,False,False,Never,122,71,5.8,2025-08-25,2025-08-30,5,False,Emergency
+SH-00263,57,M,South Asian,27.2,False,False,False,Never,104,77,6.0,2025-12-27,2025-12-29,2,False,GP
+SH-00264,63,M,South Asian,29.5,False,True,False,Never,140,99,5.6,2024-09-24,2024-10-04,10,False,Walk-in
+SH-00265,28,M,Emirati,22.7,False,False,False,Never,135,76,5.6,2025-04-15,2025-04-18,3,True,Walk-in
+SH-00266,59,M,South Asian,29.6,False,True,False,Never,126,98,5.3,2024-08-31,2024-09-02,2,False,Emergency
+SH-00267,39,M,Emirati,23.1,False,False,False,Never,109,69,5.6,2024-12-27,2024-12-31,4,False,Walk-in
+SH-00268,50,M,Other,29.8,True,False,False,Never,105,75,9.8,2024-03-16,2024-03-18,2,False,Walk-in
+SH-00269,63,M,South Asian,33.0,True,True,True,Never,132,87,6.6,2025-11-05,2025-11-11,6,True,GP
+SH-00270,26,M,Other,27.1,False,False,False,Current,108,82,5.1,2024-03-09,2024-03-14,5,False,GP
+SH-00271,82,F,Emirati,29.1,True,True,False,Never,158,80,6.1,2024-06-22,2024-06-25,3,False,GP
+SH-00272,82,M,Emirati,32.6,True,False,True,Never,127,76,6.3,2024-03-22,2024-03-24,2,False,GP
+SH-00273,23,F,Other,23.3,False,False,False,Never,125,72,5.5,2024-06-24,2024-06-26,2,False,GP
+SH-00274,65,F,Emirati,25.7,True,True,False,Never,142,104,8.0,2024-04-10,2024-04-13,3,False,Walk-in
+SH-00275,35,F,South Asian,24.2,False,False,False,Never,114,78,5.0,2025-03-21,2025-03-25,4,False,Walk-in
+SH-00276,33,M,Other,25.3,False,False,False,Never,128,68,5.6,2024-07-19,2024-07-23,4,False,GP
+SH-00277,28,F,Emirati,28.5,False,False,False,Never,115,76,,2024-11-07,2024-11-28,21,False,Emergency
+SH-00278,25,F,South Asian,28.1,False,False,False,Never,123,78,5.3,2025-12-11,2025-12-15,4,False,Emergency
+SH-00279,35,M,South Asian,22.1,False,False,False,Current,128,69,5.7,2025-12-26,2025-12-30,4,False,Emergency
+SH-00280,40,F,South Asian,26.3,False,True,False,Never,144,96,5.0,2024-04-10,2024-04-11,1,False,Emergency
+SH-00281,66,F,Emirati,28.6,True,True,False,Never,158,97,7.5,2025-08-24,2025-09-01,8,True,Walk-in
+SH-00282,37,F,Emirati,22.4,True,False,False,Never,135,85,,2025-11-07,2025-11-09,2,False,Walk-in
+SH-00283,61,M,South Asian,24.0,True,False,False,Never,116,80,6.0,2025-08-29,2025-08-31,2,False,Walk-in
+SH-00284,43,F,Emirati,31.2,False,False,True,Never,136,76,5.4,2024-10-28,2024-10-29,1,False,GP
+SH-00285,22,F,Emirati,24.4,False,False,False,Never,121,79,5.8,2024-12-09,2024-12-14,5,False,Walk-in
+SH-00286,42,F,Emirati,23.1,False,False,False,Never,121,67,5.4,2025-01-29,2025-02-04,6,False,Walk-in
+SH-00287,40,F,Emirati,26.3,False,False,False,Never,99,72,4.7,2024-09-13,2024-09-17,4,False,GP
+SH-00288,70,F,Emirati,29.9,False,True,False,Never,138,90,5.0,2024-11-08,2024-11-13,5,False,Emergency
+SH-00289,59,M,Emirati,26.0,False,True,False,Never,150,84,,2024-05-31,2024-06-08,8,True,Emergency
+SH-00290,47,M,Emirati,23.7,False,False,False,Never,124,93,5.2,2025-03-03,2025-03-05,2,False,Walk-in
+SH-00291,31,F,Emirati,23.9,False,False,False,Never,114,83,5.6,2025-07-04,2025-07-17,13,False,Walk-in
+SH-00292,37,F,Emirati,28.2,False,True,False,Never,140,80,5.6,2024-08-15,2024-08-20,5,False,Emergency
+SH-00293,18,M,South Asian,26.1,False,False,False,Never,115,65,5.5,2025-05-08,2025-05-11,3,False,Emergency
+SH-00294,18,M,Emirati,23.6,False,False,False,Never,123,84,4.8,2025-04-21,2025-04-24,3,False,Walk-in
+SH-00295,50,M,South Asian,30.6,False,False,True,Never,130,79,4.9,2025-11-25,2025-11-28,3,False,Emergency
+SH-00296,77,F,South Asian,30.7,True,True,True,Current,121,91,7.4,2024-09-16,2024-09-20,4,False,Walk-in
+SH-00297,65,F,Emirati,26.4,False,False,False,Never,120,77,5.5,2024-11-13,2024-11-18,5,True,GP
+SH-00298,51,M,Other,26.7,False,False,False,Never,107,76,5.3,2024-06-08,2024-06-09,1,True,Emergency
+SH-00299,91,M,Emirati,34.9,False,False,True,Never,130,72,5.5,2025-08-28,2025-09-03,6,False,Emergency
+SH-00300,56,M,Other,28.3,True,False,False,Never,139,64,7.5,2024-04-27,2024-05-04,7,False,GP
+SH-00301,46,F,Emirati,27.7,False,False,False,Never,128,72,5.7,2024-03-19,2024-03-23,4,False,GP
+SH-00302,18,F,Emirati,18.8,False,False,False,Never,121,84,5.2,2024-04-20,2024-04-24,4,False,Walk-in
+SH-00303,32,F,South Asian,18.9,False,False,False,Never,110,72,4.8,2024-04-21,2024-04-27,6,False,GP
+SH-00304,37,F,Other,27.1,False,False,False,Never,129,79,5.3,2024-08-16,2024-08-19,3,True,Walk-in
+SH-00305,86,M,Emirati,37.2,False,True,True,Never,156,85,4.6,2024-04-29,2024-05-08,9,True,Walk-in
+SH-00306,37,M,South Asian,22.5,False,True,False,Never,119,84,5.9,2024-08-07,2024-08-11,4,True,GP
+SH-00307,34,M,Emirati,24.9,False,False,False,Current,118,84,5.1,2024-08-10,2024-08-15,5,False,GP
+SH-00308,51,M,South Asian,21.0,False,True,False,Never,133,98,5.6,2024-09-05,2024-09-09,4,False,Walk-in
+SH-00309,46,F,Emirati,27.7,False,False,False,Never,119,80,5.6,2025-06-11,2025-06-13,2,False,Walk-in
+SH-00310,48,M,South Asian,39.7,True,False,True,Current,124,72,8.5,2024-03-11,2024-03-18,7,True,Emergency
+SH-00311,67,F,Other,28.2,False,False,False,Never,122,67,,2025-06-17,2025-06-23,6,True,Emergency
+SH-00312,55,M,Emirati,28.1,True,False,False,Current,139,71,6.8,2024-09-02,2024-09-11,9,False,GP
+SH-00313,35,M,South Asian,31.2,False,False,True,Current,122,82,5.2,2024-10-15,2024-10-22,7,True,Walk-in
+SH-00314,76,M,Emirati,30.9,True,True,True,Never,130,98,10.2,2025-09-05,2025-09-16,11,False,GP
+SH-00315,61,F,South Asian,29.5,False,False,False,Never,137,78,5.2,2025-10-10,2025-10-12,2,False,GP
+SH-00316,24,F,Emirati,26.5,False,False,False,Never,113,79,,2025-12-28,2026-01-09,12,False,Emergency
+SH-00317,63,M,Emirati,26.8,False,False,False,Never,109,83,5.1,2025-12-30,2025-12-31,1,False,Walk-in
+SH-00318,60,M,Emirati,24.6,True,False,False,Never,123,70,8.2,2025-01-08,2025-01-11,3,False,GP
+SH-00319,60,M,Other,28.1,False,False,False,Former,114,67,,2024-12-27,2024-12-29,2,True,GP
+SH-00320,45,F,Emirati,23.1,False,False,False,Former,126,70,5.2,2024-06-26,2024-07-01,5,False,Walk-in
+SH-00321,27,M,Emirati,16.0,True,False,False,Current,111,81,5.9,2024-02-05,2024-02-12,7,False,Walk-in
+SH-00322,40,F,South Asian,18.6,False,False,False,Former,133,69,5.0,2024-12-03,2024-12-06,3,False,Walk-in
+SH-00323,54,M,Emirati,24.2,False,False,False,Never,115,73,5.9,2024-03-26,2024-03-31,5,False,Walk-in
+SH-00324,43,M,South Asian,33.6,False,False,True,Never,119,74,5.1,2025-06-11,2025-06-15,4,False,GP
+SH-00325,54,F,Other,29.7,False,False,False,Never,138,83,4.9,2024-07-04,2024-07-08,4,False,Emergency
+SH-00326,46,F,Emirati,29.4,False,False,False,Never,134,80,5.3,2024-01-28,2024-02-04,7,False,Walk-in
+SH-00327,44,F,South Asian,29.9,False,False,False,Never,113,71,5.1,2024-03-12,2024-03-15,3,True,GP
+SH-00328,24,M,Emirati,23.5,False,False,False,Former,127,81,5.4,2024-11-30,2024-12-02,2,False,GP
+SH-00329,73,F,Emirati,26.2,True,True,False,Never,136,105,7.5,2024-01-23,2024-01-26,3,False,GP
+SH-00330,59,F,Emirati,24.4,False,False,False,Never,124,78,6.0,2024-10-25,2024-10-30,5,False,Walk-in
+SH-00331,61,M,South Asian,20.8,True,True,False,Never,149,97,4.8,2024-03-01,2024-03-07,6,False,Walk-in
+SH-00332,27,F,South Asian,26.7,False,False,False,Never,113,70,6.0,2025-10-06,2025-10-13,7,False,GP
+SH-00333,77,M,Emirati,24.2,True,True,False,Current,139,97,9.0,2025-02-26,2025-03-01,3,False,Walk-in
+SH-00334,64,F,Emirati,19.1,True,False,False,Never,135,83,,2024-06-14,2024-06-16,2,True,Walk-in
+SH-00335,38,M,South Asian,19.5,False,False,False,Never,132,69,5.5,2025-02-27,2025-03-02,3,False,Emergency
+SH-00336,65,F,Emirati,30.9,True,False,True,Never,125,74,9.4,2024-03-01,2024-03-03,2,False,Walk-in
+SH-00337,67,M,South Asian,29.6,False,False,False,Former,109,80,,2024-02-15,2024-02-20,5,False,Walk-in
+SH-00338,44,F,South Asian,23.9,False,False,False,Never,97,72,4.9,2024-04-02,2024-04-10,8,False,Walk-in
+SH-00339,29,M,Other,19.8,False,False,False,Current,128,81,5.2,2024-05-24,2024-05-29,5,False,Walk-in
+SH-00340,62,F,Emirati,32.8,False,False,True,Never,111,82,5.6,2025-09-26,2025-10-01,5,False,Walk-in
+SH-00341,46,F,Emirati,28.3,False,False,False,Never,143,74,5.2,2024-01-10,2024-01-15,5,False,Walk-in
+SH-00342,62,F,Emirati,22.7,True,False,False,Never,131,80,8.1,2024-12-03,2024-12-10,7,False,GP
+SH-00343,40,F,South Asian,26.5,True,True,False,Never,130,82,,2024-04-17,2024-04-21,4,False,GP
+SH-00344,60,M,Emirati,29.5,False,False,False,Never,126,88,5.5,2025-11-15,2025-11-17,2,False,GP
+SH-00345,42,M,Emirati,29.9,True,True,False,Never,128,79,7.7,2025-05-03,2025-05-12,9,False,Walk-in
+SH-00346,43,M,Emirati,29.4,False,False,False,Never,109,75,5.8,2024-11-18,2024-11-22,4,False,Walk-in
+SH-00347,52,M,South Asian,27.7,False,False,False,Never,108,73,6.4,2025-07-02,2025-07-07,5,False,GP
+SH-00348,25,M,Emirati,27.3,False,False,False,Current,120,81,,2024-06-21,2024-06-26,5,False,Emergency
+SH-00349,57,F,Emirati,32.9,False,True,True,Never,137,104,4.8,2025-04-08,2025-04-12,4,False,Walk-in
+SH-00350,68,M,Emirati,28.4,True,False,False,Never,113,71,7.6,2024-12-16,2024-12-18,2,True,Walk-in
+SH-00351,33,F,South Asian,22.5,False,False,False,Never,123,71,5.8,2025-07-14,2025-07-28,14,False,GP
+SH-00352,61,F,Emirati,33.5,True,False,True,Never,100,74,7.7,2024-12-13,2024-12-17,4,False,Walk-in
+SH-00353,51,M,Emirati,30.0,False,False,True,Never,114,69,5.2,2024-12-21,2024-12-29,8,False,Walk-in
+SH-00354,69,M,South Asian,24.2,False,True,False,Current,150,89,4.6,2025-06-02,2025-06-06,4,False,GP
+SH-00355,54,M,Emirati,32.7,False,False,True,Never,129,68,5.3,2024-01-25,2024-01-27,2,False,GP
+SH-00356,48,F,Other,30.1,False,False,True,Never,141,78,5.6,2025-07-08,2025-07-12,4,False,Emergency
+SH-00357,56,F,South Asian,25.7,False,True,False,Never,138,90,5.4,2024-02-23,2024-02-28,5,False,Emergency
+SH-00358,62,F,Emirati,34.1,False,False,True,Never,119,76,5.5,2024-08-29,2024-09-01,3,False,Walk-in
+SH-00359,78,M,Other,26.1,False,False,False,Never,127,78,5.8,2024-04-18,2024-04-22,4,False,Emergency
+SH-00360,66,F,Emirati,24.4,False,False,False,Never,115,79,5.6,2025-08-29,2025-09-08,10,False,Walk-in
+SH-00361,50,M,Emirati,24.1,False,False,False,Never,113,69,5.8,2024-02-07,2024-02-09,2,False,GP
+SH-00362,71,F,Emirati,32.1,True,True,True,Never,145,90,8.4,2025-06-16,2025-06-21,5,False,Emergency
+SH-00363,50,F,Other,29.4,False,False,False,Never,116,77,6.1,2024-07-26,2024-07-29,3,False,GP
+SH-00364,43,F,Other,30.8,False,True,True,Never,155,86,4.7,2025-11-18,2025-11-26,8,True,Emergency
+SH-00365,74,F,Emirati,34.9,True,True,True,Never,149,98,6.1,2024-12-17,2024-12-19,2,True,Walk-in
+SH-00366,55,F,Emirati,26.5,False,False,False,Never,118,79,5.7,2024-05-20,2024-05-27,7,False,Walk-in
+SH-00367,36,F,Emirati,28.1,False,False,False,Never,119,86,4.8,2025-03-17,2025-03-19,2,False,GP
+SH-00368,26,F,South Asian,22.8,False,False,False,Never,137,82,5.2,2024-06-28,2024-07-06,8,False,Walk-in
+SH-00369,55,M,Emirati,24.9,False,False,False,Current,111,65,5.3,2025-02-19,2025-02-24,5,True,Walk-in
+SH-00370,41,M,Emirati,28.1,False,True,False,Never,133,100,,2024-08-08,2024-08-15,7,False,GP
+SH-00371,56,F,South Asian,29.7,False,True,False,Never,159,92,5.6,2025-11-24,2025-11-30,6,False,GP
+SH-00372,61,F,South Asian,25.7,True,False,False,Never,116,75,9.0,2024-01-13,2024-01-18,5,False,GP
+SH-00373,24,M,Emirati,21.3,False,False,False,Former,115,80,5.4,2024-04-29,2024-05-03,4,False,Emergency
+SH-00374,54,M,South Asian,28.3,False,False,False,Never,122,74,5.4,2025-09-05,2025-09-12,7,False,GP
+SH-00375,89,M,South Asian,34.2,True,True,True,Never,126,82,6.9,2024-11-27,2024-11-28,1,False,GP
+SH-00376,41,F,Emirati,24.5,False,False,False,Never,126,79,6.0,2025-06-05,2025-06-16,11,False,Walk-in
+SH-00377,77,M,Other,32.1,True,True,True,Former,148,84,,2025-02-22,2025-02-25,3,True,Emergency
+SH-00378,85,F,South Asian,42.1,True,True,True,Never,154,78,7.6,2025-03-07,2025-03-09,2,False,GP
+SH-00379,27,F,South Asian,22.8,False,False,False,Never,120,84,5.9,2025-09-25,2025-09-28,3,False,Walk-in
+SH-00380,72,M,Emirati,32.5,False,False,True,Current,123,65,5.1,2024-11-22,2024-11-28,6,False,Emergency
+SH-00381,39,M,South Asian,28.5,False,False,False,Current,107,77,5.2,2024-11-11,2024-11-18,7,False,GP
+SH-00382,36,M,Emirati,26.8,False,False,False,Never,131,66,5.0,2025-02-25,2025-03-04,7,False,GP
+SH-00383,61,M,South Asian,32.2,False,False,True,Never,135,73,6.0,2025-03-03,2025-03-09,6,True,Walk-in
+SH-00384,67,F,South Asian,29.3,False,False,False,Never,130,81,,2024-02-15,2024-02-19,4,True,Emergency
+SH-00385,59,M,South Asian,30.9,False,False,True,Current,144,82,4.9,2025-07-24,2025-07-25,1,False,Walk-in
+SH-00386,68,F,Emirati,28.1,False,True,False,Never,148,99,4.8,2025-10-02,2025-10-10,8,False,GP
+SH-00387,77,M,Other,34.3,True,True,True,Never,150,93,6.1,2024-01-16,2024-01-28,12,True,Walk-in
+SH-00388,18,M,Emirati,20.9,False,False,False,Current,127,78,5.1,2024-11-13,2024-11-15,2,False,GP
+SH-00389,36,F,South Asian,23.0,False,False,False,Never,136,74,,2025-03-02,2025-03-08,6,False,Walk-in
+SH-00390,33,M,South Asian,31.3,False,False,True,Never,134,82,5.2,2024-05-01,2024-05-05,4,False,GP
+SH-00391,33,M,Emirati,23.8,False,False,False,Never,112,84,5.5,2024-08-09,2024-08-11,2,True,Emergency
+SH-00392,55,F,Other,26.6,False,False,False,Never,122,74,6.0,2025-05-29,2025-05-31,2,False,Walk-in
+SH-00393,55,F,South Asian,32.3,False,False,True,Never,112,70,5.9,2024-11-04,2024-11-07,3,False,Walk-in
+SH-00394,26,F,Other,21.3,False,False,False,Never,113,76,5.3,2025-05-02,2025-05-08,6,False,GP
+SH-00395,51,M,Other,30.3,False,True,True,Current,152,84,5.1,2024-09-10,2024-09-16,6,False,GP
+SH-00396,24,M,Emirati,22.3,False,False,False,Never,132,70,5.3,2025-07-05,2025-07-11,6,False,Walk-in
+SH-00397,52,M,Emirati,32.4,True,False,True,Never,143,79,6.5,2025-02-19,2025-02-22,3,False,GP
+SH-00398,58,F,Emirati,21.7,False,False,False,Current,118,87,,2024-02-02,2024-02-06,4,False,Walk-in
+SH-00399,34,F,Emirati,24.4,False,True,False,Never,177,87,5.8,2024-09-22,2024-09-27,5,False,Emergency
+SH-00400,34,M,South Asian,17.9,False,False,False,Former,135,78,6.2,2025-08-06,2025-08-16,10,False,GP
+SH-00401,63,M,South Asian,27.9,False,True,False,Never,130,84,5.8,2025-07-12,2025-07-14,2,False,GP
+SH-00402,59,M,Emirati,28.1,False,False,False,Current,149,80,5.2,2024-02-08,2024-02-14,6,False,GP
+SH-00403,31,M,Emirati,32.6,False,False,True,Never,124,79,,2024-11-14,2024-11-20,6,False,Walk-in
+SH-00404,66,M,Emirati,22.2,False,False,False,Current,133,73,5.2,2024-03-14,2024-03-20,6,False,GP
+SH-00405,29,F,Emirati,21.5,False,False,False,Never,107,74,5.3,2025-04-25,2025-05-04,9,False,GP
+SH-00406,74,F,South Asian,37.4,True,True,True,Never,173,82,8.8,2025-06-05,2025-06-07,2,True,GP
+SH-00407,41,M,Other,29.7,False,True,False,Never,158,91,,2025-11-23,2025-12-03,10,True,GP
+SH-00408,62,F,Other,29.8,False,False,False,Never,152,77,5.6,2024-10-09,2024-10-10,1,False,Emergency
+SH-00409,70,F,Emirati,35.5,True,True,True,Never,128,91,9.5,2024-11-09,2024-11-13,4,False,GP
+SH-00410,36,F,South Asian,27.7,False,False,False,Never,121,75,5.7,2025-04-22,2025-04-28,6,False,GP
+SH-00411,72,M,South Asian,26.8,False,False,False,Never,125,75,5.6,2024-08-06,2024-08-08,2,False,Walk-in
+SH-00412,65,F,Emirati,35.5,True,False,True,Never,114,65,11.4,2025-12-11,2025-12-17,6,False,Walk-in
+SH-00413,29,M,Emirati,21.8,False,False,False,Never,132,75,5.7,2024-01-09,2024-01-15,6,False,Emergency
+SH-00414,42,M,Emirati,26.3,True,False,False,Never,131,80,11.7,2025-11-19,2025-11-22,3,False,Emergency
+SH-00415,41,F,South Asian,25.6,False,False,False,Never,137,81,,2025-08-16,2025-08-20,4,False,GP
+SH-00416,59,M,Emirati,33.3,True,True,True,Never,160,104,5.8,2025-07-04,2025-07-09,5,True,Walk-in
+SH-00417,37,F,Emirati,26.4,False,False,False,Never,125,76,5.4,2025-10-22,2025-10-27,5,False,GP
+SH-00418,60,F,South Asian,31.0,False,True,True,Never,152,89,5.9,2025-05-29,2025-05-30,1,True,Walk-in
+SH-00419,53,F,Emirati,28.6,False,False,False,Never,118,73,6.1,2025-04-22,2025-04-30,8,False,GP
+SH-00420,58,F,Other,28.9,False,True,False,Never,140,89,5.8,2025-05-20,2025-05-23,3,False,Walk-in
+SH-00421,69,M,Other,29.4,True,False,False,Never,145,78,8.6,2024-07-03,2024-07-16,13,True,Walk-in
+SH-00422,50,M,South Asian,29.0,False,False,False,Current,145,70,5.4,2025-07-22,2025-08-01,10,False,Walk-in
+SH-00423,61,F,South Asian,22.6,True,False,False,Never,127,76,6.4,2024-01-12,2024-01-20,8,True,GP
+SH-00424,75,M,Emirati,36.0,True,True,True,Never,142,100,6.0,2024-05-23,2024-05-29,6,False,Emergency
+SH-00425,43,F,Emirati,29.0,True,False,False,Never,123,67,8.9,2025-02-24,2025-03-08,12,False,Walk-in
+SH-00426,59,M,South Asian,26.1,False,False,False,Never,118,82,5.4,2025-08-06,2025-08-11,5,False,Walk-in
+SH-00427,65,F,South Asian,34.7,False,False,True,Never,131,63,4.9,2025-01-11,2025-01-13,2,False,GP
+SH-00428,61,M,Emirati,22.6,False,False,False,Never,116,67,5.9,2024-04-05,2024-04-10,5,False,GP
+SH-00429,72,F,Emirati,33.3,True,False,True,Never,107,75,6.5,2024-09-16,2024-09-21,5,True,Walk-in
+SH-00430,54,F,South Asian,35.5,False,True,True,Never,155,92,5.0,2024-10-07,2024-10-11,4,False,Walk-in
+SH-00431,64,M,Emirati,28.4,True,False,False,Never,138,72,8.5,2024-03-29,2024-04-02,4,False,Walk-in
+SH-00432,31,M,Other,21.7,False,False,False,Never,122,78,5.7,2024-05-23,2024-05-26,3,False,GP
+SH-00433,62,M,Emirati,33.2,False,False,True,Never,141,79,4.8,2024-03-30,2024-04-02,3,False,Walk-in
+SH-00434,54,M,Emirati,22.3,False,False,False,Never,117,72,5.9,2025-01-23,2025-01-29,6,False,GP
+SH-00435,81,F,Emirati,32.6,True,True,True,Never,153,87,9.6,2024-01-11,2024-01-14,3,False,GP
+SH-00436,44,M,Other,24.8,False,False,False,Never,120,72,5.8,2025-12-01,2025-12-06,5,False,Walk-in
+SH-00437,68,M,Other,27.5,False,True,False,Former,118,72,5.5,2025-10-01,2025-10-08,7,False,Walk-in
+SH-00438,65,F,Emirati,38.5,False,True,True,Never,139,80,5.3,2025-07-08,2025-07-12,4,False,Walk-in
+SH-00439,42,M,South Asian,28.3,False,True,False,Never,155,89,5.4,2025-04-15,2025-04-19,4,False,Emergency
+SH-00440,55,M,South Asian,20.9,True,False,False,Never,106,73,5.9,2024-09-30,2024-10-03,3,True,GP
+SH-00441,39,F,Emirati,25.2,False,False,False,Never,138,75,,2025-08-31,2025-09-01,1,False,Walk-in
+SH-00442,61,F,South Asian,32.5,False,False,True,Never,107,70,5.7,2024-07-13,2024-07-16,3,False,Emergency
+SH-00443,39,F,Other,33.2,False,False,True,Never,112,76,5.0,2025-01-29,2025-02-03,5,False,GP
+SH-00444,67,M,South Asian,30.1,False,True,True,Current,135,93,5.8,2024-03-05,2024-03-09,4,True,Walk-in
+SH-00445,48,M,Emirati,24.0,True,False,False,Current,111,70,8.3,2024-10-31,2024-11-10,10,True,Emergency
+SH-00446,52,F,Other,29.4,False,False,False,Never,122,78,5.4,2025-07-16,2025-07-19,3,False,Walk-in
+SH-00447,29,M,Other,24.2,True,False,False,Former,116,74,8.0,2024-05-18,2024-05-19,1,False,Walk-in
+SH-00448,34,M,Emirati,20.9,False,False,False,Former,131,82,5.7,2025-03-03,2025-03-06,3,False,GP
+SH-00449,66,M,Emirati,31.5,False,True,True,Former,148,88,5.1,2025-01-15,2025-01-23,8,False,Walk-in
+SH-00450,69,F,Emirati,31.8,True,True,True,Never,140,93,8.9,2024-04-09,2024-04-13,4,False,Emergency
+SH-00451,72,M,Other,33.0,True,False,True,Never,113,81,8.4,2024-02-13,2024-02-21,8,False,GP
+SH-00452,53,M,South Asian,21.8,False,False,False,Never,109,75,5.7,2025-12-18,2025-12-21,3,False,Walk-in
+SH-00453,39,F,Emirati,19.6,False,True,False,Never,154,94,4.8,2024-05-31,2024-06-07,7,False,Walk-in
+SH-00454,41,F,Emirati,31.8,False,True,True,Never,130,91,,2025-09-01,2025-09-07,6,False,Emergency
+SH-00455,66,F,Other,30.2,False,True,True,Never,161,96,5.4,2025-08-23,2025-08-25,2,False,Emergency
+SH-00456,55,F,Emirati,28.5,True,False,False,Never,110,70,8.4,2024-12-05,2024-12-07,2,False,GP
+SH-00457,37,M,Emirati,23.6,False,False,False,Former,140,72,,2025-03-23,2025-03-28,5,False,Walk-in
+SH-00458,25,F,Emirati,20.3,False,False,False,Never,129,76,,2025-05-06,2025-05-11,5,False,Emergency
+SH-00459,21,M,South Asian,30.2,False,False,True,Current,117,71,4.3,2025-11-16,2025-11-25,9,False,GP
+SH-00460,53,M,South Asian,21.2,False,False,False,Never,131,75,5.0,2025-04-14,2025-04-21,7,False,Walk-in
+SH-00461,53,M,Emirati,24.3,False,False,False,Current,114,69,5.8,2025-06-06,2025-06-14,8,True,Walk-in
+SH-00462,25,M,Other,28.7,False,False,False,Never,101,71,5.3,2025-11-17,2025-11-20,3,False,GP
+SH-00463,70,F,Emirati,34.2,False,True,True,Never,140,100,6.0,2025-11-10,2025-11-12,2,False,Walk-in
+SH-00464,66,M,Emirati,22.2,False,False,False,Never,137,61,5.5,2024-07-05,2024-07-09,4,True,Walk-in
+SH-00465,60,M,Emirati,23.7,False,False,False,Never,128,78,5.6,2024-08-02,2024-08-10,8,False,GP
+SH-00466,65,F,Emirati,33.9,False,True,True,Never,134,92,5.0,2025-09-03,2025-09-13,10,False,GP
+SH-00467,30,F,Emirati,18.5,True,False,False,Never,150,82,7.1,2025-06-06,2025-06-11,5,False,GP
+SH-00468,30,F,Emirati,22.8,False,False,False,Never,146,81,5.0,2024-03-05,2024-03-10,5,False,Walk-in
+SH-00469,70,M,Emirati,28.2,False,True,False,Never,166,89,5.8,2025-10-16,2025-10-19,3,False,Walk-in
+SH-00470,53,M,Other,33.7,False,True,True,Never,155,84,6.0,2025-05-25,2025-05-26,1,False,Walk-in
+SH-00471,35,M,Emirati,24.4,False,False,False,Never,123,64,5.6,2024-10-07,2024-10-10,3,True,GP
+SH-00472,25,M,South Asian,26.2,False,False,False,Current,130,88,,2025-01-17,2025-01-20,3,False,GP
+SH-00473,39,M,South Asian,19.2,False,False,False,Never,113,82,5.6,2025-05-23,2025-05-30,7,False,Emergency
+SH-00474,65,M,South Asian,26.4,True,True,False,Never,120,94,7.4,2024-11-13,2024-11-17,4,False,Walk-in
+SH-00475,19,F,Emirati,31.8,False,True,True,Never,134,105,5.7,2025-01-04,2025-01-13,9,False,Emergency
+SH-00476,18,F,Emirati,19.9,False,False,False,Never,118,86,6.0,2025-07-01,2025-07-05,4,False,Walk-in
+SH-00477,66,F,Emirati,35.6,False,True,True,Never,154,109,5.4,2024-06-24,2024-06-30,6,False,GP
+SH-00478,70,M,Emirati,24.1,True,True,False,Never,133,91,8.0,2024-07-02,2024-07-05,3,False,Emergency
+SH-00479,51,M,South Asian,23.4,False,True,False,Never,144,76,6.0,2024-05-30,2024-06-05,6,False,Walk-in
+SH-00480,35,F,Emirati,27.9,False,False,False,Never,115,82,5.9,2024-06-03,2024-06-05,2,False,GP
+SH-00481,54,M,Other,24.7,False,True,False,Never,135,84,5.6,2024-06-03,2024-06-07,4,False,Walk-in
+SH-00482,76,M,Other,34.3,True,False,True,Never,127,80,7.2,2024-08-02,2024-08-09,7,False,GP
+SH-00483,31,F,South Asian,23.5,False,False,False,Never,106,72,5.9,2024-06-19,2024-07-01,12,False,Walk-in
+SH-00484,55,F,Emirati,39.7,True,True,True,Never,166,91,8.7,2025-10-17,2025-11-04,18,False,Walk-in
+SH-00485,66,M,Emirati,29.3,False,False,False,Never,146,64,,2024-01-16,2024-01-23,7,False,GP
+SH-00486,29,M,South Asian,30.5,False,False,True,Never,108,76,5.8,2024-01-15,2024-01-20,5,False,GP
+SH-00487,85,F,Emirati,35.6,True,True,True,Never,127,93,6.4,2025-08-05,2025-08-11,6,True,Emergency
+SH-00488,42,M,Emirati,26.4,False,False,False,Never,122,76,5.5,2024-01-31,2024-02-02,2,False,Walk-in
+SH-00489,60,M,South Asian,28.7,False,True,False,Former,142,95,5.5,2024-10-06,2024-10-10,4,False,GP
+SH-00490,72,F,South Asian,29.7,False,False,False,Never,130,81,5.9,2024-12-17,2025-01-02,16,True,Walk-in
+SH-00491,42,M,South Asian,24.5,False,False,False,Never,96,70,5.7,2024-07-12,2024-07-16,4,False,GP
+SH-00492,42,F,Emirati,27.1,False,True,False,Never,165,89,5.7,2025-10-02,2025-10-11,9,False,Emergency
+SH-00493,68,M,Other,23.7,False,False,False,Never,141,89,5.0,2024-05-20,2024-05-22,2,False,GP
+SH-00494,57,M,Emirati,29.7,False,False,False,Current,137,69,5.3,2024-02-16,2024-02-22,6,False,GP
+SH-00495,68,F,South Asian,31.4,False,True,True,Current,142,88,6.1,2024-04-08,2024-04-16,8,False,GP
+SH-00496,70,F,South Asian,27.0,False,False,False,Former,115,77,5.5,2024-10-10,2024-10-13,3,False,GP
+SH-00497,28,M,Other,25.3,False,False,False,Former,149,75,5.3,2025-01-08,2025-01-19,11,False,GP
+SH-00498,65,F,Emirati,27.8,False,False,False,Never,123,70,4.8,2025-09-24,2025-09-27,3,False,Walk-in
+SH-00499,23,F,Emirati,24.7,False,False,False,Never,123,87,5.7,2024-03-02,2024-03-05,3,False,Walk-in
+SH-00500,60,M,Emirati,36.2,False,False,True,Never,149,80,5.4,2024-01-21,2024-01-23,2,False,Walk-in
+SH-00501,69,F,Emirati,30.9,True,True,True,Never,158,96,9.5,2024-07-09,2024-07-12,3,True,GP
+SH-00502,36,F,South Asian,26.6,True,False,False,Never,130,72,,2025-10-01,2025-10-05,4,False,Emergency
+SH-00503,67,M,South Asian,31.2,True,False,True,Never,116,85,6.8,2024-05-28,2024-06-03,6,False,Walk-in
+SH-00504,46,M,Emirati,24.5,False,False,False,Former,131,72,5.0,2024-09-16,2024-09-20,4,False,GP
+SH-00505,48,F,South Asian,28.9,True,False,False,Current,130,63,8.4,2025-05-05,2025-05-07,2,False,GP
+SH-00506,62,M,Emirati,19.9,True,False,False,Former,119,71,7.6,2024-04-30,2024-05-03,3,False,Walk-in
+SH-00507,45,F,South Asian,23.6,False,True,False,Never,148,93,5.7,2024-03-07,2024-03-10,3,False,Walk-in
+SH-00508,47,F,Emirati,32.5,True,True,True,Never,120,85,7.4,2025-07-02,2025-07-04,2,False,Emergency
+SH-00509,20,M,Emirati,25.8,True,False,False,Never,114,75,10.1,2024-10-08,2024-10-15,7,False,Walk-in
+SH-00510,67,M,Other,34.5,False,True,True,Current,163,90,5.1,2024-05-27,2024-06-01,5,True,GP
+SH-00511,49,M,Emirati,20.6,False,False,False,Never,123,75,6.4,2025-03-05,2025-03-13,8,False,Walk-in
+SH-00512,49,M,South Asian,28.9,True,True,False,Never,131,73,7.0,2025-06-30,2025-07-02,2,False,Emergency
+SH-00513,61,M,Emirati,30.3,False,False,True,Never,124,79,5.5,2025-10-09,2025-10-13,4,False,GP
+SH-00514,39,F,South Asian,22.3,False,False,False,Never,137,76,5.8,2025-02-18,2025-02-24,6,False,Walk-in
+SH-00515,49,F,South Asian,22.5,False,False,False,Former,138,84,6.2,2025-01-08,2025-01-14,6,False,Emergency
+SH-00516,56,F,Emirati,26.9,False,False,False,Never,132,73,5.7,2025-07-09,2025-07-14,5,False,Walk-in
+SH-00517,46,F,South Asian,28.9,False,True,False,Never,156,89,5.6,2024-01-01,2024-01-06,5,True,Emergency
+SH-00518,51,F,South Asian,25.5,False,True,False,Never,130,103,6.1,2025-10-29,2025-11-02,4,True,Emergency
+SH-00519,47,M,Emirati,25.5,False,False,False,Never,120,68,5.6,2024-07-19,2024-07-22,3,False,Emergency
+SH-00520,44,F,Emirati,18.5,False,False,False,Never,114,70,5.6,2025-05-28,2025-05-30,2,False,Walk-in
+SH-00521,28,F,Emirati,17.9,False,False,False,Never,133,67,5.8,2025-12-29,2026-01-05,7,True,Emergency
+SH-00522,39,M,Emirati,21.9,True,False,False,Former,126,74,7.7,2024-11-19,2024-11-27,8,False,Walk-in
+SH-00523,73,M,Emirati,22.3,False,False,False,Current,107,80,4.7,2025-08-25,2025-08-27,2,True,GP
+SH-00524,40,M,Emirati,23.2,False,False,False,Never,124,82,,2025-09-08,2025-09-12,4,False,GP
+SH-00525,57,F,South Asian,28.6,False,True,False,Never,149,92,5.3,2025-05-29,2025-06-05,7,False,GP
+SH-00526,27,M,Other,24.6,False,False,False,Never,117,78,5.6,2025-01-11,2025-01-16,5,False,Walk-in
+SH-00527,60,M,South Asian,30.0,False,True,True,Never,161,85,,2025-11-20,2025-11-24,4,False,GP
+SH-00528,19,M,Other,19.2,False,False,False,Never,131,76,,2024-04-12,2024-04-23,11,False,Emergency
+SH-00529,53,M,Emirati,27.2,False,False,False,Never,101,70,4.5,2024-10-07,2024-10-14,7,False,Walk-in
+SH-00530,53,M,South Asian,27.1,False,False,False,Current,125,86,5.1,2024-01-18,2024-01-21,3,False,GP
+SH-00531,50,F,Other,36.0,True,True,True,Never,140,104,7.0,2024-10-07,2024-10-12,5,False,GP
+SH-00532,45,F,Emirati,28.3,False,False,False,Never,141,73,5.2,2024-04-23,2024-04-26,3,False,Walk-in
+SH-00533,45,M,Emirati,32.7,False,True,True,Never,134,97,6.0,2024-10-08,2024-10-10,2,False,Walk-in
+SH-00534,68,M,Emirati,31.5,True,True,True,Former,172,97,7.9,2025-06-16,2025-06-21,5,False,GP
+SH-00535,25,M,Emirati,21.9,False,False,False,Current,118,84,6.1,2024-01-29,2024-02-03,5,False,Walk-in
+SH-00536,55,F,Emirati,32.1,True,True,True,Never,134,93,9.8,2025-11-06,2025-11-15,9,False,Walk-in
+SH-00537,36,F,Emirati,28.8,False,False,False,Never,128,76,5.2,2024-01-28,2024-02-01,4,False,GP
+SH-00538,45,M,Other,24.3,False,False,False,Never,122,83,5.6,2024-06-27,2024-06-29,2,False,Emergency
+SH-00539,54,M,Emirati,26.1,True,True,False,Current,147,91,4.7,2025-07-09,2025-07-15,6,False,GP
+SH-00540,56,M,Emirati,20.6,False,False,False,Never,135,74,4.7,2024-05-27,2024-06-05,9,False,Walk-in
+SH-00541,69,F,South Asian,39.5,False,True,True,Never,151,105,6.1,2024-11-09,2024-11-22,13,False,GP
+SH-00542,25,M,South Asian,20.2,False,False,False,Current,121,73,5.3,2025-07-21,2025-07-26,5,True,Walk-in
+SH-00543,44,M,Other,28.9,False,False,False,Never,120,75,5.8,2025-03-25,2025-03-26,1,False,GP
+SH-00544,48,M,South Asian,28.3,False,False,False,Former,115,86,4.6,2025-02-24,2025-03-01,5,False,Emergency
+SH-00545,23,M,Other,20.3,False,False,False,Never,121,86,5.7,2024-04-13,2024-04-20,7,False,Walk-in
+SH-00546,40,F,Emirati,27.7,False,False,False,Never,138,72,4.9,2024-02-23,2024-03-01,7,False,Walk-in
+SH-00547,27,M,South Asian,22.5,False,False,False,Never,129,72,5.2,2024-03-19,2024-03-25,6,True,Walk-in
+SH-00548,30,F,Emirati,30.4,False,True,True,Never,145,97,5.3,2024-05-24,2024-06-02,9,False,Emergency
+SH-00549,36,M,Emirati,27.7,False,False,False,Never,130,70,5.1,2025-02-04,2025-02-07,3,True,Emergency
+SH-00550,41,F,Other,27.7,False,False,False,Never,112,78,6.2,2025-02-03,2025-02-08,5,False,Walk-in
+SH-00551,71,F,Other,37.0,False,False,True,Never,132,82,5.0,2025-06-13,2025-06-15,2,True,Emergency
+SH-00552,60,M,Emirati,35.6,False,True,True,Never,147,95,,2024-01-05,2024-01-09,4,False,GP
+SH-00553,32,M,Other,31.7,False,False,True,Former,113,79,5.4,2025-02-12,2025-02-17,5,False,Walk-in
+SH-00554,27,F,Emirati,34.6,False,False,True,Never,118,81,5.5,2025-12-03,2025-12-05,2,True,Emergency
+SH-00555,67,M,Emirati,34.2,True,True,True,Never,139,108,9.8,2025-10-25,2025-10-28,3,True,Walk-in
+SH-00556,40,F,Emirati,29.7,False,False,False,Never,125,86,,2024-10-28,2024-10-31,3,False,Walk-in
+SH-00557,84,F,South Asian,35.4,True,False,True,Never,129,84,10.1,2025-11-01,2025-11-04,3,False,GP
+SH-00558,33,M,South Asian,31.8,False,False,True,Never,111,74,5.4,2025-05-14,2025-05-20,6,False,Walk-in
+SH-00559,63,F,Other,29.8,False,False,False,Never,123,71,5.5,2024-04-15,2024-04-22,7,False,Walk-in
+SH-00560,65,F,Emirati,29.3,False,False,False,Never,110,74,6.1,2025-05-06,2025-05-12,6,False,GP
+SH-00561,25,M,Emirati,29.0,False,False,False,Never,125,80,5.8,2025-07-25,2025-07-29,4,False,Walk-in
+SH-00562,70,F,Emirati,38.8,False,True,True,Never,149,113,5.2,2025-06-23,2025-06-29,6,False,Walk-in
+SH-00563,45,F,Emirati,27.8,False,False,False,Never,145,71,5.1,2024-04-19,2024-04-21,2,False,Walk-in
+SH-00564,30,M,Emirati,28.8,False,False,False,Never,129,74,5.6,2024-05-24,2024-05-31,7,False,GP
+SH-00565,49,M,Emirati,28.7,True,False,False,Former,104,67,5.7,2024-02-05,2024-02-08,3,False,Emergency
+SH-00566,64,M,Other,33.3,True,False,True,Never,124,80,10.8,2024-11-19,2024-11-27,8,False,GP
+SH-00567,70,M,Other,35.5,False,True,True,Never,138,84,5.6,2025-05-06,2025-05-12,6,False,Walk-in
+SH-00568,61,F,South Asian,22.9,False,False,False,Never,125,78,5.2,2025-01-24,2025-01-28,4,False,GP
+SH-00569,67,M,Other,38.5,False,True,True,Former,140,86,,2024-11-28,2024-11-30,2,False,Emergency
+SH-00570,50,F,Emirati,24.9,False,False,False,Never,130,81,5.5,2025-04-26,2025-04-29,3,True,GP
+SH-00571,65,M,South Asian,34.5,False,True,True,Former,134,82,5.1,2024-05-13,2024-05-21,8,False,GP
+SH-00572,40,F,Emirati,22.3,False,False,False,Never,115,70,5.9,2024-08-08,2024-08-10,2,False,Walk-in
+SH-00573,34,M,South Asian,25.9,False,False,False,Never,115,78,5.6,2024-06-27,2024-07-03,6,False,Walk-in
+SH-00574,19,F,South Asian,31.7,False,False,True,Never,115,76,5.8,2024-10-14,2024-10-19,5,False,Emergency
+SH-00575,52,F,Other,33.1,False,False,True,Never,127,83,4.6,2025-12-18,2025-12-22,4,False,GP
+SH-00576,71,M,Other,35.3,True,True,True,Never,133,100,10.2,2025-10-27,2025-10-31,4,False,GP
+SH-00577,79,M,South Asian,27.9,False,True,False,Never,145,110,4.7,2025-08-09,2025-08-14,5,False,Walk-in
+SH-00578,25,M,Other,17.5,False,False,False,Never,102,72,5.8,2024-02-29,2024-03-06,6,False,Emergency
+SH-00579,54,M,South Asian,23.5,False,False,False,Never,135,85,4.9,2025-06-03,2025-06-09,6,False,GP
+SH-00580,33,F,Other,17.4,False,False,False,Never,126,72,5.3,2024-12-17,2024-12-19,2,False,Walk-in
+SH-00581,65,F,South Asian,28.4,False,True,False,Never,155,101,4.7,2025-02-04,2025-02-09,5,False,GP
+SH-00582,31,F,Emirati,25.0,False,False,False,Never,131,84,6.0,2024-05-31,2024-06-13,13,False,Walk-in
+SH-00583,27,M,Emirati,26.6,False,False,False,Current,129,79,5.1,2024-12-19,2024-12-22,3,False,Emergency
+SH-00584,23,F,Other,23.0,False,False,False,Never,93,63,5.2,2025-06-18,2025-06-25,7,True,GP
+SH-00585,44,F,Emirati,28.6,False,False,False,Never,135,79,5.3,2025-12-05,2025-12-07,2,False,Walk-in
+SH-00586,82,F,Emirati,40.4,True,True,True,Never,153,105,10.5,2024-06-12,2024-06-20,8,True,GP
+SH-00587,67,F,South Asian,34.1,False,False,True,Never,106,77,6.0,2025-08-12,2025-08-17,5,True,Walk-in
+SH-00588,49,M,Emirati,21.8,False,False,False,Current,114,78,5.9,2025-07-16,2025-07-19,3,False,GP
+SH-00589,49,F,Other,38.2,True,True,True,Never,144,80,9.4,2024-01-19,2024-01-24,5,False,GP
+SH-00590,66,M,South Asian,31.0,False,False,True,Never,123,74,5.9,2025-01-22,2025-01-27,5,False,Emergency
+SH-00591,32,M,Emirati,20.2,False,False,False,Never,105,76,,2024-12-27,2024-12-31,4,True,Emergency
+SH-00592,36,F,South Asian,27.5,False,False,False,Never,105,78,5.5,2025-08-11,2025-08-13,2,False,GP
+SH-00593,65,F,South Asian,35.3,False,True,True,Never,146,107,5.2,2024-01-09,2024-01-11,2,False,Emergency
+SH-00594,29,F,Emirati,29.3,True,False,False,Never,132,78,5.7,2024-01-10,2024-01-18,8,True,Walk-in
+SH-00595,62,M,South Asian,24.8,True,False,False,Current,111,86,7.1,2025-08-19,2025-08-24,5,False,GP
+SH-00596,45,M,Emirati,28.1,True,True,False,Never,146,91,4.1,2025-03-17,2025-03-30,13,True,GP
+SH-00597,40,F,Emirati,24.0,False,False,False,Never,137,71,6.1,2025-10-29,2025-10-31,2,False,Walk-in
+SH-00598,56,M,Emirati,30.7,False,False,True,Current,122,76,5.5,2025-08-22,2025-08-28,6,False,GP
+SH-00599,60,M,South Asian,29.8,False,False,False,Current,113,69,5.5,2025-12-08,2025-12-13,5,False,Emergency
+SH-00600,54,M,Emirati,25.3,False,False,False,Current,135,74,5.3,2025-06-04,2025-06-06,2,True,Walk-in
+SH-00601,46,F,Other,25.2,False,False,False,Never,101,75,5.0,2025-06-30,2025-07-08,8,False,GP
+SH-00602,67,M,Other,31.6,True,True,True,Never,139,91,8.0,2024-07-14,2024-07-17,3,False,GP
+SH-00603,67,M,Emirati,27.5,True,True,False,Current,147,70,8.5,2025-03-07,2025-03-11,4,True,Emergency
+SH-00604,64,M,Emirati,31.5,False,False,True,Never,106,73,5.6,2025-11-24,2025-12-02,8,False,Emergency
+SH-00605,50,F,Emirati,28.1,False,True,False,Never,139,73,5.8,2024-02-13,2024-02-17,4,False,GP
+SH-00606,63,F,Other,24.1,False,False,False,Never,113,75,,2024-06-03,2024-06-08,5,False,GP
+SH-00607,73,F,South Asian,32.5,False,False,True,Former,125,77,4.8,2024-08-17,2024-08-19,2,False,Walk-in
+SH-00608,45,M,Emirati,29.7,False,False,False,Never,112,72,5.6,2024-11-29,2024-12-01,2,False,Walk-in
+SH-00609,64,M,Emirati,32.9,False,False,True,Never,120,75,5.4,2025-12-07,2025-12-12,5,False,GP
+SH-00610,30,F,South Asian,24.0,False,False,False,Never,109,72,5.8,2025-07-25,2025-07-28,3,False,GP
+SH-00611,52,M,Emirati,27.8,False,False,False,Never,123,78,,2025-09-25,2025-10-01,6,False,Walk-in
+SH-00612,46,F,South Asian,36.2,False,False,True,Never,122,72,5.5,2025-08-08,2025-08-12,4,False,Walk-in
+SH-00613,49,M,Emirati,20.5,False,False,False,Never,129,77,5.1,2024-07-01,2024-07-09,8,False,Walk-in
+SH-00614,50,F,Emirati,33.0,True,False,True,Never,117,74,9.6,2025-09-04,2025-09-08,4,False,Emergency
+SH-00615,75,M,South Asian,33.7,False,True,True,Current,125,99,,2025-12-08,2025-12-25,17,False,Walk-in
+SH-00616,38,F,Emirati,23.5,False,True,False,Never,140,90,4.9,2025-11-26,2025-12-05,9,False,GP
+SH-00617,18,M,Emirati,20.4,False,False,False,Current,125,80,4.3,2025-01-16,2025-01-22,6,False,Emergency
+SH-00618,36,F,Emirati,18.5,False,False,False,Never,138,71,5.5,2025-06-25,2025-07-01,6,False,GP
+SH-00619,66,M,Emirati,27.7,False,False,False,Current,109,77,5.4,2025-12-13,2025-12-15,2,True,Walk-in
+SH-00620,39,F,Other,26.2,False,True,False,Former,146,85,5.1,2025-05-06,2025-05-14,8,False,Walk-in
+SH-00621,63,F,Emirati,33.9,False,False,True,Current,127,73,5.8,2024-12-13,2024-12-16,3,False,Walk-in
+SH-00622,44,M,South Asian,18.4,False,False,False,Never,116,78,5.5,2025-03-08,2025-03-16,8,False,GP
+SH-00623,66,M,Other,27.4,False,True,False,Never,148,92,5.8,2024-08-14,2024-08-21,7,False,GP
+SH-00624,71,M,Other,33.1,False,True,True,Never,147,101,6.2,2024-10-08,2024-10-12,4,False,Walk-in
+SH-00625,82,F,South Asian,37.7,True,True,True,Never,152,84,6.5,2024-10-26,2024-11-01,6,False,GP
+SH-00626,68,M,South Asian,22.9,False,False,False,Never,115,77,,2024-07-09,2024-07-11,2,True,GP
+SH-00627,59,M,South Asian,28.6,True,False,False,Never,116,83,7.1,2024-08-15,2024-08-17,2,False,Emergency
+SH-00628,49,F,Emirati,32.5,False,True,True,Never,143,84,5.3,2025-03-20,2025-03-22,2,False,GP
+SH-00629,54,F,Other,30.2,False,True,True,Never,163,100,5.8,2024-08-28,2024-09-01,4,False,Emergency
+SH-00630,58,M,South Asian,33.8,True,True,True,Current,158,89,6.9,2025-09-10,2025-09-20,10,False,Walk-in
+SH-00631,29,F,South Asian,27.6,False,False,False,Never,115,75,5.8,2024-04-29,2024-05-03,4,False,GP
+SH-00632,66,F,South Asian,23.1,False,True,False,Never,151,87,5.2,2025-11-21,2025-11-29,8,True,Emergency
+SH-00633,60,M,Emirati,23.9,False,False,False,Current,138,80,4.9,2025-04-26,2025-05-02,6,False,GP
+SH-00634,73,M,South Asian,33.8,True,True,True,Never,136,91,5.6,2025-02-19,2025-02-26,7,False,GP
+SH-00635,23,M,Emirati,20.8,False,False,False,Current,126,70,5.4,2025-06-16,2025-06-18,2,False,GP
+SH-00636,70,F,South Asian,36.7,True,False,True,Never,106,74,9.5,2024-09-22,2024-09-28,6,False,Emergency
+SH-00637,30,F,Emirati,26.0,False,False,False,Never,106,74,5.8,2025-05-08,2025-05-17,9,False,Walk-in
+SH-00638,20,M,South Asian,21.1,False,False,False,Current,129,82,5.7,2025-12-08,2025-12-10,2,False,GP
+SH-00639,26,M,Emirati,21.7,False,False,False,Never,117,85,5.1,2024-06-20,2024-06-29,9,False,Walk-in
+SH-00640,34,M,Other,30.2,False,False,True,Current,117,79,6.0,2025-06-23,2025-06-27,4,False,Emergency
+SH-00641,31,F,Other,22.7,True,False,False,Never,106,80,8.4,2025-07-03,2025-07-06,3,True,Walk-in
+SH-00642,38,M,Other,20.0,False,True,False,Never,147,90,5.1,2025-12-04,2025-12-10,6,False,Walk-in
+SH-00643,46,F,South Asian,24.7,False,False,False,Never,134,77,5.4,2025-03-01,2025-03-04,3,False,GP
+SH-00644,66,F,Other,31.7,False,True,True,Never,145,103,5.1,2025-10-04,2025-10-07,3,True,GP
+SH-00645,30,F,Emirati,23.5,False,False,False,Never,128,72,5.5,2024-06-07,2024-06-09,2,False,GP
+SH-00646,56,F,Emirati,23.4,False,False,False,Never,117,66,5.1,2024-05-01,2024-05-05,4,False,GP
+SH-00647,32,M,Other,22.2,True,False,False,Never,115,75,7.7,2024-04-24,2024-04-26,2,False,Emergency
+SH-00648,46,F,South Asian,25.7,False,False,False,Never,115,81,5.2,2025-10-31,2025-11-02,2,False,Emergency
+SH-00649,40,F,South Asian,16.0,False,False,False,Never,130,72,5.7,2025-04-21,2025-04-24,3,False,Walk-in
+SH-00650,40,M,Other,34.5,False,False,True,Never,128,60,5.4,2024-04-20,2024-05-01,11,False,Emergency
+SH-00651,42,M,South Asian,25.1,False,False,False,Never,128,73,5.4,2024-01-24,2024-01-30,6,True,Walk-in
+SH-00652,42,M,Emirati,26.2,False,False,False,Never,140,78,5.8,2024-03-25,2024-04-04,10,False,GP
+SH-00653,62,M,Other,30.6,False,False,True,Never,132,88,5.5,2024-12-20,2024-12-23,3,False,Walk-in
+SH-00654,55,F,Emirati,27.4,False,False,False,Never,108,81,5.8,2024-10-31,2024-11-02,2,True,GP
+SH-00655,50,F,Other,23.3,False,True,False,Never,154,92,5.4,2024-06-20,2024-06-29,9,False,Walk-in
+SH-00656,69,M,Other,25.0,False,False,False,Never,129,89,5.3,2024-12-28,2024-12-30,2,False,Walk-in
+SH-00657,34,M,Other,25.6,False,False,False,Never,122,92,5.4,2025-01-21,2025-01-26,5,False,Walk-in
+SH-00658,46,F,Emirati,29.4,True,True,False,Never,140,99,8.9,2024-07-30,2024-08-04,5,False,GP
+SH-00659,31,M,Other,21.6,False,False,False,Never,116,77,,2025-10-02,2025-10-05,3,False,GP
+SH-00660,66,M,Other,29.5,False,True,False,Never,163,95,5.1,2024-01-29,2024-02-04,6,False,GP
+SH-00661,50,F,Emirati,22.6,True,False,False,Current,143,77,9.0,2025-05-08,2025-05-11,3,True,Emergency
+SH-00662,20,F,Other,26.7,False,False,False,Never,141,84,5.5,2025-04-14,2025-04-17,3,False,GP
+SH-00663,66,M,Other,30.9,False,True,True,Current,144,98,5.0,2025-06-11,2025-06-20,9,False,Walk-in
+SH-00664,18,M,Emirati,22.2,False,False,False,Former,123,84,5.6,2025-01-17,2025-01-21,4,False,Emergency
+SH-00665,37,M,Emirati,28.8,False,False,False,Never,127,75,5.7,2024-01-08,2024-01-16,8,True,GP
+SH-00666,46,F,South Asian,21.3,True,True,False,Never,146,78,9.0,2025-11-13,2025-11-17,4,False,GP
+SH-00667,74,M,Emirati,27.4,False,True,False,Never,135,88,5.2,2024-11-04,2024-11-06,2,False,GP
+SH-00668,65,F,South Asian,19.7,False,True,False,Never,149,109,5.1,2024-10-03,2024-10-13,10,False,Walk-in
+SH-00669,42,M,Emirati,26.5,False,False,False,Never,115,81,4.8,2025-11-20,2025-11-22,2,False,Walk-in
+SH-00670,46,M,Other,21.3,False,False,False,Never,108,66,5.5,2024-01-23,2024-01-25,2,False,GP
+SH-00671,51,M,South Asian,30.3,False,False,True,Never,130,71,5.6,2024-07-08,2024-07-12,4,False,GP
+SH-00672,38,F,Emirati,26.5,False,True,False,Never,136,93,5.3,2025-03-04,2025-03-10,6,False,Emergency
+SH-00673,49,M,Other,30.1,False,False,True,Current,123,85,4.9,2025-05-15,2025-05-19,4,True,GP
+SH-00674,46,F,Other,23.7,False,False,False,Never,112,73,5.0,2024-06-26,2024-07-01,5,False,Walk-in
+SH-00675,46,F,Emirati,27.3,False,False,False,Never,103,76,5.4,2025-05-27,2025-06-15,19,False,Walk-in
+SH-00676,47,M,Emirati,25.5,True,False,False,Never,131,67,7.4,2024-01-24,2024-01-29,5,False,Walk-in
+SH-00677,65,F,Emirati,25.3,False,False,False,Never,105,80,6.2,2025-04-02,2025-04-03,1,False,Emergency
+SH-00678,57,F,Emirati,26.0,False,True,False,Never,173,90,5.2,2024-09-23,2024-09-27,4,False,GP
+SH-00679,41,F,Emirati,20.0,False,False,False,Never,125,72,5.2,2025-11-01,2025-11-04,3,False,Walk-in
+SH-00680,55,M,South Asian,26.8,False,False,False,Never,114,78,5.6,2024-12-07,2024-12-12,5,False,Walk-in
+SH-00681,50,M,Emirati,25.6,False,False,False,Current,129,82,5.1,2024-12-30,2025-01-02,3,False,Walk-in
+SH-00682,61,M,South Asian,27.2,False,False,False,Never,112,72,5.2,2025-08-24,2025-08-28,4,False,Emergency
+SH-00683,62,F,South Asian,30.2,False,False,True,Never,117,83,,2025-01-24,2025-01-31,7,False,GP
+SH-00684,36,M,Emirati,23.2,False,False,False,Former,109,84,5.8,2025-09-28,2025-10-03,5,False,GP
+SH-00685,66,F,Other,29.6,True,False,False,Never,119,85,7.4,2024-09-30,2024-10-07,7,False,Emergency
+SH-00686,32,M,South Asian,27.0,False,False,False,Never,103,66,5.9,2025-02-22,2025-02-26,4,False,Walk-in
+SH-00687,68,F,Other,27.9,False,False,False,Never,121,79,5.1,2025-12-02,2025-12-08,6,False,Walk-in
+SH-00688,65,M,Emirati,26.1,True,False,False,Current,109,74,5.8,2024-11-26,2024-11-27,1,False,Walk-in
+SH-00689,19,M,South Asian,25.2,False,True,False,Former,146,87,5.8,2025-02-07,2025-02-16,9,False,GP
+SH-00690,46,F,Emirati,27.8,False,False,False,Never,120,75,5.5,2025-12-30,2026-01-01,2,False,GP
+SH-00691,48,F,Emirati,31.4,False,True,True,Never,150,89,4.7,2025-09-03,2025-09-08,5,False,Walk-in
+SH-00692,45,M,Emirati,21.8,False,False,False,Never,114,79,5.4,2024-06-18,2024-06-19,1,False,GP
+SH-00693,46,F,Other,29.9,False,False,False,Never,110,74,4.6,2024-01-28,2024-02-03,6,True,Emergency
+SH-00694,53,F,South Asian,31.5,False,True,True,Never,170,99,5.4,2024-01-24,2024-01-28,4,False,GP
+SH-00695,67,F,Emirati,30.1,False,True,True,Never,149,105,6.0,2024-03-24,2024-03-26,2,True,Walk-in
+SH-00696,48,F,South Asian,26.6,False,False,False,Never,114,76,5.5,2024-02-26,2024-03-06,9,False,GP
+SH-00697,63,M,Emirati,28.6,True,False,False,Never,139,77,7.2,2024-02-21,2024-03-04,12,True,GP
+SH-00698,57,F,South Asian,25.3,True,False,False,Never,119,76,8.4,2025-08-12,2025-08-20,8,True,Walk-in
+SH-00699,71,M,South Asian,35.2,True,False,True,Never,101,75,7.3,2025-08-21,2025-08-25,4,False,Emergency
+SH-00700,49,F,South Asian,28.3,False,False,False,Never,102,74,5.6,2025-10-19,2025-10-22,3,False,GP
+SH-00701,67,M,Emirati,23.3,False,False,False,Former,121,73,5.1,2024-04-10,2024-04-14,4,False,Walk-in
+SH-00702,40,M,Other,26.6,False,False,False,Never,119,78,5.6,2025-12-26,2025-12-30,4,True,Emergency
+SH-00703,46,F,Other,32.1,False,False,True,Former,156,73,5.1,2025-10-21,2025-10-25,4,False,Walk-in
+SH-00704,72,M,Emirati,27.5,False,False,False,Never,121,84,4.9,2024-11-22,2024-11-24,2,False,GP
+SH-00705,73,F,Emirati,35.4,False,True,True,Never,168,101,5.6,2024-09-18,2024-09-21,3,False,Emergency
+SH-00706,73,M,Emirati,35.9,True,False,True,Never,132,75,10.0,2025-04-15,2025-04-19,4,False,Emergency
+SH-00707,48,F,Emirati,23.1,True,False,False,Never,105,79,7.0,2025-08-09,2025-08-14,5,False,Walk-in
+SH-00708,35,F,South Asian,25.5,False,False,False,Former,122,76,,2024-06-15,2024-06-17,2,False,Walk-in
+SH-00709,64,F,Other,26.6,False,False,False,Never,104,69,5.7,2024-06-12,2024-06-14,2,False,Walk-in
+SH-00710,77,F,South Asian,38.4,True,True,True,Never,139,93,10.3,2024-02-12,2024-02-17,5,True,Walk-in
+SH-00711,46,M,Other,31.6,False,False,True,Never,125,79,5.8,2025-02-19,2025-02-27,8,True,GP
+SH-00712,64,F,South Asian,22.1,False,False,False,Never,115,77,5.4,2024-03-23,2024-03-27,4,False,Walk-in
+SH-00713,42,M,South Asian,22.1,False,False,False,Never,119,73,5.8,2024-03-21,2024-03-24,3,True,Walk-in
+SH-00714,63,F,South Asian,32.6,True,True,True,Never,142,88,8.6,2025-05-19,2025-05-25,6,True,GP
+SH-00715,67,F,Emirati,34.4,True,True,True,Never,152,90,9.2,2025-10-01,2025-10-03,2,True,Walk-in
+SH-00716,25,M,South Asian,25.4,False,False,False,Never,132,79,5.4,2024-01-12,2024-01-14,2,False,GP
+SH-00717,57,F,Emirati,25.7,False,False,False,Never,115,64,5.5,2025-05-09,2025-05-12,3,True,GP
+SH-00718,33,F,South Asian,27.3,False,False,False,Never,120,79,5.7,2025-04-23,2025-04-25,2,False,GP
+SH-00719,59,M,Emirati,30.6,False,False,True,Never,114,74,5.3,2025-06-14,2025-07-02,18,False,GP
+SH-00720,18,M,Emirati,16.0,False,False,False,Current,114,63,5.1,2024-08-07,2024-08-12,5,False,Walk-in
+SH-00721,26,F,Other,26.5,False,False,False,Never,129,80,4.6,2025-11-12,2025-11-14,2,False,Walk-in
+SH-00722,25,F,Emirati,24.0,True,True,False,Never,143,101,4.6,2025-01-02,2025-01-07,5,False,Emergency
+SH-00723,43,F,Emirati,27.2,True,True,False,Never,135,85,6.9,2024-02-06,2024-02-11,5,False,Emergency
+SH-00724,44,F,Other,26.6,True,True,False,Never,148,88,9.1,2024-03-19,2024-03-24,5,False,Emergency
+SH-00725,71,M,Emirati,30.6,True,True,True,Never,155,82,10.7,2025-05-09,2025-05-10,1,False,GP
+SH-00726,59,M,South Asian,34.1,False,False,True,Never,115,81,5.7,2024-01-23,2024-01-26,3,False,Emergency
+SH-00727,57,M,Emirati,32.3,False,True,True,Current,133,91,,2025-04-01,2025-04-07,6,False,Walk-in
+SH-00728,57,F,Other,22.4,False,False,False,Never,134,77,4.9,2024-03-26,2024-03-30,4,True,Walk-in
+SH-00729,32,F,Emirati,23.7,False,False,False,Never,109,72,5.6,2024-08-14,2024-08-16,2,False,Emergency
+SH-00730,50,F,Emirati,31.6,False,True,True,Never,149,96,5.5,2025-10-28,2025-11-01,4,False,Emergency
+SH-00731,59,M,Other,28.9,False,True,False,Never,148,84,,2024-06-07,2024-06-17,10,False,GP
+SH-00732,76,M,Other,35.9,False,True,True,Current,161,96,5.3,2024-10-11,2024-10-15,4,True,Walk-in
+SH-00733,46,M,South Asian,21.6,False,False,False,Never,116,67,4.9,2024-10-28,2024-10-30,2,False,Walk-in
+SH-00734,30,F,Emirati,31.7,False,False,True,Never,137,77,6.0,2025-01-22,2025-02-04,13,False,GP
+SH-00735,41,F,Emirati,21.5,True,False,False,Never,112,74,13.6,2025-07-03,2025-07-04,1,False,GP
+SH-00736,47,F,South Asian,26.6,False,False,False,Never,132,81,5.3,2025-03-03,2025-03-06,3,False,Walk-in
+SH-00737,37,M,Emirati,20.0,False,False,False,Former,128,81,5.4,2025-10-11,2025-10-15,4,False,Walk-in
+SH-00738,53,F,Emirati,27.2,True,True,False,Never,157,85,8.8,2025-10-10,2025-10-12,2,False,Emergency
+SH-00739,24,F,Other,26.9,False,False,False,Never,111,77,5.5,2025-08-15,2025-08-20,5,False,Walk-in
+SH-00740,63,M,South Asian,30.0,True,True,True,Never,122,93,6.2,2025-06-21,2025-06-30,9,False,GP
+SH-00741,31,F,Emirati,26.4,False,False,False,Never,125,75,5.3,2025-05-17,2025-05-20,3,False,Emergency
+SH-00742,26,M,South Asian,21.4,False,False,False,Former,107,76,6.0,2025-06-04,2025-06-07,3,False,GP
+SH-00743,24,M,Other,23.9,False,False,False,Never,126,64,5.4,2024-07-29,2024-08-02,4,False,Walk-in
+SH-00744,37,M,Emirati,18.2,False,False,False,Never,131,64,5.4,2024-03-31,2024-04-08,8,True,Walk-in
+SH-00745,18,F,South Asian,24.4,False,False,False,Never,139,63,5.1,2024-08-09,2024-08-11,2,False,Emergency
+SH-00746,72,F,Emirati,33.2,True,True,True,Current,170,96,8.1,2024-11-07,2024-11-09,2,True,Walk-in
+SH-00747,48,F,Emirati,33.2,True,False,True,Never,115,82,6.6,2025-07-11,2025-07-14,3,False,Walk-in
+SH-00748,86,F,South Asian,32.7,True,True,True,Never,127,86,7.9,2024-02-01,2024-02-06,5,False,GP
+SH-00749,34,M,South Asian,23.5,False,False,False,Never,115,76,,2024-01-26,2024-01-31,5,False,Emergency
+SH-00750,40,M,Emirati,24.7,False,False,False,Never,105,80,5.3,2024-10-11,2024-10-23,12,True,Walk-in
+SH-00751,70,M,Emirati,25.6,True,False,False,Never,124,83,10.4,2025-04-07,2025-04-18,11,True,GP
+SH-00752,50,M,South Asian,27.4,False,False,False,Never,130,69,5.9,2025-10-06,2025-10-09,3,False,GP
+SH-00753,37,F,Emirati,32.6,False,False,True,Never,108,72,5.4,2024-03-12,2024-03-17,5,False,Emergency
+SH-00754,56,F,Emirati,35.1,True,False,True,Never,125,81,9.7,2025-11-27,2025-12-08,11,False,GP
+SH-00755,54,F,Emirati,26.9,False,False,False,Current,136,77,5.1,2025-07-09,2025-07-14,5,False,Walk-in
+SH-00756,62,F,Emirati,32.7,False,False,True,Never,117,74,5.0,2025-09-15,2025-09-19,4,False,Walk-in
+SH-00757,65,M,Other,28.8,False,True,False,Never,143,97,4.6,2024-09-10,2024-09-18,8,False,Walk-in
+SH-00758,61,M,Other,35.9,False,False,True,Never,100,75,6.1,2024-10-30,2024-11-02,3,False,GP
+SH-00759,74,F,Emirati,38.1,False,False,True,Never,125,77,5.0,2025-12-01,2025-12-05,4,True,Walk-in
+SH-00760,69,F,South Asian,34.8,True,False,True,Never,104,78,7.3,2024-07-11,2024-07-18,7,True,Emergency
+SH-00761,57,F,South Asian,30.3,False,False,True,Never,108,71,5.4,2025-09-25,2025-09-28,3,True,GP
+SH-00762,81,F,Emirati,29.1,False,True,False,Never,132,97,5.3,2024-09-30,2024-10-11,11,False,GP
+SH-00763,81,F,Other,27.5,False,True,False,Never,139,95,5.2,2024-12-23,2025-01-02,10,False,Walk-in
+SH-00764,51,F,South Asian,22.5,False,False,False,Never,119,80,5.4,2025-01-21,2025-01-28,7,False,Walk-in
+SH-00765,45,M,Other,29.6,False,True,False,Former,139,88,5.6,2024-11-23,2024-12-03,10,False,Walk-in
+SH-00766,44,M,Emirati,25.3,False,False,False,Never,112,72,5.4,2025-04-22,2025-04-26,4,False,GP
+SH-00767,47,M,Other,22.1,False,False,False,Former,119,80,4.8,2024-12-22,2025-01-04,13,False,GP
+SH-00768,65,M,Emirati,38.5,True,False,True,Never,141,78,5.9,2024-05-14,2024-05-15,1,True,Walk-in
+SH-00769,38,M,South Asian,28.7,False,False,False,Never,118,83,5.9,2025-05-12,2025-05-18,6,False,GP
+SH-00770,41,M,South Asian,26.8,False,False,False,Never,113,71,5.8,2024-02-19,2024-02-24,5,False,GP
+SH-00771,56,F,South Asian,30.4,False,True,True,Former,165,95,4.9,2024-12-10,2024-12-20,10,False,Walk-in
+SH-00772,73,M,Other,32.7,True,True,True,Current,138,88,7.3,2024-10-22,2024-10-23,1,True,GP
+SH-00773,54,M,Emirati,26.1,False,True,False,Never,141,92,5.3,2025-02-21,2025-02-23,2,False,Walk-in
+SH-00774,59,M,South Asian,23.2,False,False,False,Never,127,77,5.3,2025-01-08,2025-01-10,2,False,GP
+SH-00775,46,M,South Asian,28.1,False,False,False,Never,132,79,5.0,2024-04-12,2024-04-23,11,False,Walk-in
+SH-00776,28,M,Emirati,19.3,False,False,False,Former,111,71,5.1,2024-04-06,2024-04-08,2,False,Walk-in
+SH-00777,78,M,Emirati,29.5,True,False,False,Never,112,79,5.0,2024-11-01,2024-11-04,3,False,Emergency
+SH-00778,41,F,South Asian,29.9,False,False,False,Never,142,77,5.5,2025-06-11,2025-06-19,8,False,Emergency
+SH-00779,44,F,Emirati,29.3,True,True,False,Never,130,99,7.9,2025-12-11,2025-12-16,5,False,GP
+SH-00780,24,F,South Asian,28.9,False,False,False,Never,112,79,5.7,2025-09-23,2025-10-02,9,False,Walk-in
+SH-00781,44,M,Other,33.1,False,False,True,Never,136,73,5.7,2024-07-28,2024-08-02,5,False,Walk-in
+SH-00782,77,M,Emirati,22.4,False,True,False,Current,153,90,5.4,2025-08-08,2025-08-14,6,False,Walk-in
+SH-00783,68,M,Emirati,34.7,False,True,True,Never,148,93,5.4,2024-12-30,2025-01-02,3,False,Walk-in
+SH-00784,44,M,Emirati,27.8,False,False,False,Never,136,78,5.3,2025-09-26,2025-10-01,5,False,Walk-in
+SH-00785,65,M,Other,34.4,False,False,True,Never,120,69,4.4,2024-08-30,2024-09-05,6,False,Walk-in
+SH-00786,41,F,South Asian,21.7,False,False,False,Never,116,82,5.6,2025-01-05,2025-01-13,8,False,Walk-in
+SH-00787,52,M,South Asian,22.7,False,True,False,Never,139,105,4.6,2024-07-31,2024-08-08,8,True,Emergency
+SH-00788,55,M,Other,28.7,False,False,False,Never,125,77,5.5,2024-08-27,2024-09-07,11,False,Walk-in
+SH-00789,59,M,Emirati,25.0,False,True,False,Former,133,101,5.3,2024-01-10,2024-01-17,7,False,GP
+SH-00790,41,M,South Asian,24.7,False,False,False,Current,117,84,5.5,2025-05-06,2025-05-07,1,False,Emergency
+SH-00791,47,M,Other,23.7,False,False,False,Never,100,75,5.7,2024-11-07,2024-11-12,5,False,GP
+SH-00792,47,F,Other,19.3,True,False,False,Never,124,74,8.6,2025-03-23,2025-03-26,3,False,Walk-in
+SH-00793,53,F,Emirati,33.3,True,False,True,Never,110,73,6.4,2025-03-29,2025-04-03,5,True,Walk-in
+SH-00794,68,M,Other,25.7,True,False,False,Never,134,71,5.5,2024-01-17,2024-01-31,14,False,GP
+SH-00795,18,F,South Asian,22.6,False,False,False,Never,117,77,5.5,2025-06-20,2025-06-27,7,False,Walk-in
+SH-00796,48,M,South Asian,26.2,True,False,False,Never,120,68,10.2,2025-07-30,2025-08-07,8,False,GP
+SH-00797,66,M,Emirati,25.6,False,False,False,Never,106,74,,2025-11-06,2025-11-10,4,False,GP
+SH-00798,54,M,South Asian,21.0,False,True,False,Former,134,91,5.8,2024-12-20,2024-12-23,3,False,GP
+SH-00799,73,M,Emirati,29.0,False,True,False,Never,120,90,6.3,2025-10-07,2025-10-12,5,False,Walk-in
+SH-00800,45,M,South Asian,21.9,False,False,False,Never,124,74,4.8,2025-04-09,2025-04-12,3,False,Walk-in
+SH-00801,73,F,Emirati,31.1,True,False,True,Current,120,66,7.9,2024-02-19,2024-02-24,5,False,Emergency
+SH-00802,38,M,Other,21.5,False,False,False,Never,103,70,5.5,2025-07-04,2025-07-09,5,False,Walk-in
+SH-00803,49,M,South Asian,33.3,True,False,True,Never,136,67,13.4,2025-04-18,2025-04-22,4,False,Walk-in
+SH-00804,76,F,South Asian,30.7,True,True,True,Never,153,91,7.3,2025-12-26,2026-01-02,7,False,GP
+SH-00805,45,F,Emirati,21.6,False,False,False,Never,111,77,5.0,2024-04-13,2024-04-17,4,False,GP
+SH-00806,59,F,Emirati,26.1,False,True,False,Never,135,85,5.4,2024-05-23,2024-05-26,3,False,Walk-in
+SH-00807,64,M,South Asian,27.8,False,True,False,Never,139,94,5.0,2025-06-13,2025-06-17,4,False,GP
+SH-00808,53,F,South Asian,22.9,False,False,False,Never,113,85,5.1,2025-08-12,2025-08-17,5,False,Walk-in
+SH-00809,35,F,Emirati,24.9,False,False,False,Never,124,75,5.6,2024-03-23,2024-03-25,2,False,GP
+SH-00810,31,M,Emirati,24.5,False,False,False,Current,122,77,5.6,2025-05-06,2025-05-08,2,False,Emergency
+SH-00811,67,F,South Asian,30.2,True,False,True,Never,120,72,7.5,2025-07-15,2025-07-23,8,False,Walk-in
+SH-00812,33,F,Emirati,27.2,False,False,False,Never,128,69,4.6,2025-01-17,2025-01-21,4,False,GP
+SH-00813,58,F,South Asian,26.6,False,False,False,Never,105,76,5.2,2024-02-25,2024-02-29,4,False,Walk-in
+SH-00814,63,M,Other,26.1,False,True,False,Current,144,93,5.6,2024-04-26,2024-05-02,6,False,GP
+SH-00815,44,F,South Asian,22.1,False,False,False,Never,118,73,5.4,2025-04-25,2025-04-30,5,False,GP
+SH-00816,40,F,South Asian,20.0,False,False,False,Never,127,62,5.4,2024-03-09,2024-03-11,2,False,GP
+SH-00817,64,M,Emirati,29.5,True,False,False,Former,121,82,9.2,2025-08-21,2025-08-27,6,False,Emergency
+SH-00818,53,F,Emirati,29.3,False,False,False,Never,138,89,5.6,2025-09-25,2025-10-11,16,False,Emergency
+SH-00819,37,M,South Asian,22.6,False,True,False,Never,152,91,5.4,2025-06-19,2025-06-23,4,False,GP
+SH-00820,65,M,Emirati,36.9,False,True,True,Never,152,94,5.2,2024-12-16,2024-12-21,5,False,GP
+SH-00821,34,M,South Asian,22.7,False,False,False,Never,122,76,5.3,2025-02-07,2025-02-12,5,True,GP
+SH-00822,39,M,South Asian,29.5,False,False,False,Never,132,77,5.5,2024-11-13,2024-11-15,2,False,Emergency
+SH-00823,58,F,Emirati,33.8,False,False,True,Never,127,62,5.2,2025-02-19,2025-02-21,2,False,GP
+SH-00824,62,F,South Asian,28.7,False,False,False,Former,117,75,6.4,2025-06-30,2025-07-04,4,False,Emergency
+SH-00825,65,F,Emirati,34.6,True,False,True,Never,137,75,6.8,2025-01-14,2025-01-19,5,False,Emergency
+SH-00826,42,F,Emirati,26.8,False,False,False,Never,108,76,5.6,2025-03-14,2025-03-21,7,False,Walk-in
+SH-00827,63,M,Emirati,28.0,True,False,False,Never,118,75,10.9,2025-06-16,2025-06-25,9,True,Walk-in
+SH-00828,63,M,South Asian,25.9,True,True,False,Former,157,84,,2025-02-05,2025-02-06,1,True,GP
+SH-00829,28,F,Emirati,27.4,False,False,False,Never,138,70,5.5,2025-12-26,2025-12-31,5,False,Walk-in
+SH-00830,66,M,South Asian,25.6,False,False,False,Former,109,77,5.5,2025-06-20,2025-06-23,3,True,GP
+SH-00831,37,M,Emirati,27.3,True,False,False,Former,132,78,7.8,2025-03-20,2025-03-25,5,False,GP
+SH-00832,74,F,Emirati,32.0,True,True,True,Never,149,83,9.6,2025-04-17,2025-04-19,2,False,Walk-in
+SH-00833,62,F,South Asian,25.4,True,False,False,Never,122,95,8.8,2025-11-15,2025-11-17,2,False,GP
+SH-00834,55,F,South Asian,28.9,False,False,False,Never,113,75,5.5,2024-06-04,2024-06-09,5,False,GP
+SH-00835,46,M,Emirati,20.8,False,False,False,Never,126,77,5.2,2024-09-12,2024-09-17,5,False,GP
+SH-00836,28,F,Emirati,22.0,False,False,False,Never,124,79,5.2,2025-01-09,2025-01-16,7,False,Walk-in
+SH-00837,78,M,Other,34.6,False,True,True,Current,175,95,5.4,2025-10-13,2025-10-20,7,False,GP
+SH-00838,46,F,Emirati,32.0,False,False,True,Never,135,79,6.1,2025-04-15,2025-04-24,9,False,Walk-in
+SH-00839,34,M,Emirati,22.9,False,False,False,Current,102,76,5.1,2025-04-12,2025-04-18,6,False,Emergency
+SH-00840,26,F,Emirati,21.4,False,False,False,Never,117,85,5.2,2025-04-14,2025-04-17,3,True,GP
+SH-00841,54,M,South Asian,35.9,False,False,True,Never,125,72,5.5,2025-01-10,2025-01-12,2,True,GP
+SH-00842,56,M,South Asian,33.9,False,True,True,Former,142,95,5.8,2025-04-17,2025-04-19,2,False,Walk-in
+SH-00843,27,F,South Asian,26.2,False,False,False,Never,132,74,5.4,2024-05-29,2024-06-05,7,True,Walk-in
+SH-00844,64,F,South Asian,31.7,True,False,True,Never,122,80,9.3,2024-06-28,2024-06-30,2,False,GP
+SH-00845,67,M,South Asian,28.5,True,True,False,Never,153,102,6.2,2024-12-18,2024-12-29,11,True,Walk-in
+SH-00846,64,F,Emirati,34.6,True,True,True,Never,145,99,7.9,2025-08-14,2025-08-19,5,False,GP
+SH-00847,37,F,South Asian,24.4,False,False,False,Never,122,76,,2025-08-17,2025-08-20,3,False,GP
+SH-00848,75,M,South Asian,33.4,False,False,True,Never,121,73,5.7,2024-11-01,2024-11-07,6,True,Emergency
+SH-00849,64,M,Emirati,31.9,True,True,True,Never,155,88,9.4,2024-03-30,2024-04-03,4,True,Walk-in
+SH-00850,61,F,Emirati,28.1,False,False,False,Never,126,84,5.2,2025-05-03,2025-05-11,8,True,GP
+SH-00851,31,F,Emirati,26.3,False,False,False,Never,118,84,6.4,2025-09-26,2025-09-27,1,False,GP
+SH-00852,52,M,Emirati,27.3,False,False,False,Former,116,85,5.6,2024-09-09,2024-09-13,4,False,Emergency
+SH-00853,70,M,Emirati,24.6,False,False,False,Never,107,71,5.3,2025-07-28,2025-08-02,5,False,Walk-in
+SH-00854,43,M,Other,24.1,False,False,False,Current,117,91,5.2,2024-06-30,2024-07-05,5,False,Walk-in
+SH-00855,45,F,Emirati,19.3,False,False,False,Never,123,86,5.8,2024-08-05,2024-08-07,2,False,Walk-in
+SH-00856,37,F,South Asian,33.8,False,True,True,Never,133,86,5.5,2025-09-04,2025-09-08,4,False,Walk-in
+SH-00857,56,M,South Asian,21.6,False,False,False,Never,103,67,6.1,2024-04-23,2024-04-26,3,False,Walk-in
+SH-00858,33,M,Emirati,22.1,False,False,False,Never,120,76,5.5,2025-10-02,2025-10-13,11,False,GP
+SH-00859,83,F,Emirati,29.1,False,False,False,Never,126,71,4.9,2025-12-02,2025-12-05,3,False,Walk-in
+SH-00860,60,F,South Asian,32.9,False,False,True,Never,111,70,5.3,2025-10-08,2025-10-11,3,True,Emergency
+SH-00861,40,M,Emirati,22.5,False,True,False,Never,136,100,,2024-08-27,2024-09-02,6,True,GP
+SH-00862,73,M,South Asian,35.0,True,True,True,Former,134,83,8.7,2025-03-17,2025-03-19,2,False,Emergency
+SH-00863,38,M,South Asian,21.1,False,False,False,Never,136,73,5.6,2024-03-12,2024-03-19,7,False,Walk-in
+SH-00864,25,M,Emirati,29.6,False,False,False,Never,129,79,5.2,2025-05-20,2025-06-02,13,False,GP
+SH-00865,58,M,Other,30.4,True,False,True,Former,116,81,8.2,2024-03-27,2024-04-06,10,False,GP
+SH-00866,42,F,Emirati,22.2,False,True,False,Never,139,85,5.3,2025-04-18,2025-04-21,3,False,Walk-in
+SH-00867,51,M,Emirati,25.9,False,False,False,Never,127,76,5.4,2025-09-24,2025-09-28,4,False,GP
+SH-00868,72,F,Emirati,25.9,True,False,False,Never,132,69,11.4,2025-11-26,2025-12-03,7,True,Walk-in
+SH-00869,54,F,Other,25.9,False,False,False,Never,99,65,5.4,2024-11-20,2024-11-26,6,False,Walk-in
+SH-00870,46,F,Emirati,24.1,False,False,False,Current,127,80,5.9,2024-08-12,2024-08-14,2,False,GP
+SH-00871,19,F,Emirati,16.9,False,False,False,Never,113,77,5.4,2024-11-12,2024-11-23,11,False,Walk-in
+SH-00872,45,M,Emirati,25.0,False,False,False,Current,109,79,5.6,2024-08-23,2024-08-26,3,False,Walk-in
+SH-00873,46,F,Emirati,21.1,False,False,False,Former,131,83,5.5,2025-10-15,2025-10-18,3,True,GP
+SH-00874,52,M,Emirati,30.5,False,True,True,Never,146,91,5.7,2024-09-02,2024-09-07,5,False,Walk-in
+SH-00875,58,F,Other,30.4,False,False,True,Never,132,74,5.3,2024-07-03,2024-07-13,10,True,GP
+SH-00876,55,M,Other,33.8,False,True,True,Current,130,97,5.7,2024-03-15,2024-03-25,10,False,GP
+SH-00877,63,F,Emirati,30.0,False,False,True,Never,115,82,5.0,2024-07-30,2024-08-02,3,False,Walk-in
+SH-00878,49,M,Emirati,33.5,True,False,True,Never,126,76,9.3,2025-09-02,2025-09-06,4,True,Emergency
+SH-00879,41,F,Other,20.1,False,False,False,Never,105,72,5.0,2025-08-29,2025-09-02,4,False,GP
+SH-00880,78,M,South Asian,29.9,False,False,False,Never,108,76,5.4,2024-01-24,2024-01-31,7,False,GP
+SH-00881,29,M,South Asian,26.6,False,True,False,Former,148,93,5.3,2024-09-04,2024-09-18,14,False,Emergency
+SH-00882,53,F,Emirati,25.1,False,False,False,Never,114,78,,2025-12-18,2025-12-28,10,False,Walk-in
+SH-00883,38,M,Other,28.6,False,False,False,Current,111,77,4.7,2025-02-28,2025-03-05,5,True,Walk-in
+SH-00884,47,M,Emirati,20.0,False,False,False,Former,123,71,5.2,2025-06-03,2025-06-07,4,False,Walk-in
+SH-00885,41,M,Emirati,21.3,False,False,False,Never,106,79,5.7,2024-03-21,2024-03-24,3,False,GP
+SH-00886,33,F,Emirati,22.1,False,False,False,Never,105,80,5.0,2025-08-11,2025-08-20,9,False,Emergency
+SH-00887,61,F,Emirati,31.1,False,False,True,Never,137,71,5.2,2024-11-27,2024-12-01,4,True,Walk-in
+SH-00888,30,F,South Asian,31.3,False,False,True,Never,128,68,5.9,2025-11-18,2025-11-19,1,False,Walk-in
+SH-00889,73,F,South Asian,28.3,False,True,False,Never,124,93,5.1,2024-05-28,2024-05-31,3,False,Emergency
+SH-00890,69,M,Emirati,26.8,True,True,False,Never,168,93,6.6,2025-05-01,2025-05-09,8,False,Walk-in
+SH-00891,61,M,Other,26.2,True,False,False,Never,139,71,8.4,2025-06-22,2025-06-24,2,False,GP
+SH-00892,41,F,Emirati,25.2,False,False,False,Never,130,77,5.7,2025-03-03,2025-03-04,1,False,Emergency
+SH-00893,61,M,South Asian,27.0,False,False,False,Never,103,74,5.5,2025-07-30,2025-07-31,1,False,GP
+SH-00894,36,F,South Asian,26.9,False,False,False,Never,110,77,5.1,2025-05-01,2025-05-07,6,False,Walk-in
+SH-00895,44,F,Emirati,29.4,False,False,False,Never,119,76,5.6,2024-05-21,2024-05-25,4,False,Walk-in
+SH-00896,49,M,Emirati,29.7,False,True,False,Former,148,103,5.3,2024-04-10,2024-04-13,3,False,GP
+SH-00897,52,M,Other,31.0,False,False,True,Never,118,81,5.3,2024-09-03,2024-09-12,9,False,Walk-in
+SH-00898,58,M,Emirati,32.3,True,False,True,Never,127,71,8.8,2024-12-09,2024-12-17,8,False,GP
+SH-00899,54,F,Other,29.2,False,False,False,Never,107,72,4.5,2024-09-20,2024-09-23,3,False,GP
+SH-00900,43,F,Other,26.3,False,False,False,Current,136,79,5.3,2024-05-17,2024-05-20,3,False,Walk-in
+SH-00901,59,M,Emirati,24.7,False,False,False,Former,118,60,5.4,2025-06-03,2025-06-13,10,False,Emergency
+SH-00902,40,M,Other,28.2,False,False,False,Never,113,77,5.6,2024-07-26,2024-07-29,3,False,GP
+SH-00903,28,F,Emirati,22.8,False,False,False,Never,110,76,5.2,2025-05-12,2025-05-15,3,False,GP
+SH-00904,36,M,Emirati,24.1,False,False,False,Never,113,81,,2025-02-06,2025-02-12,6,False,Emergency
+SH-00905,59,F,South Asian,31.3,False,True,True,Never,138,87,5.1,2024-08-02,2024-08-08,6,False,GP
+SH-00906,50,M,South Asian,25.6,True,True,False,Never,162,86,8.8,2025-02-04,2025-02-11,7,True,GP
+SH-00907,43,F,Emirati,24.8,False,True,False,Never,148,84,5.7,2024-10-17,2024-10-26,9,False,Emergency
+SH-00908,41,F,South Asian,21.1,False,True,False,Never,125,96,5.5,2024-08-29,2024-08-30,1,False,Walk-in
+SH-00909,39,M,South Asian,23.3,False,False,False,Never,135,81,5.0,2025-09-10,2025-09-13,3,True,GP
+SH-00910,44,F,Emirati,25.7,False,False,False,Current,105,70,5.0,2024-07-12,2024-07-16,4,False,GP
+SH-00911,58,M,Emirati,31.6,True,False,True,Former,143,78,8.7,2025-01-22,2025-01-28,6,False,GP
+SH-00912,43,F,Emirati,27.9,False,True,False,Never,133,94,,2024-09-26,2024-09-29,3,False,Emergency
+SH-00913,55,F,Other,21.6,False,False,False,Never,128,72,5.5,2025-08-19,2025-08-23,4,False,Walk-in
+SH-00914,49,F,Other,26.4,False,False,False,Never,115,85,5.4,2025-04-23,2025-04-27,4,False,GP
+SH-00915,63,F,Emirati,28.9,True,True,False,Never,139,92,10.0,2024-03-30,2024-04-04,5,False,GP
+SH-00916,56,M,Emirati,21.8,False,False,False,Never,101,70,5.3,2024-06-05,2024-06-07,2,False,Walk-in
+SH-00917,76,F,Emirati,29.7,False,True,False,Never,160,88,5.4,2025-07-10,2025-07-16,6,False,GP
+SH-00918,83,F,South Asian,26.6,True,True,False,Never,165,85,9.3,2024-06-25,2024-06-26,1,False,GP
+SH-00919,44,F,Emirati,28.2,True,True,False,Never,125,82,8.4,2024-07-23,2024-07-30,7,True,Walk-in
+SH-00920,47,F,Other,23.7,True,True,False,Never,135,99,6.6,2025-03-09,2025-03-12,3,False,Walk-in
+SH-00921,60,M,Emirati,26.0,False,False,False,Never,121,79,,2024-09-25,2024-09-29,4,False,GP
+SH-00922,46,M,South Asian,25.8,False,False,False,Never,112,73,,2025-01-28,2025-02-05,8,False,GP
+SH-00923,54,M,South Asian,34.8,True,False,True,Never,118,78,4.9,2024-02-14,2024-02-15,1,False,GP
+SH-00924,73,F,South Asian,28.2,True,True,False,Current,182,77,9.3,2024-11-25,2024-11-27,2,True,GP
+SH-00925,65,F,South Asian,26.0,True,True,False,Never,158,82,7.2,2024-10-11,2024-10-16,5,False,Walk-in
+SH-00926,43,M,South Asian,31.0,False,False,True,Never,127,84,5.4,2025-06-21,2025-06-27,6,False,Emergency
+SH-00927,63,M,Emirati,28.3,True,False,False,Current,122,84,8.7,2025-04-04,2025-04-11,7,False,Emergency
+SH-00928,52,M,South Asian,24.8,True,False,False,Never,115,79,8.5,2025-12-25,2025-12-28,3,True,Walk-in
+SH-00929,36,M,South Asian,26.0,False,False,False,Never,124,71,,2025-07-14,2025-07-17,3,True,GP
+SH-00930,52,F,Other,28.7,False,False,False,Never,117,79,5.4,2025-03-26,2025-03-30,4,False,Walk-in
+SH-00931,48,M,South Asian,26.1,False,False,False,Never,107,67,5.6,2025-04-15,2025-04-20,5,False,GP
+SH-00932,69,M,Emirati,27.3,True,True,False,Never,137,91,6.9,2024-05-08,2024-05-12,4,True,GP
+SH-00933,36,M,Emirati,28.0,False,True,False,Never,139,87,4.9,2024-06-02,2024-06-03,1,False,GP
+SH-00934,57,F,Emirati,29.1,False,True,False,Never,161,80,5.9,2024-10-07,2024-10-12,5,False,GP
+SH-00935,38,M,Emirati,29.6,False,False,False,Never,110,77,5.3,2025-06-24,2025-06-29,5,True,GP
+SH-00936,46,M,South Asian,27.7,False,False,False,Never,108,80,5.5,2024-02-05,2024-02-10,5,False,Walk-in
+SH-00937,57,M,South Asian,26.3,False,False,False,Never,120,74,5.4,2025-11-24,2025-12-05,11,False,GP
+SH-00938,61,M,Other,29.4,True,True,False,Never,154,90,9.5,2025-12-21,2025-12-23,2,False,Walk-in
+SH-00939,51,M,Other,26.7,False,True,False,Never,153,68,5.7,2025-12-11,2025-12-14,3,False,Walk-in
+SH-00940,75,M,Emirati,28.9,True,False,False,Never,104,76,8.7,2025-06-23,2025-06-26,3,False,Walk-in
+SH-00941,64,M,Emirati,23.1,False,False,False,Never,116,67,,2025-11-11,2025-11-18,7,True,Walk-in
+SH-00942,67,F,Emirati,27.8,False,False,False,Never,117,92,5.6,2024-11-10,2024-11-18,8,False,Emergency
+SH-00943,52,F,South Asian,25.5,False,False,False,Never,127,65,5.4,2025-03-10,2025-03-12,2,False,Walk-in
+SH-00944,46,F,South Asian,29.7,False,True,False,Never,160,97,5.1,2025-08-27,2025-09-04,8,False,GP
+SH-00945,45,F,Emirati,22.7,False,False,False,Never,123,73,5.2,2024-02-26,2024-03-03,6,False,GP
+SH-00946,41,M,Other,26.2,True,False,False,Current,112,78,7.1,2025-08-14,2025-08-18,4,True,Walk-in
+SH-00947,34,F,Other,16.8,False,False,False,Never,129,66,4.7,2025-03-21,2025-03-25,4,True,GP
+SH-00948,45,F,Emirati,37.8,True,True,True,Never,152,99,7.7,2024-10-14,2024-10-19,5,False,GP
+SH-00949,55,F,Other,30.5,False,False,True,Current,118,85,5.0,2025-06-03,2025-06-05,2,False,GP
+SH-00950,62,M,South Asian,27.7,False,True,False,Never,147,84,5.7,2024-03-11,2024-03-13,2,False,GP
+SH-00951,28,F,Other,22.4,False,False,False,Never,120,87,4.8,2024-10-24,2024-10-28,4,True,Walk-in
+SH-00952,43,M,Emirati,21.6,True,False,False,Former,126,74,8.0,2024-07-15,2024-07-20,5,False,GP
+SH-00953,50,F,Other,27.1,True,True,False,Never,135,96,6.5,2024-09-02,2024-09-19,17,False,Walk-in
+SH-00954,37,F,Other,22.7,False,False,False,Never,124,66,5.6,2025-07-26,2025-08-04,9,False,GP
+SH-00955,50,F,South Asian,19.8,False,True,False,Never,132,91,6.2,2024-05-07,2024-05-11,4,False,Emergency
+SH-00956,59,M,South Asian,30.2,False,False,True,Never,118,77,5.2,2024-08-19,2024-08-23,4,False,Walk-in
+SH-00957,56,F,Emirati,26.0,True,False,False,Never,152,75,10.4,2024-12-16,2024-12-19,3,False,GP
+SH-00958,41,F,South Asian,31.3,False,False,True,Never,137,81,5.2,2025-02-17,2025-02-28,11,False,Walk-in
+SH-00959,62,M,Emirati,35.7,True,True,True,Former,146,85,8.7,2024-02-22,2024-02-29,7,False,Walk-in
+SH-00960,24,F,South Asian,30.4,False,False,True,Never,108,79,5.4,2025-04-24,2025-04-29,5,False,Walk-in
+SH-00961,66,F,Emirati,28.5,True,True,False,Never,152,88,4.2,2025-05-23,2025-05-29,6,True,GP
+SH-00962,46,M,South Asian,21.5,False,False,False,Never,102,76,5.2,2025-04-01,2025-04-07,6,False,GP
+SH-00963,79,M,Other,27.9,False,True,False,Never,155,107,5.5,2024-02-15,2024-02-21,6,False,Emergency
+SH-00964,77,M,Other,34.9,False,True,True,Former,141,99,,2024-05-12,2024-05-28,16,False,Emergency
+SH-00965,40,F,Emirati,34.6,True,False,True,Never,121,71,10.0,2025-07-10,2025-07-13,3,True,Walk-in
+SH-00966,24,M,South Asian,31.5,False,False,True,Never,126,83,5.5,2024-11-05,2024-11-11,6,False,Emergency
+SH-00967,71,M,Emirati,27.1,True,True,False,Never,151,93,6.2,2025-07-02,2025-07-08,6,True,GP
+SH-00968,29,M,Other,21.9,False,False,False,Current,125,70,5.8,2024-04-19,2024-04-27,8,False,GP
+SH-00969,69,F,Other,32.8,True,True,True,Never,164,89,5.9,2025-07-10,2025-07-20,10,False,Walk-in
+SH-00970,27,M,Emirati,25.7,False,False,False,Never,124,79,5.3,2024-09-05,2024-09-07,2,False,GP
+SH-00971,29,M,Emirati,25.4,True,False,False,Never,121,80,8.6,2024-10-24,2024-10-28,4,False,Walk-in
+SH-00972,18,M,South Asian,23.8,True,False,False,Never,116,75,7.7,2024-06-10,2024-06-14,4,False,Walk-in
+SH-00973,54,F,Emirati,27.6,True,False,False,Never,103,74,6.3,2025-02-24,2025-02-27,3,False,Walk-in
+SH-00974,57,M,Emirati,27.7,False,False,False,Current,105,73,5.1,2025-09-23,2025-09-30,7,False,GP
+SH-00975,40,M,South Asian,22.4,False,False,False,Never,120,78,4.9,2024-05-03,2024-05-05,2,False,Emergency
+SH-00976,28,M,Emirati,24.7,False,False,False,Never,131,72,4.6,2025-05-05,2025-05-08,3,False,GP
+SH-00977,19,M,Emirati,19.3,False,False,False,Never,114,77,5.7,2024-02-26,2024-03-02,5,False,Walk-in
+SH-00978,33,M,Emirati,27.3,False,False,False,Never,112,69,5.4,2025-04-12,2025-04-14,2,False,GP
+SH-00979,40,M,Emirati,28.1,False,False,False,Never,120,71,4.8,2024-09-06,2024-09-09,3,False,GP
+SH-00980,64,M,South Asian,27.2,False,True,False,Never,152,80,4.8,2024-11-29,2024-12-05,6,False,Emergency
+SH-00981,88,M,South Asian,30.1,True,False,True,Never,121,68,8.1,2025-04-25,2025-04-29,4,False,GP
+SH-00982,60,M,Other,27.0,False,False,False,Current,120,74,5.4,2025-05-20,2025-05-25,5,True,Walk-in
+SH-00983,38,F,Other,24.6,False,False,False,Never,132,76,4.8,2025-12-16,2025-12-19,3,False,GP
+SH-00984,56,M,Other,34.4,True,False,True,Current,96,68,7.3,2024-03-01,2024-03-04,3,False,Emergency
+SH-00985,44,F,Emirati,17.4,False,False,False,Never,104,76,5.7,2024-02-22,2024-02-25,3,False,Walk-in
+SH-00986,20,M,Emirati,27.4,True,False,False,Never,132,74,10.3,2025-05-22,2025-05-25,3,False,Walk-in
+SH-00987,34,F,South Asian,33.6,False,False,True,Never,115,72,5.4,2025-02-28,2025-03-05,5,False,Walk-in
+SH-00988,73,F,Emirati,26.7,True,True,False,Never,147,98,6.2,2025-09-03,2025-09-09,6,False,Emergency
+SH-00989,50,F,Emirati,27.0,True,True,False,Never,148,110,5.7,2025-03-13,2025-03-26,13,False,GP
+SH-00990,38,F,Emirati,24.7,False,False,False,Never,111,73,5.4,2024-05-21,2024-05-28,7,False,Walk-in
+SH-00991,45,F,Other,27.9,False,False,False,Never,128,81,4.9,2024-08-05,2024-08-09,4,False,Walk-in
+SH-00992,71,F,Emirati,25.2,True,True,False,Never,130,97,9.2,2025-09-08,2025-09-13,5,True,Emergency
+SH-00993,58,F,South Asian,21.0,False,False,False,Never,102,68,5.6,2024-07-10,2024-07-13,3,True,Walk-in
+SH-00994,40,M,South Asian,26.6,True,False,False,Never,103,70,7.5,2025-11-26,2025-11-30,4,False,GP
+SH-00995,55,M,Emirati,17.9,True,False,False,Never,109,77,10.4,2025-05-12,2025-05-20,8,False,GP
+SH-00996,38,F,South Asian,24.8,False,False,False,Never,139,77,5.3,2025-11-13,2025-11-18,5,False,GP
+SH-00997,22,F,Emirati,29.7,False,False,False,Never,113,74,5.1,2025-04-02,2025-04-03,1,False,Walk-in
+SH-00998,61,F,Emirati,28.8,False,False,False,Never,129,69,5.8,2025-10-09,2025-10-15,6,True,Emergency
+SH-00999,58,F,Emirati,32.7,True,False,True,Never,139,74,8.2,2025-04-17,2025-04-19,2,False,GP
+SH-01000,44,F,Other,26.4,False,False,False,Never,137,74,5.2,2025-07-26,2025-07-30,4,False,GP
+SH-01001,42,F,Emirati,28.1,False,False,False,Never,129,75,5.5,2025-01-10,2025-01-13,3,False,Walk-in
+SH-01002,78,M,Emirati,29.1,True,False,False,Current,125,80,7.5,2025-03-13,2025-03-18,5,True,GP
+SH-01003,66,M,Emirati,32.9,False,True,True,Current,130,87,5.4,2024-02-09,2024-02-16,7,False,Walk-in
+SH-01004,30,M,South Asian,29.1,True,False,False,Never,116,74,8.5,2024-12-10,2024-12-15,5,False,Walk-in
+SH-01005,42,F,Other,19.5,True,False,False,Never,107,64,7.2,2025-11-14,2025-11-19,5,False,Emergency
+SH-01006,50,M,Emirati,27.0,False,False,False,Current,116,79,6.0,2024-03-25,2024-03-27,2,False,GP
+SH-01007,69,M,Other,33.0,False,False,True,Never,107,72,5.2,2025-01-22,2025-01-27,5,False,Emergency
+SH-01008,65,F,South Asian,27.4,True,True,False,Never,124,99,9.6,2024-08-21,2024-08-25,4,True,Emergency
+SH-01009,70,F,Emirati,21.9,False,False,False,Former,123,61,5.1,2024-09-20,2024-10-04,14,False,GP
+SH-01010,52,F,Emirati,17.8,True,True,False,Never,132,87,9.7,2024-04-20,2024-04-21,1,False,Walk-in
+SH-01011,67,F,South Asian,28.6,True,False,False,Never,125,76,6.1,2025-12-17,2025-12-22,5,False,Walk-in
+SH-01012,62,M,Emirati,26.2,False,True,False,Never,153,101,4.8,2024-05-18,2024-05-22,4,False,GP
+SH-01013,66,F,Emirati,29.4,False,True,False,Never,146,84,5.0,2025-01-03,2025-01-04,1,False,Walk-in
+SH-01014,44,M,South Asian,29.9,False,False,False,Never,118,68,5.0,2025-07-28,2025-07-30,2,False,Walk-in
+SH-01015,53,M,Emirati,28.0,True,False,False,Never,116,80,6.4,2024-06-29,2024-07-05,6,False,Emergency
+SH-01016,45,F,Emirati,33.5,False,True,True,Never,151,82,5.6,2024-09-11,2024-09-13,2,True,Walk-in
+SH-01017,18,M,South Asian,16.0,False,False,False,Former,131,74,,2025-06-02,2025-06-05,3,False,GP
+SH-01018,28,M,South Asian,24.7,True,False,False,Never,106,81,6.6,2025-02-12,2025-02-16,4,False,Walk-in
+SH-01019,56,F,Emirati,26.6,False,False,False,Never,126,78,5.1,2024-03-06,2024-03-10,4,False,Walk-in
+SH-01020,37,F,Other,26.5,False,True,False,Never,155,84,5.4,2025-02-20,2025-02-24,4,False,Emergency
+SH-01021,34,M,Emirati,22.5,False,False,False,Never,127,82,5.1,2024-01-16,2024-01-19,3,False,GP
+SH-01022,51,F,Other,27.4,False,False,False,Never,112,80,5.1,2025-10-24,2025-10-29,5,False,GP
+SH-01023,79,M,Emirati,33.8,True,False,True,Never,107,66,5.6,2024-04-14,2024-04-16,2,False,Walk-in
+SH-01024,48,M,Emirati,26.3,False,False,False,Never,118,76,5.1,2024-11-26,2024-11-29,3,False,GP
+SH-01025,48,M,South Asian,28.5,False,False,False,Never,108,63,5.0,2024-09-18,2024-09-20,2,False,Walk-in
+SH-01026,49,F,Emirati,21.6,False,False,False,Never,138,78,5.6,2024-12-25,2024-12-29,4,False,Walk-in
+SH-01027,43,F,South Asian,24.9,False,False,False,Never,119,81,5.4,2024-04-18,2024-04-21,3,False,Walk-in
+SH-01028,67,F,Other,29.4,True,True,False,Current,149,95,5.6,2025-05-17,2025-05-24,7,False,Walk-in
+SH-01029,74,F,Emirati,38.5,True,False,True,Never,109,73,7.0,2025-09-05,2025-09-14,9,True,Walk-in
+SH-01030,48,F,South Asian,32.7,True,True,True,Never,142,87,7.0,2025-08-28,2025-08-29,1,False,Walk-in
+SH-01031,61,F,Other,38.1,True,False,True,Never,112,76,6.3,2024-10-24,2024-10-26,2,False,GP
+SH-01032,18,F,Other,20.4,False,False,False,Never,124,86,5.0,2024-02-05,2024-02-08,3,False,Walk-in
+SH-01033,42,M,Other,31.6,False,True,True,Never,138,103,4.9,2025-02-08,2025-02-09,1,False,GP
+SH-01034,24,F,South Asian,21.8,False,False,False,Never,139,78,5.1,2025-09-07,2025-09-09,2,False,GP
+SH-01035,64,F,Emirati,36.5,True,True,True,Never,161,111,4.8,2025-08-03,2025-08-09,6,True,Walk-in
+SH-01036,80,F,Emirati,33.4,True,False,True,Never,111,83,6.9,2025-04-16,2025-05-01,15,False,GP
+SH-01037,45,M,Other,33.2,True,True,True,Never,155,93,6.6,2024-06-09,2024-06-14,5,False,GP
+SH-01038,53,F,Emirati,28.4,True,True,False,Never,135,94,9.2,2024-09-04,2024-09-08,4,False,Walk-in
+SH-01039,44,F,South Asian,28.5,False,False,False,Never,126,75,5.7,2024-11-23,2024-11-28,5,False,Walk-in
+SH-01040,38,M,Other,21.5,True,False,False,Never,121,77,7.0,2024-11-29,2024-12-05,6,False,GP
+SH-01041,51,F,Other,41.8,False,False,True,Never,130,76,6.1,2025-09-02,2025-09-17,15,False,GP
+SH-01042,75,F,Other,29.1,True,True,False,Never,148,86,7.6,2024-05-01,2024-05-10,9,True,Emergency
+SH-01043,76,F,Emirati,24.5,True,False,False,Never,112,64,8.1,2024-08-29,2024-08-31,2,True,Walk-in
+SH-01044,74,F,Emirati,39.0,True,True,True,Never,149,92,7.7,2024-07-25,2024-07-28,3,False,Walk-in
+SH-01045,88,M,Emirati,37.3,True,True,True,Never,144,95,7.9,2024-09-03,2024-09-12,9,False,GP
+SH-01046,47,F,Other,16.0,False,False,False,Never,120,64,,2024-08-10,2024-08-12,2,False,Emergency
+SH-01047,38,M,Emirati,33.0,True,False,True,Never,123,80,7.7,2025-11-07,2025-11-15,8,False,Walk-in
+SH-01048,64,M,Emirati,25.7,False,False,False,Never,115,89,5.5,2025-09-15,2025-09-17,2,False,Emergency
+SH-01049,60,F,Emirati,31.0,False,False,True,Never,135,79,,2025-07-14,2025-07-25,11,False,Emergency
+SH-01050,36,F,Emirati,25.3,False,False,False,Never,127,88,5.8,2025-05-14,2025-05-16,2,False,GP
+SH-01051,62,F,South Asian,32.4,True,False,True,Never,113,72,8.1,2024-06-11,2024-06-21,10,False,Emergency
+SH-01052,75,M,South Asian,25.4,True,False,False,Former,113,81,9.1,2025-07-18,2025-07-28,10,False,GP
+SH-01053,39,F,Other,34.0,False,False,True,Never,117,86,5.4,2024-02-22,2024-02-26,4,False,GP
+SH-01054,52,M,Emirati,20.6,False,False,False,Never,108,77,5.7,2025-07-08,2025-07-10,2,False,Walk-in
+SH-01055,55,M,South Asian,29.5,True,False,False,Former,111,79,11.9,2025-01-15,2025-01-20,5,True,Emergency
+SH-01056,19,F,Emirati,21.0,False,False,False,Never,127,76,5.1,2024-10-17,2024-10-22,5,False,GP
+SH-01057,34,M,Emirati,21.2,False,False,False,Never,104,67,4.9,2024-09-05,2024-09-08,3,False,Emergency
+SH-01058,77,M,Emirati,37.3,True,False,True,Never,119,76,10.0,2025-08-14,2025-08-21,7,False,Walk-in
+SH-01059,57,F,Other,24.3,True,False,False,Never,125,72,5.5,2025-07-28,2025-07-31,3,True,GP
+SH-01060,66,M,Emirati,27.6,False,False,False,Never,121,77,5.3,2024-02-21,2024-02-24,3,False,GP
+SH-01061,72,M,South Asian,26.3,False,True,False,Never,136,87,5.8,2025-10-17,2025-10-20,3,False,Walk-in
+SH-01062,85,F,Emirati,28.5,True,True,False,Former,132,79,8.7,2025-02-22,2025-02-24,2,False,GP
+SH-01063,63,M,Emirati,30.9,True,False,True,Never,106,75,4.6,2025-02-14,2025-02-28,14,False,Emergency
+SH-01064,70,F,Emirati,23.0,False,True,False,Never,169,93,5.4,2025-02-18,2025-02-22,4,True,GP
+SH-01065,63,F,South Asian,29.0,False,False,False,Former,137,72,5.2,2024-12-27,2024-12-29,2,False,Emergency
+SH-01066,60,M,Emirati,30.8,True,False,True,Never,104,74,9.3,2024-02-19,2024-02-29,10,False,GP
+SH-01067,47,M,Other,24.8,False,True,False,Current,146,101,5.3,2024-08-09,2024-08-11,2,False,GP
+SH-01068,60,F,Emirati,29.2,True,True,False,Never,170,89,7.3,2024-08-14,2024-08-22,8,False,Walk-in
+SH-01069,34,F,Emirati,24.6,False,False,False,Never,116,86,5.6,2025-04-08,2025-04-17,9,True,Walk-in
+SH-01070,52,M,Emirati,27.9,True,False,False,Never,125,76,7.9,2025-02-04,2025-02-12,8,False,Emergency
+SH-01071,25,F,Emirati,25.2,False,False,False,Never,124,74,5.3,2024-05-17,2024-05-20,3,False,Walk-in
+SH-01072,67,F,Emirati,29.6,True,True,False,Never,138,96,7.2,2025-08-21,2025-08-24,3,True,GP
+SH-01073,54,F,South Asian,24.8,False,False,False,Never,113,67,5.8,2024-12-03,2024-12-11,8,True,GP
+SH-01074,34,M,Emirati,25.6,False,False,False,Former,120,65,5.6,2024-07-24,2024-07-26,2,False,Walk-in
+SH-01075,73,M,Emirati,28.6,False,False,False,Current,135,77,5.0,2025-01-03,2025-01-05,2,False,Emergency
+SH-01076,56,F,Emirati,27.2,False,False,False,Never,153,80,5.7,2025-02-18,2025-02-24,6,True,Walk-in
+SH-01077,57,M,Emirati,31.6,True,True,True,Never,129,79,8.2,2025-09-05,2025-09-11,6,False,GP
+SH-01078,35,F,Emirati,27.8,False,False,False,Never,129,73,4.8,2025-11-16,2025-11-28,12,False,GP
+SH-01079,35,M,South Asian,22.6,True,True,False,Never,132,99,6.7,2024-11-24,2024-11-27,3,False,GP
+SH-01080,45,F,Emirati,24.4,False,False,False,Never,126,76,5.3,2025-02-07,2025-02-08,1,False,Walk-in
+SH-01081,61,F,Emirati,29.9,False,False,False,Never,135,81,5.5,2025-02-06,2025-02-14,8,False,Emergency
+SH-01082,32,F,Emirati,25.3,False,False,False,Never,124,77,4.9,2024-12-20,2024-12-25,5,False,Walk-in
+SH-01083,54,M,Emirati,26.4,True,False,False,Former,121,69,6.1,2025-07-30,2025-08-01,2,False,Walk-in
+SH-01084,38,M,Other,21.2,False,True,False,Current,139,94,5.6,2024-11-04,2024-11-09,5,False,Walk-in
+SH-01085,59,M,South Asian,30.2,False,True,True,Never,142,83,5.3,2024-07-25,2024-07-28,3,False,Walk-in
+SH-01086,55,F,Other,24.6,False,True,False,Never,166,98,5.6,2025-07-18,2025-07-28,10,False,Walk-in
+SH-01087,32,M,Emirati,28.7,False,False,False,Never,125,77,5.7,2025-02-12,2025-02-15,3,True,GP
+SH-01088,25,F,Emirati,25.3,False,False,False,Former,119,75,5.3,2025-07-16,2025-07-18,2,False,GP
+SH-01089,47,F,South Asian,22.9,False,False,False,Never,125,90,,2024-04-25,2024-04-28,3,False,GP
+SH-01090,55,M,Other,26.7,False,True,False,Never,156,88,5.3,2024-06-07,2024-06-10,3,False,Emergency
+SH-01091,60,M,Emirati,24.7,False,True,False,Never,122,96,5.1,2025-04-17,2025-04-21,4,False,Walk-in
+SH-01092,37,F,Emirati,23.9,False,False,False,Never,126,79,5.6,2025-04-02,2025-04-03,1,False,GP
+SH-01093,62,M,South Asian,26.7,False,True,False,Never,142,78,5.4,2025-10-08,2025-10-12,4,False,Walk-in
+SH-01094,69,M,Emirati,36.1,False,True,True,Current,151,97,,2025-03-03,2025-03-06,3,False,Emergency
+SH-01095,68,F,Emirati,28.1,True,False,False,Never,117,72,6.1,2024-01-12,2024-01-14,2,True,Walk-in
+SH-01096,29,M,Emirati,24.8,True,False,False,Current,135,80,9.5,2024-02-10,2024-02-28,18,False,Emergency
+SH-01097,21,F,Emirati,26.5,False,True,False,Never,152,97,6.1,2025-08-25,2025-08-27,2,False,Walk-in
+SH-01098,44,M,Emirati,35.6,False,False,True,Current,116,71,4.7,2025-07-28,2025-08-05,8,False,GP
+SH-01099,49,M,Emirati,35.6,False,True,True,Former,117,90,5.3,2025-07-02,2025-07-11,9,False,GP
+SH-01100,41,M,Other,26.7,False,False,False,Current,110,78,5.0,2025-03-15,2025-03-20,5,False,Walk-in
+SH-01101,28,M,Emirati,22.4,False,False,False,Former,111,77,5.8,2024-09-23,2024-09-27,4,False,GP
+SH-01102,29,F,South Asian,19.0,False,False,False,Never,119,76,5.5,2025-07-28,2025-08-04,7,False,Walk-in
+SH-01103,49,F,Other,25.4,True,False,False,Never,118,81,7.1,2025-07-05,2025-07-09,4,False,Emergency
+SH-01104,37,M,Emirati,27.8,False,False,False,Never,127,78,5.4,2025-04-21,2025-04-24,3,False,Emergency
+SH-01105,47,F,South Asian,29.3,True,False,False,Never,117,78,8.5,2024-03-08,2024-03-11,3,False,Emergency
+SH-01106,70,F,Emirati,28.8,False,False,False,Never,138,73,,2025-12-09,2025-12-11,2,False,GP
+SH-01107,39,M,Other,20.5,False,False,False,Never,122,86,5.3,2025-10-23,2025-10-28,5,False,Walk-in
+SH-01108,54,F,South Asian,24.6,True,False,False,Never,120,82,8.7,2025-02-07,2025-02-10,3,False,GP
+SH-01109,42,F,Emirati,28.0,False,False,False,Never,122,76,5.8,2024-07-07,2024-07-10,3,False,Walk-in
+SH-01110,26,M,Emirati,16.0,False,False,False,Never,125,68,5.2,2025-10-16,2025-10-19,3,False,Walk-in
+SH-01111,49,M,South Asian,16.0,True,False,False,Never,117,83,10.7,2024-08-14,2024-08-16,2,False,Walk-in
+SH-01112,53,F,Emirati,33.7,False,False,True,Current,140,68,5.1,2025-04-10,2025-04-15,5,False,Emergency
+SH-01113,37,F,Emirati,25.9,False,False,False,Never,106,76,5.8,2024-04-20,2024-04-23,3,False,GP
+SH-01114,47,F,Other,30.0,False,True,True,Never,158,94,4.9,2024-10-08,2024-10-10,2,False,GP
+SH-01115,62,F,Emirati,35.7,False,False,True,Never,127,72,5.7,2024-01-13,2024-01-14,1,False,GP
+SH-01116,74,F,Emirati,30.8,True,True,True,Never,155,87,8.5,2025-05-04,2025-05-11,7,False,Walk-in
+SH-01117,28,F,Other,27.4,False,False,False,Never,120,69,4.7,2024-08-21,2024-08-25,4,False,Emergency
+SH-01118,50,M,Emirati,34.7,False,True,True,Current,148,91,5.8,2025-12-21,2026-01-06,16,False,GP
+SH-01119,47,M,Other,27.8,False,True,False,Never,147,107,5.3,2024-07-03,2024-07-08,5,False,GP
+SH-01120,52,M,Other,24.6,False,False,False,Never,92,66,5.4,2024-12-28,2025-01-02,5,False,GP
+SH-01121,53,M,South Asian,27.8,False,True,False,Never,158,92,5.4,2025-08-20,2025-08-27,7,False,GP
+SH-01122,75,F,South Asian,31.4,True,True,True,Never,143,89,6.9,2024-06-28,2024-07-03,5,True,Walk-in
+SH-01123,33,M,Emirati,18.9,False,False,False,Current,105,74,5.8,2025-03-21,2025-03-22,1,False,Emergency
+SH-01124,68,F,Emirati,37.1,True,False,True,Never,116,83,8.1,2024-04-26,2024-04-27,1,True,Emergency
+SH-01125,67,F,South Asian,27.9,True,False,False,Never,131,81,7.4,2025-01-27,2025-02-03,7,False,GP
+SH-01126,31,F,South Asian,29.5,False,False,False,Never,106,73,5.7,2025-11-19,2025-11-26,7,False,Walk-in
+SH-01127,64,M,Emirati,36.1,False,True,True,Never,131,95,5.4,2024-05-07,2024-05-10,3,False,Walk-in
+SH-01128,40,M,South Asian,28.5,False,True,False,Current,140,86,,2024-01-26,2024-02-07,12,False,Walk-in
+SH-01129,37,F,Emirati,24.5,False,False,False,Never,112,84,5.4,2025-03-24,2025-03-30,6,False,Walk-in
+SH-01130,65,F,Emirati,27.6,False,True,False,Never,148,104,6.1,2025-06-25,2025-06-29,4,True,Emergency
+SH-01131,68,M,Emirati,23.4,True,False,False,Former,114,79,6.0,2025-07-11,2025-07-13,2,False,Walk-in
+SH-01132,47,F,South Asian,28.5,True,False,False,Never,112,75,8.7,2024-05-30,2024-06-01,2,False,GP
+SH-01133,28,M,South Asian,20.1,False,False,False,Former,112,74,,2024-10-16,2024-10-28,12,False,Walk-in
+SH-01134,33,F,South Asian,17.3,False,False,False,Former,125,66,5.7,2025-04-25,2025-05-02,7,False,Walk-in
+SH-01135,21,F,South Asian,28.1,False,True,False,Never,149,99,5.2,2024-12-07,2024-12-09,2,False,Emergency
+SH-01136,48,M,South Asian,27.9,True,True,False,Former,153,91,7.8,2024-08-16,2024-08-20,4,True,Walk-in
+SH-01137,55,M,Other,26.4,False,False,False,Never,135,79,5.2,2024-12-11,2024-12-14,3,False,Walk-in
+SH-01138,40,M,Other,25.5,True,False,False,Never,134,78,7.3,2025-02-05,2025-02-12,7,False,GP
+SH-01139,61,M,Emirati,31.0,False,True,True,Former,143,92,5.7,2025-06-07,2025-06-09,2,True,GP
+SH-01140,66,M,Emirati,27.2,False,True,False,Current,144,89,5.6,2025-07-30,2025-08-08,9,False,Emergency
+SH-01141,44,F,South Asian,23.8,True,False,False,Never,140,78,5.0,2024-05-17,2024-05-27,10,False,Emergency
+SH-01142,29,M,Emirati,19.1,False,False,False,Former,108,73,5.0,2025-12-09,2025-12-12,3,False,GP
+SH-01143,72,M,Emirati,27.4,True,False,False,Never,105,76,6.4,2024-05-04,2024-05-06,2,True,Walk-in
+SH-01144,52,M,Emirati,22.4,False,True,False,Never,119,86,5.4,2025-05-02,2025-05-13,11,False,GP
+SH-01145,56,M,Emirati,28.4,False,False,False,Never,130,81,5.7,2024-04-17,2024-04-22,5,False,GP
+SH-01146,40,M,Emirati,29.9,False,False,False,Never,115,77,5.1,2024-09-23,2024-09-26,3,False,Emergency
+SH-01147,55,M,Emirati,28.0,False,True,False,Never,142,84,5.6,2025-03-27,2025-04-07,11,False,Walk-in
+SH-01148,42,M,Emirati,28.2,False,False,False,Current,113,70,5.4,2025-05-31,2025-06-03,3,False,Emergency
+SH-01149,50,F,Other,28.1,True,True,False,Never,124,86,4.2,2024-02-13,2024-02-27,14,True,GP
+SH-01150,50,M,Emirati,26.3,False,False,False,Current,114,77,6.2,2025-11-30,2025-12-04,4,False,Walk-in
+SH-01151,55,M,Emirati,32.0,False,False,True,Never,138,82,5.3,2025-10-13,2025-10-17,4,False,Walk-in
+SH-01152,60,M,Emirati,26.1,False,True,False,Never,154,79,5.2,2024-08-19,2024-08-22,3,False,Walk-in
+SH-01153,54,F,Other,21.8,False,False,False,Never,120,71,5.0,2025-05-21,2025-05-24,3,False,GP
+SH-01154,42,F,Emirati,27.2,False,False,False,Never,113,78,5.5,2025-10-02,2025-10-05,3,False,Walk-in
+SH-01155,45,M,Emirati,27.3,False,False,False,Current,104,73,5.6,2024-07-11,2024-07-14,3,False,Walk-in
+SH-01156,54,F,Emirati,23.7,False,False,False,Never,138,76,,2024-11-23,2024-11-29,6,False,Emergency
+SH-01157,66,F,South Asian,32.4,True,False,True,Never,109,72,5.8,2024-12-30,2025-01-09,10,True,Emergency
+SH-01158,18,M,Emirati,27.0,False,False,False,Never,123,75,4.6,2025-05-28,2025-06-04,7,False,GP
+SH-01159,34,F,Emirati,30.7,False,True,True,Never,138,89,4.8,2024-12-24,2024-12-26,2,False,Walk-in
+SH-01160,56,F,South Asian,27.7,False,True,False,Never,160,103,5.5,2025-12-04,2025-12-07,3,False,Walk-in
+SH-01161,32,F,Emirati,27.6,False,False,False,Never,119,66,5.4,2025-05-27,2025-05-29,2,True,Walk-in
+SH-01162,80,F,South Asian,38.1,False,False,True,Never,133,60,5.2,2025-07-11,2025-07-14,3,False,Walk-in
+SH-01163,27,M,South Asian,24.4,False,False,False,Never,113,71,5.6,2025-05-02,2025-05-05,3,False,Walk-in
+SH-01164,42,M,Emirati,28.1,False,False,False,Current,142,77,6.3,2025-03-22,2025-03-26,4,False,GP
+SH-01165,79,F,Other,29.2,False,True,False,Never,147,101,5.1,2024-02-26,2024-03-03,6,False,GP
+SH-01166,61,F,South Asian,31.1,False,False,True,Never,120,76,5.5,2025-11-17,2025-11-21,4,False,GP
+SH-01167,61,M,Emirati,35.0,True,False,True,Never,108,83,8.5,2024-11-17,2024-11-20,3,False,GP
+SH-01168,46,M,Other,26.3,False,True,False,Never,127,99,5.4,2025-03-27,2025-04-03,7,False,Walk-in
+SH-01169,86,M,Emirati,39.0,True,True,True,Never,164,102,8.2,2024-06-11,2024-06-14,3,False,Emergency
+SH-01170,44,F,Emirati,27.4,False,False,False,Never,116,80,4.6,2025-01-21,2025-01-23,2,False,Walk-in
+SH-01171,56,F,Other,33.5,False,False,True,Never,115,66,4.8,2024-12-26,2024-12-28,2,True,Walk-in
+SH-01172,36,F,South Asian,31.6,True,False,True,Never,111,82,7.4,2025-04-15,2025-04-22,7,False,Walk-in
+SH-01173,66,M,Emirati,26.5,False,True,False,Never,157,89,6.5,2025-06-03,2025-06-18,15,True,Emergency
+SH-01174,32,M,South Asian,22.6,False,False,False,Never,153,65,5.1,2024-01-21,2024-01-29,8,True,Walk-in
+SH-01175,55,M,Emirati,24.0,False,False,False,Current,124,80,5.2,2025-04-14,2025-04-19,5,False,GP
+SH-01176,42,F,Emirati,26.0,True,True,False,Never,134,105,7.6,2024-09-07,2024-09-09,2,False,Walk-in
+SH-01177,65,F,South Asian,34.6,False,False,True,Never,111,83,4.8,2025-05-20,2025-05-28,8,False,GP
+SH-01178,56,F,Emirati,22.0,False,False,False,Never,131,74,4.7,2025-10-01,2025-10-13,12,False,GP
+SH-01179,20,M,Other,25.9,False,False,False,Never,135,80,4.5,2025-03-10,2025-03-14,4,False,GP
+SH-01180,40,M,Emirati,24.9,False,False,False,Current,119,77,,2024-04-19,2024-04-22,3,False,GP
+SH-01181,37,M,Other,26.6,False,False,False,Current,115,65,5.4,2025-06-18,2025-06-22,4,False,Emergency
+SH-01182,40,M,South Asian,28.7,False,True,False,Former,144,75,6.4,2025-07-03,2025-07-05,2,False,Walk-in
+SH-01183,37,F,Emirati,25.2,False,False,False,Never,132,77,5.3,2025-01-27,2025-02-05,9,False,GP
+SH-01184,34,F,Emirati,27.7,False,False,False,Never,140,75,4.9,2024-07-08,2024-07-18,10,False,Walk-in
+SH-01185,32,F,South Asian,24.2,True,True,False,Never,151,102,6.2,2025-01-27,2025-01-30,3,False,Walk-in
+SH-01186,25,F,South Asian,27.1,False,False,False,Never,120,88,5.1,2025-01-18,2025-01-20,2,False,GP
+SH-01187,26,M,Emirati,29.1,False,False,False,Never,113,74,5.2,2024-02-09,2024-02-14,5,False,Walk-in
+SH-01188,35,F,Emirati,24.3,False,False,False,Never,127,72,6.0,2024-09-13,2024-09-15,2,False,Emergency
+SH-01189,27,M,Emirati,25.0,False,True,False,Never,167,95,5.7,2025-10-14,2025-10-25,11,False,GP
+SH-01190,70,M,South Asian,29.6,False,False,False,Current,136,78,5.7,2025-04-27,2025-05-01,4,False,Walk-in
+SH-01191,31,M,Emirati,22.9,False,False,False,Never,117,72,,2025-04-17,2025-04-19,2,False,GP
+SH-01192,35,M,South Asian,23.0,False,False,False,Never,127,75,5.8,2025-07-16,2025-07-21,5,False,GP
+SH-01193,45,M,Emirati,24.2,False,False,False,Never,122,76,5.0,2025-04-26,2025-05-02,6,False,GP
+SH-01194,42,M,Emirati,35.9,False,False,True,Never,131,81,5.3,2025-08-08,2025-08-14,6,False,Walk-in
+SH-01195,39,M,Emirati,20.0,False,False,False,Former,121,67,5.1,2024-04-28,2024-05-05,7,False,Walk-in
+SH-01196,85,M,Emirati,32.8,False,True,True,Current,158,91,,2025-05-30,2025-06-02,3,False,GP
+SH-01197,44,F,Emirati,24.6,False,False,False,Never,115,75,5.3,2025-05-28,2025-06-01,4,False,GP
+SH-01198,54,M,Other,22.4,False,False,False,Never,124,81,5.4,2025-03-05,2025-03-10,5,False,Emergency
+SH-01199,43,F,Emirati,28.7,False,True,False,Never,169,87,6.4,2025-04-29,2025-05-04,5,False,GP
+SH-01200,63,M,Other,33.1,False,False,True,Never,126,76,5.1,2024-02-27,2024-03-02,4,False,Emergency
+SH-01201,60,M,Other,24.2,False,False,False,Never,93,66,4.9,2024-05-21,2024-05-25,4,False,Walk-in
+SH-01202,52,F,South Asian,24.2,False,False,False,Never,115,78,5.2,2025-07-07,2025-07-21,14,True,Emergency
+SH-01203,60,M,South Asian,23.2,False,True,False,Never,153,86,5.6,2025-03-31,2025-04-06,6,False,GP
+SH-01204,28,M,Emirati,27.9,False,False,False,Former,109,80,,2025-06-14,2025-06-19,5,False,GP
+SH-01205,47,M,Emirati,33.3,False,False,True,Never,105,80,5.9,2025-06-08,2025-06-10,2,False,Walk-in
+SH-01206,28,M,Emirati,21.5,False,False,False,Current,124,68,4.4,2024-02-20,2024-02-22,2,False,GP
+SH-01207,39,F,Emirati,21.6,False,False,False,Current,116,68,5.0,2024-03-08,2024-03-14,6,False,GP
+SH-01208,39,F,Emirati,24.7,False,False,False,Never,122,78,5.6,2025-07-25,2025-08-01,7,False,GP
+SH-01209,38,F,South Asian,27.9,False,False,False,Never,130,86,5.8,2025-10-22,2025-10-27,5,False,Walk-in
+SH-01210,50,F,South Asian,34.2,False,False,True,Never,105,80,5.3,2025-08-07,2025-08-15,8,True,Walk-in
+SH-01211,29,M,Other,23.2,False,False,False,Never,128,81,5.3,2024-05-15,2024-05-21,6,False,GP
+SH-01212,40,M,South Asian,18.5,False,False,False,Never,124,75,4.7,2024-12-19,2024-12-24,5,False,Walk-in
+SH-01213,35,F,Other,23.6,False,False,False,Never,140,68,4.8,2024-08-22,2024-08-26,4,False,Walk-in
+SH-01214,46,F,Emirati,27.1,True,False,False,Never,111,78,7.2,2025-05-16,2025-05-17,1,False,Walk-in
+SH-01215,65,F,Emirati,30.0,True,False,True,Never,114,79,9.1,2025-06-13,2025-06-18,5,False,GP
+SH-01216,44,M,Emirati,24.8,False,False,False,Never,108,76,5.4,2024-01-10,2024-01-13,3,False,Walk-in
+SH-01217,38,M,Emirati,27.9,False,False,False,Current,104,69,5.0,2024-04-23,2024-04-27,4,False,Walk-in
+SH-01218,48,M,Emirati,29.6,True,False,False,Never,104,77,9.1,2024-05-20,2024-05-24,4,True,GP
+SH-01219,37,M,Emirati,27.0,False,False,False,Never,106,76,5.9,2025-02-05,2025-02-15,10,True,Emergency
+SH-01220,62,M,South Asian,31.8,False,True,True,Never,126,94,6.0,2024-10-18,2024-10-27,9,False,GP
+SH-01221,18,M,Other,25.5,False,False,False,Never,115,89,5.3,2024-12-04,2024-12-10,6,False,GP
+SH-01222,65,M,Emirati,32.5,False,False,True,Never,111,75,4.9,2024-12-12,2024-12-17,5,False,GP
+SH-01223,27,F,South Asian,27.6,False,False,False,Never,109,84,6.1,2025-01-13,2025-01-16,3,True,Walk-in
+SH-01224,42,M,South Asian,21.1,False,False,False,Current,131,69,5.6,2024-04-30,2024-05-04,4,False,GP
+SH-01225,40,M,Emirati,21.6,False,False,False,Never,145,88,4.8,2024-03-08,2024-03-13,5,False,Walk-in
+SH-01226,47,M,Emirati,29.8,False,True,False,Former,139,93,5.4,2024-10-07,2024-10-12,5,False,GP
+SH-01227,60,F,South Asian,25.7,False,False,False,Never,134,65,5.9,2024-01-02,2024-01-08,6,True,Emergency
+SH-01228,47,F,South Asian,22.0,False,False,False,Current,107,70,4.7,2024-12-20,2024-12-24,4,False,Emergency
+SH-01229,67,M,Other,29.4,False,False,False,Never,113,81,4.8,2024-09-23,2024-09-26,3,True,GP
+SH-01230,31,M,Emirati,24.1,False,False,False,Never,133,79,5.6,2025-08-26,2025-08-29,3,False,GP
+SH-01231,29,F,Emirati,24.0,False,False,False,Never,143,69,5.7,2025-01-02,2025-01-04,2,False,Emergency
+SH-01232,41,M,Other,26.7,True,False,False,Never,104,79,7.6,2024-03-24,2024-03-30,6,False,Emergency
+SH-01233,19,M,South Asian,19.9,False,False,False,Never,119,69,4.9,2024-09-17,2024-09-19,2,True,Walk-in
+SH-01234,35,F,Emirati,25.3,False,False,False,Never,113,76,4.7,2024-10-04,2024-10-17,13,False,Walk-in
+SH-01235,72,F,South Asian,29.8,False,True,False,Never,126,98,5.4,2025-01-27,2025-02-04,8,False,Walk-in
+SH-01236,24,M,Other,24.2,False,False,False,Never,118,68,6.3,2025-11-07,2025-11-13,6,False,GP
+SH-01237,26,M,Emirati,19.6,False,False,False,Never,130,73,,2025-08-12,2025-08-17,5,False,GP
+SH-01238,66,F,Other,36.1,True,False,True,Former,128,77,5.7,2025-08-20,2025-08-27,7,True,Walk-in
+SH-01239,75,M,Other,31.0,True,False,True,Never,116,72,6.0,2025-09-09,2025-09-11,2,True,GP
+SH-01240,67,F,Emirati,29.8,True,True,False,Never,135,75,9.0,2024-09-05,2024-09-07,2,False,Emergency
+SH-01241,68,M,Other,32.2,True,True,True,Never,145,87,9.7,2024-01-12,2024-01-16,4,True,Walk-in
+SH-01242,43,M,Emirati,33.0,False,False,True,Never,120,73,5.3,2024-12-23,2024-12-26,3,False,Walk-in
+SH-01243,90,M,South Asian,29.7,True,True,False,Never,143,94,5.9,2024-05-31,2024-06-02,2,False,Walk-in
+SH-01244,43,F,Other,25.2,False,False,False,Never,124,76,5.2,2025-10-27,2025-11-02,6,False,GP
+SH-01245,71,M,Emirati,30.2,True,False,True,Former,124,81,7.3,2024-09-14,2024-09-16,2,False,GP
+SH-01246,23,M,South Asian,28.3,False,False,False,Current,120,67,5.9,2025-11-28,2025-12-01,3,True,Walk-in
+SH-01247,53,M,Other,29.0,False,False,False,Current,115,83,5.6,2025-12-15,2025-12-19,4,False,Emergency
+SH-01248,53,F,Emirati,33.7,False,False,True,Never,127,91,5.7,2025-08-29,2025-09-01,3,True,GP
+SH-01249,57,M,Other,25.8,False,True,False,Never,149,93,5.3,2025-01-30,2025-02-01,2,False,Emergency
+SH-01250,68,F,Emirati,27.1,False,False,False,Never,121,78,4.4,2025-03-20,2025-03-28,8,False,GP
+SH-01251,66,F,Emirati,29.7,False,True,False,Never,133,88,6.3,2024-05-08,2024-05-15,7,False,GP
+SH-01252,71,M,Emirati,32.6,False,True,True,Current,161,96,5.0,2025-01-13,2025-01-16,3,False,GP
+SH-01253,57,F,Emirati,34.5,True,True,True,Never,140,75,5.8,2025-06-27,2025-06-30,3,False,GP
+SH-01254,57,F,South Asian,23.8,False,False,False,Never,112,72,,2024-08-09,2024-08-15,6,False,Emergency
+SH-01255,42,F,South Asian,28.4,False,False,False,Never,121,80,5.5,2024-01-13,2024-01-19,6,False,Emergency
+SH-01256,38,F,South Asian,20.4,False,False,False,Never,126,67,5.3,2024-02-26,2024-03-01,4,False,GP
+SH-01257,18,M,Other,24.3,False,False,False,Current,122,78,5.9,2024-09-11,2024-09-12,1,False,Walk-in
+SH-01258,39,F,Emirati,24.8,False,False,False,Never,140,78,5.3,2024-12-26,2024-12-28,2,False,Emergency
+SH-01259,70,M,Emirati,30.9,False,False,True,Former,103,72,5.3,2024-09-22,2024-09-24,2,False,Walk-in
+SH-01260,26,M,South Asian,24.0,False,False,False,Never,129,77,5.3,2024-07-01,2024-07-03,2,False,Emergency
+SH-01261,63,F,South Asian,34.1,True,True,True,Never,146,90,8.8,2025-09-08,2025-09-12,4,False,Walk-in
+SH-01262,52,M,South Asian,20.1,False,False,False,Never,122,75,5.3,2024-10-29,2024-10-31,2,False,Walk-in
+SH-01263,55,F,South Asian,27.3,False,False,False,Never,103,77,4.4,2024-01-19,2024-01-23,4,False,GP
+SH-01264,33,F,South Asian,19.2,False,False,False,Never,113,74,5.3,2025-01-03,2025-01-06,3,False,Emergency
+SH-01265,50,F,South Asian,28.7,False,False,False,Never,131,72,5.0,2024-05-02,2024-05-05,3,True,Walk-in
+SH-01266,86,M,Emirati,31.7,False,True,True,Never,151,88,4.7,2024-06-05,2024-06-15,10,False,Walk-in
+SH-01267,71,M,Other,24.2,False,True,False,Never,150,91,5.7,2024-03-31,2024-04-02,2,False,GP
+SH-01268,51,F,South Asian,24.5,False,True,False,Never,155,91,5.0,2024-03-20,2024-03-23,3,True,GP
+SH-01269,48,F,Other,18.7,False,False,False,Never,104,76,5.1,2024-02-09,2024-02-16,7,True,GP
+SH-01270,40,F,Other,18.1,True,False,False,Never,103,69,9.4,2024-10-07,2024-10-10,3,False,Walk-in
+SH-01271,53,M,South Asian,30.8,False,False,True,Never,103,77,5.5,2025-09-10,2025-09-12,2,True,Emergency
+SH-01272,40,M,Other,29.1,False,False,False,Current,114,80,5.2,2025-02-24,2025-03-08,12,False,GP
+SH-01273,70,F,Emirati,28.6,False,True,False,Never,145,102,5.3,2024-09-26,2024-10-03,7,False,Emergency
+SH-01274,60,F,Emirati,24.4,False,False,False,Never,119,77,5.6,2024-10-07,2024-10-20,13,False,Emergency
+SH-01275,66,F,Emirati,34.1,True,False,True,Never,127,77,8.4,2025-04-04,2025-04-11,7,False,Emergency
+SH-01276,19,M,South Asian,26.6,False,False,False,Current,114,77,5.1,2025-10-01,2025-10-07,6,False,Emergency
+SH-01277,63,F,South Asian,25.9,True,True,False,Never,149,86,8.9,2024-06-01,2024-06-06,5,False,Walk-in
+SH-01278,59,M,Emirati,26.9,False,False,False,Former,114,71,5.1,2025-04-23,2025-04-26,3,False,Emergency
+SH-01279,48,M,Emirati,27.1,False,False,False,Current,120,82,4.7,2024-07-05,2024-07-08,3,False,Walk-in
+SH-01280,75,M,Other,31.1,False,True,True,Never,162,107,4.7,2025-01-03,2025-01-07,4,False,Walk-in
+SH-01281,37,F,Emirati,24.5,False,False,False,Never,125,74,5.4,2025-09-22,2025-09-24,2,False,GP
+SH-01282,29,M,Other,23.9,False,False,False,Never,122,77,6.1,2025-08-14,2025-08-21,7,False,GP
+SH-01283,36,M,South Asian,24.5,False,True,False,Former,135,103,5.3,2025-11-24,2025-11-28,4,False,Walk-in
+SH-01284,69,F,Emirati,29.4,False,True,False,Never,151,92,5.4,2025-12-16,2025-12-20,4,True,Walk-in
+SH-01285,46,M,Other,28.7,True,False,False,Never,119,82,8.4,2024-02-01,2024-02-05,4,False,Emergency
+SH-01286,35,F,Emirati,18.5,True,False,False,Never,115,77,10.3,2025-07-17,2025-07-24,7,True,Walk-in
+SH-01287,43,F,Emirati,23.7,False,True,False,Never,165,96,5.4,2024-12-05,2024-12-11,6,False,GP
+SH-01288,38,F,South Asian,24.4,False,False,False,Never,118,80,5.5,2024-07-26,2024-07-27,1,False,Emergency
+SH-01289,45,F,Emirati,25.8,False,False,False,Never,113,71,5.5,2025-05-21,2025-05-26,5,False,GP
+SH-01290,31,F,Other,35.7,False,False,True,Never,129,75,5.8,2024-10-02,2024-10-07,5,False,Walk-in
+SH-01291,23,F,Emirati,23.5,False,False,False,Never,108,75,,2025-11-25,2025-12-06,11,True,Emergency
+SH-01292,42,M,Emirati,33.0,True,False,True,Never,120,81,4.6,2024-03-22,2024-03-27,5,False,Emergency
+SH-01293,59,F,Emirati,29.6,True,True,False,Never,167,83,7.4,2025-10-09,2025-10-11,2,True,GP
+SH-01294,55,M,Other,24.3,True,False,False,Never,100,71,5.2,2024-09-27,2024-10-02,5,False,GP
+SH-01295,44,M,Emirati,27.2,True,False,False,Never,129,80,7.8,2024-07-03,2024-07-06,3,False,Walk-in
+SH-01296,42,M,South Asian,26.1,False,False,False,Never,120,82,5.6,2024-04-28,2024-05-03,5,False,GP
+SH-01297,47,M,Emirati,23.3,True,False,False,Never,113,74,9.0,2024-09-19,2024-09-24,5,False,Emergency
+SH-01298,56,M,Other,28.1,False,False,False,Current,122,96,4.7,2025-12-27,2026-01-04,8,True,Walk-in
+SH-01299,42,M,Emirati,23.7,False,False,False,Never,123,89,4.8,2024-07-11,2024-07-17,6,False,Walk-in
+SH-01300,35,M,Other,26.5,False,False,False,Never,120,80,5.6,2025-05-22,2025-05-29,7,False,Walk-in
+SH-01301,55,F,Emirati,31.1,False,True,True,Never,114,88,6.0,2025-02-03,2025-02-12,9,False,Walk-in
+SH-01302,43,M,Emirati,25.6,False,False,False,Never,102,73,,2024-01-28,2024-02-01,4,False,GP
+SH-01303,35,F,South Asian,25.7,False,False,False,Never,113,77,5.7,2025-10-02,2025-10-09,7,False,Emergency
+SH-01304,59,M,Emirati,32.6,True,True,True,Never,133,97,9.8,2025-01-31,2025-02-02,2,False,GP
+SH-01305,52,M,South Asian,30.7,True,False,True,Never,115,74,7.4,2024-02-08,2024-02-10,2,False,Walk-in
+SH-01306,37,M,Other,25.6,False,True,False,Current,156,106,6.0,2025-04-23,2025-04-27,4,True,Emergency
+SH-01307,74,M,South Asian,29.3,True,False,False,Never,128,81,8.4,2025-12-28,2026-01-04,7,False,Walk-in
+SH-01308,53,F,Emirati,24.4,False,True,False,Never,150,98,4.7,2025-08-21,2025-08-28,7,False,Walk-in
+SH-01309,37,F,Emirati,22.5,False,False,False,Never,119,79,5.0,2025-06-26,2025-07-03,7,True,Emergency
+SH-01310,39,F,South Asian,22.8,False,False,False,Never,122,83,4.9,2025-10-10,2025-10-12,2,True,Walk-in
+SH-01311,44,M,South Asian,29.2,False,False,False,Never,118,82,,2024-08-11,2024-08-16,5,False,GP
+SH-01312,44,F,Other,27.6,False,False,False,Never,123,75,5.4,2024-04-22,2024-04-25,3,False,GP
+SH-01313,66,M,Emirati,33.4,False,True,True,Current,143,97,5.4,2024-07-22,2024-08-01,10,False,Emergency
+SH-01314,40,M,Emirati,19.3,True,False,False,Current,133,68,5.8,2025-01-12,2025-01-17,5,False,GP
+SH-01315,65,M,Other,29.4,False,False,False,Never,113,83,6.0,2025-01-31,2025-02-08,8,True,Walk-in
+SH-01316,38,M,South Asian,32.1,False,False,True,Never,138,77,,2025-11-25,2025-11-30,5,False,GP
+SH-01317,39,F,Emirati,27.7,True,False,False,Never,109,74,6.1,2024-03-15,2024-03-19,4,True,GP
+SH-01318,39,M,Other,22.0,True,False,False,Current,124,76,7.8,2025-11-24,2025-11-28,4,False,GP
+SH-01319,23,M,Emirati,22.0,False,False,False,Never,129,77,5.0,2024-07-04,2024-07-07,3,False,Walk-in
+SH-01320,57,F,Emirati,32.7,False,False,True,Never,130,78,5.8,2025-10-18,2025-10-21,3,False,GP
+SH-01321,71,M,Other,25.2,False,True,False,Never,173,95,,2025-02-05,2025-02-11,6,False,Walk-in
+SH-01322,36,M,Emirati,24.4,False,False,False,Never,126,72,6.0,2024-10-04,2024-10-17,13,True,GP
+SH-01323,49,F,Other,30.4,False,True,True,Never,134,83,5.0,2024-03-27,2024-03-31,4,False,Emergency
+SH-01324,61,F,Emirati,31.3,False,True,True,Never,129,88,5.5,2024-10-14,2024-10-21,7,False,Emergency
+SH-01325,52,F,Emirati,26.4,False,False,False,Never,140,87,6.2,2024-04-28,2024-04-30,2,True,GP
+SH-01326,30,M,Emirati,20.6,False,False,False,Never,130,77,5.4,2024-09-03,2024-09-09,6,False,GP
+SH-01327,86,F,Emirati,36.4,True,True,True,Never,140,84,9.5,2024-08-13,2024-08-20,7,False,Emergency
+SH-01328,34,M,South Asian,25.5,False,True,False,Never,156,92,5.1,2025-02-16,2025-02-22,6,False,Emergency
+SH-01329,36,M,South Asian,19.2,False,False,False,Never,115,76,5.9,2025-09-10,2025-09-17,7,False,GP
+SH-01330,72,F,Emirati,26.1,True,True,False,Never,132,93,7.3,2024-07-25,2024-07-31,6,False,Walk-in
+SH-01331,67,M,South Asian,24.2,True,True,False,Never,140,103,8.9,2024-01-18,2024-01-20,2,True,GP
+SH-01332,36,M,South Asian,28.2,False,False,False,Never,108,81,5.5,2025-07-28,2025-08-01,4,False,GP
+SH-01333,40,M,Other,27.8,False,False,False,Never,99,61,5.6,2024-11-29,2024-12-01,2,False,GP
+SH-01334,64,M,Other,34.5,False,True,True,Former,136,100,5.5,2024-04-14,2024-04-17,3,False,GP
+SH-01335,60,M,Emirati,25.5,True,False,False,Never,124,81,8.9,2024-11-12,2024-11-29,17,True,Emergency
+SH-01336,69,F,Emirati,29.7,True,True,False,Never,129,95,,2024-12-24,2024-12-26,2,False,GP
+SH-01337,42,F,Emirati,19.0,False,False,False,Never,130,78,5.0,2025-02-28,2025-03-06,6,False,Walk-in
+SH-01338,49,F,Emirati,24.9,False,False,False,Never,111,81,,2024-09-05,2024-09-14,9,False,Walk-in
+SH-01339,48,M,Emirati,24.5,True,True,False,Never,145,92,7.3,2024-03-21,2024-03-25,4,True,Emergency
+SH-01340,32,F,Emirati,27.2,False,False,False,Never,122,70,5.9,2024-04-25,2024-05-02,7,False,GP
+SH-01341,41,F,Other,33.5,False,False,True,Never,122,71,5.7,2024-10-29,2024-11-06,8,True,GP
+SH-01342,20,M,South Asian,30.6,True,False,True,Current,104,73,9.2,2025-09-18,2025-09-24,6,False,GP
+SH-01343,55,F,Other,21.4,False,False,False,Never,126,72,5.6,2024-07-30,2024-08-07,8,True,GP
+SH-01344,51,F,Emirati,24.9,False,False,False,Never,127,77,5.5,2024-03-25,2024-03-31,6,False,Walk-in
+SH-01345,25,F,South Asian,26.6,False,False,False,Never,140,69,5.4,2025-02-27,2025-03-05,6,False,GP
+SH-01346,66,M,Emirati,26.2,True,True,False,Never,154,99,8.9,2025-09-07,2025-09-14,7,False,Walk-in
+SH-01347,66,M,Other,22.6,False,True,False,Never,147,102,5.2,2025-03-06,2025-03-10,4,False,GP
+SH-01348,59,F,South Asian,25.8,False,True,False,Never,165,80,5.3,2024-10-22,2024-10-24,2,False,Walk-in
+SH-01349,46,F,Emirati,34.4,False,False,True,Never,121,89,5.5,2025-10-06,2025-10-10,4,False,Emergency
+SH-01350,56,F,Emirati,32.6,True,True,True,Never,150,94,8.9,2025-05-29,2025-06-03,5,True,Emergency
+SH-01351,50,M,Emirati,30.0,False,False,True,Never,114,86,5.1,2024-02-14,2024-02-22,8,False,Emergency
+SH-01352,63,M,South Asian,27.2,True,True,False,Never,141,92,8.0,2025-01-20,2025-01-23,3,False,GP
+SH-01353,55,M,Emirati,29.1,True,True,False,Never,131,89,5.3,2025-06-25,2025-06-28,3,False,Walk-in
+SH-01354,50,M,Emirati,28.3,False,True,False,Never,142,103,5.8,2024-11-15,2024-11-20,5,False,GP
+SH-01355,33,F,Other,28.7,False,False,False,Never,109,73,5.0,2024-12-09,2024-12-12,3,False,Walk-in
+SH-01356,44,F,Emirati,27.7,False,False,False,Never,110,70,5.2,2024-05-15,2024-06-01,17,False,Emergency
+SH-01357,42,M,Emirati,24.7,False,False,False,Former,110,81,5.3,2024-05-02,2024-05-05,3,False,Emergency
+SH-01358,40,M,Emirati,30.6,False,False,True,Former,116,87,5.3,2025-07-22,2025-07-25,3,False,GP
+SH-01359,76,F,Emirati,31.9,False,True,True,Never,139,110,5.1,2024-05-03,2024-05-05,2,True,GP
+SH-01360,74,M,South Asian,24.8,True,True,False,Never,151,106,9.6,2024-02-26,2024-02-28,2,False,Walk-in
+SH-01361,65,M,South Asian,28.9,False,True,False,Never,144,85,,2025-09-18,2025-09-20,2,False,Emergency
+SH-01362,59,F,Emirati,28.7,False,False,False,Former,112,83,5.0,2025-03-06,2025-03-09,3,False,Emergency
+SH-01363,49,F,Other,36.3,True,False,True,Never,123,76,9.9,2024-03-06,2024-03-15,9,False,GP
+SH-01364,67,M,Emirati,29.7,False,True,False,Current,128,93,5.8,2024-11-15,2024-11-19,4,False,Emergency
+SH-01365,63,F,Emirati,28.1,False,False,False,Never,120,69,5.0,2024-01-05,2024-01-08,3,False,Walk-in
+SH-01366,44,M,Other,25.2,False,False,False,Never,127,76,5.3,2024-10-11,2024-10-14,3,False,GP
+SH-01367,49,M,Emirati,23.1,False,False,False,Never,124,83,5.6,2024-02-17,2024-02-20,3,True,GP
+SH-01368,51,F,South Asian,28.1,True,True,False,Never,147,93,9.3,2025-10-24,2025-10-25,1,False,Walk-in
+SH-01369,56,M,Emirati,29.8,True,False,False,Former,109,82,8.2,2024-09-29,2024-10-07,8,False,Walk-in
+SH-01370,44,M,South Asian,28.9,False,True,False,Never,168,87,4.9,2025-09-24,2025-09-29,5,False,Walk-in
+SH-01371,44,F,South Asian,25.4,False,False,False,Never,124,78,4.9,2024-09-19,2024-09-22,3,False,Walk-in
+SH-01372,31,F,South Asian,21.0,False,False,False,Never,133,66,5.5,2025-09-10,2025-09-14,4,True,Emergency
+SH-01373,31,M,Emirati,18.9,False,False,False,Never,115,78,5.3,2024-08-15,2024-08-18,3,False,GP
+SH-01374,47,M,South Asian,23.6,False,False,False,Current,123,74,6.2,2025-12-16,2025-12-20,4,False,Walk-in
+SH-01375,32,F,Other,23.7,True,False,False,Never,127,80,8.1,2024-01-09,2024-01-20,11,False,Walk-in
+SH-01376,24,F,Emirati,20.7,False,False,False,Never,110,77,5.5,2025-01-02,2025-01-04,2,True,Walk-in
+SH-01377,62,F,Other,28.2,False,True,False,Never,139,94,5.5,2025-09-04,2025-09-08,4,False,GP
+SH-01378,56,F,Emirati,32.9,True,True,True,Never,156,97,5.4,2024-09-13,2024-09-21,8,False,Emergency
+SH-01379,71,F,South Asian,37.3,True,True,True,Never,144,116,,2024-12-28,2025-01-05,8,False,GP
+SH-01380,81,M,Other,32.9,False,True,True,Current,139,87,4.6,2024-11-07,2024-11-12,5,True,GP
+SH-01381,57,F,South Asian,33.7,True,False,True,Never,119,87,8.6,2025-10-27,2025-11-03,7,False,Emergency
+SH-01382,62,F,Emirati,28.7,False,True,False,Never,145,85,5.5,2025-07-10,2025-07-13,3,False,Walk-in
+SH-01383,51,M,Emirati,31.2,True,False,True,Never,115,80,8.3,2025-02-11,2025-02-15,4,False,Walk-in
+SH-01384,42,M,South Asian,33.7,False,True,True,Never,168,83,6.2,2025-09-15,2025-09-17,2,False,Walk-in
+SH-01385,70,M,Emirati,31.7,True,True,True,Never,158,111,,2024-03-05,2024-03-09,4,False,GP
+SH-01386,64,M,Emirati,24.1,False,False,False,Never,117,72,5.5,2024-12-10,2024-12-19,9,False,GP
+SH-01387,46,M,Emirati,22.5,False,False,False,Current,132,73,5.9,2025-07-30,2025-08-06,7,False,GP
+SH-01388,37,F,Emirati,17.9,False,False,False,Never,112,77,5.7,2024-10-20,2024-10-22,2,False,Emergency
+SH-01389,18,M,Other,19.9,False,False,False,Never,143,72,6.0,2025-11-25,2025-11-28,3,False,GP
+SH-01390,31,M,South Asian,27.3,False,True,False,Never,190,95,5.5,2025-04-03,2025-04-09,6,False,Walk-in
+SH-01391,60,F,Emirati,30.6,True,False,True,Former,124,67,4.7,2024-04-30,2024-05-12,12,False,GP
+SH-01392,54,F,Other,27.9,False,False,False,Never,119,90,5.3,2024-12-26,2025-01-06,11,False,Emergency
+SH-01393,23,F,Other,30.4,False,False,True,Never,104,71,5.6,2024-11-20,2024-12-04,14,False,Walk-in
+SH-01394,50,M,South Asian,28.2,False,False,False,Never,122,92,5.4,2024-01-06,2024-01-10,4,False,GP
+SH-01395,43,M,Emirati,23.6,False,False,False,Never,118,75,5.7,2024-07-03,2024-07-08,5,True,GP
+SH-01396,64,M,Other,27.9,False,True,False,Never,132,88,5.7,2024-05-08,2024-05-13,5,False,Emergency
+SH-01397,60,M,South Asian,29.6,False,True,False,Never,168,85,5.8,2025-08-25,2025-08-27,2,True,GP
+SH-01398,66,M,Emirati,33.8,True,False,True,Never,125,68,8.4,2025-02-15,2025-02-20,5,False,Walk-in
+SH-01399,67,M,Emirati,37.3,True,False,True,Never,113,77,9.5,2024-03-27,2024-03-30,3,False,Emergency
+SH-01400,65,M,Emirati,34.0,True,True,True,Never,129,93,7.0,2025-07-21,2025-07-22,1,True,Emergency
+SH-01401,36,M,Emirati,27.4,False,False,False,Current,132,75,5.5,2024-06-23,2024-06-26,3,False,Walk-in
+SH-01402,46,M,South Asian,30.8,True,True,True,Never,160,101,5.2,2025-01-13,2025-01-17,4,True,GP
+SH-01403,78,F,Other,26.1,False,False,False,Never,132,80,5.7,2024-04-18,2024-04-27,9,False,Walk-in
+SH-01404,43,M,Emirati,25.9,True,False,False,Never,127,77,6.3,2025-09-05,2025-09-07,2,False,GP
+SH-01405,39,M,Other,20.2,False,False,False,Former,113,70,5.0,2024-06-21,2024-06-24,3,False,GP
+SH-01406,43,F,South Asian,30.5,True,True,True,Never,128,97,10.2,2024-08-27,2024-09-05,9,True,GP
+SH-01407,34,M,Emirati,23.4,False,False,False,Never,118,76,5.0,2025-04-11,2025-04-13,2,False,GP
+SH-01408,52,F,Other,22.5,False,False,False,Never,100,72,5.3,2024-09-15,2024-09-20,5,True,Walk-in
+SH-01409,34,M,Other,21.4,False,False,False,Never,108,74,5.1,2024-02-09,2024-02-12,3,True,GP
+SH-01410,38,F,Emirati,33.6,False,True,True,Never,128,74,4.6,2024-07-31,2024-08-03,3,False,GP
+SH-01411,55,M,Emirati,22.4,True,False,False,Never,132,76,8.5,2025-02-18,2025-02-23,5,True,Walk-in
+SH-01412,44,M,Emirati,25.3,False,False,False,Never,115,77,5.2,2025-04-11,2025-04-20,9,False,Walk-in
+SH-01413,47,F,Other,25.2,False,False,False,Never,120,66,5.4,2025-06-14,2025-06-20,6,False,GP
+SH-01414,69,M,Emirati,32.1,True,False,True,Never,117,68,7.1,2024-06-27,2024-07-10,13,True,Walk-in
+SH-01415,35,F,Other,29.4,False,False,False,Never,117,80,5.6,2025-12-16,2025-12-19,3,False,Emergency
+SH-01416,61,M,South Asian,26.1,False,False,False,Never,109,79,4.4,2024-03-14,2024-03-17,3,True,Emergency
+SH-01417,46,F,Emirati,32.3,False,False,True,Never,112,83,5.6,2024-12-17,2024-12-20,3,True,GP
+SH-01418,74,F,Other,39.1,True,False,True,Never,129,71,10.1,2024-09-14,2024-09-19,5,False,GP
+SH-01419,54,F,Other,30.0,False,False,True,Never,126,88,5.9,2024-07-16,2024-07-18,2,False,GP
+SH-01420,37,M,South Asian,23.4,False,False,False,Former,120,64,5.5,2025-09-29,2025-10-03,4,False,Emergency
+SH-01421,49,F,Emirati,27.2,False,False,False,Never,116,81,5.5,2025-05-08,2025-05-13,5,False,Emergency
+SH-01422,62,M,Emirati,29.4,False,False,False,Never,119,84,,2024-12-31,2025-01-02,2,False,Walk-in
+SH-01423,58,F,South Asian,25.2,False,True,False,Never,123,98,,2024-10-26,2024-10-30,4,False,GP
+SH-01424,41,F,Emirati,26.4,False,False,False,Never,108,74,5.7,2025-05-09,2025-05-16,7,False,GP
+SH-01425,44,M,Emirati,19.3,False,False,False,Never,116,72,6.1,2025-11-22,2025-12-02,10,False,GP
+SH-01426,67,F,South Asian,38.1,False,False,True,Never,105,77,5.3,2025-03-31,2025-04-01,1,False,GP
+SH-01427,33,M,Emirati,26.9,False,False,False,Never,130,76,5.6,2024-05-13,2024-05-16,3,False,Walk-in
+SH-01428,69,F,South Asian,32.0,False,True,True,Never,144,88,4.8,2025-03-10,2025-03-16,6,False,GP
+SH-01429,27,M,Emirati,24.8,False,False,False,Never,123,74,5.4,2025-09-12,2025-09-15,3,True,Walk-in
+SH-01430,39,M,Emirati,19.9,False,False,False,Current,113,79,5.0,2025-03-03,2025-03-07,4,False,GP
+SH-01431,38,F,South Asian,28.8,False,False,False,Former,115,87,5.5,2025-02-17,2025-02-21,4,False,Emergency
+SH-01432,31,F,Emirati,24.2,False,False,False,Never,116,75,,2025-10-03,2025-10-09,6,False,Emergency
+SH-01433,72,F,Emirati,28.8,True,False,False,Never,110,79,5.2,2024-08-23,2024-08-26,3,False,GP
+SH-01434,43,F,Other,24.1,False,True,False,Never,146,98,6.2,2025-09-22,2025-10-05,13,False,Walk-in
+SH-01435,67,M,South Asian,26.1,True,True,False,Never,150,83,7.8,2025-09-09,2025-09-13,4,False,GP
+SH-01436,49,M,Other,25.6,False,False,False,Never,126,87,5.0,2024-01-29,2024-02-02,4,False,GP
+SH-01437,71,F,Emirati,29.3,True,True,False,Never,146,103,4.2,2025-10-23,2025-10-27,4,True,Walk-in
+SH-01438,71,F,Emirati,27.3,False,False,False,Never,122,80,,2025-09-24,2025-09-28,4,False,Walk-in
+SH-01439,54,M,Emirati,32.3,True,False,True,Never,127,89,5.6,2024-08-15,2024-08-17,2,False,GP
+SH-01440,39,F,South Asian,30.1,False,True,True,Never,145,89,5.6,2024-08-21,2024-09-02,12,False,Emergency
+SH-01441,51,F,Emirati,32.5,False,False,True,Never,122,69,5.4,2025-06-07,2025-06-09,2,True,GP
+SH-01442,34,M,South Asian,24.9,False,False,False,Never,143,69,5.2,2024-08-13,2024-08-29,16,False,Emergency
+SH-01443,50,M,Emirati,27.3,True,False,False,Current,121,67,7.5,2024-08-09,2024-08-12,3,False,GP
+SH-01444,28,F,South Asian,16.0,False,False,False,Never,112,81,5.2,2025-05-25,2025-05-28,3,False,Walk-in
+SH-01445,45,F,Other,27.2,True,False,False,Current,100,73,10.8,2024-07-02,2024-07-05,3,False,Walk-in
+SH-01446,56,M,Emirati,28.3,False,False,False,Never,114,82,5.2,2025-03-27,2025-03-30,3,True,Walk-in
+SH-01447,72,F,Other,27.7,True,False,False,Never,120,75,10.3,2024-08-06,2024-08-21,15,False,Walk-in
+SH-01448,35,F,South Asian,23.0,False,False,False,Never,113,78,5.3,2024-01-06,2024-01-17,11,True,Walk-in
+SH-01449,45,F,Emirati,31.3,False,False,True,Never,115,70,5.6,2024-10-02,2024-10-09,7,False,GP
+SH-01450,46,M,Other,21.1,True,False,False,Current,109,84,9.9,2024-11-20,2024-11-29,9,True,Walk-in
+SH-01451,39,F,Other,25.7,False,False,False,Never,108,72,5.3,2024-03-25,2024-04-04,10,True,Walk-in
+SH-01452,49,M,Emirati,25.7,False,False,False,Current,130,86,4.9,2024-12-31,2025-01-05,5,False,Walk-in
+SH-01453,34,M,Emirati,28.3,True,False,False,Never,123,74,6.8,2024-09-17,2024-09-21,4,False,Walk-in
+SH-01454,73,F,Other,27.5,False,True,False,Never,138,82,5.2,2025-06-26,2025-06-30,4,False,GP
+SH-01455,42,M,Other,22.8,False,True,False,Never,148,85,5.8,2025-03-14,2025-03-20,6,False,Walk-in
+SH-01456,60,F,South Asian,37.3,True,True,True,Never,154,85,7.3,2025-03-24,2025-04-05,12,True,GP
+SH-01457,33,M,South Asian,25.5,False,False,False,Never,125,75,5.6,2025-03-06,2025-03-09,3,False,GP
+SH-01458,40,F,South Asian,23.7,False,False,False,Never,133,77,5.5,2024-05-13,2024-05-14,1,False,Walk-in
+SH-01459,62,M,Emirati,29.4,False,True,False,Never,143,73,5.1,2025-04-22,2025-04-28,6,True,Walk-in
+SH-01460,42,F,Emirati,25.1,False,False,False,Never,120,79,5.8,2025-10-20,2025-10-25,5,False,Walk-in
+SH-01461,64,M,South Asian,24.8,False,False,False,Current,121,82,5.6,2025-05-13,2025-05-15,2,False,GP
+SH-01462,52,F,Emirati,32.4,True,False,True,Never,104,73,8.7,2025-01-15,2025-01-26,11,True,GP
+SH-01463,36,F,South Asian,29.0,False,False,False,Never,140,74,4.7,2025-05-29,2025-06-03,5,False,Emergency
+SH-01464,30,M,Emirati,22.2,False,False,False,Current,123,74,4.9,2025-01-22,2025-01-27,5,False,GP
+SH-01465,87,M,Other,37.6,False,False,True,Former,120,71,5.3,2024-03-06,2024-03-12,6,False,Walk-in
+SH-01466,38,M,Emirati,26.5,True,False,False,Never,105,78,5.1,2025-03-23,2025-03-28,5,False,GP
+SH-01467,61,M,Emirati,30.7,False,False,True,Never,113,71,5.6,2025-03-23,2025-03-28,5,False,Walk-in
+SH-01468,37,F,Other,29.4,False,False,False,Current,114,76,5.1,2024-08-09,2024-08-13,4,True,GP
+SH-01469,69,M,Emirati,30.9,False,False,True,Never,129,82,,2024-11-19,2024-11-27,8,True,GP
+SH-01470,44,F,Other,24.6,False,False,False,Never,127,79,6.0,2025-11-03,2025-11-05,2,False,GP
+SH-01471,52,M,Emirati,28.6,True,False,False,Former,112,74,7.7,2025-09-21,2025-09-29,8,True,GP
+SH-01472,82,F,Emirati,32.1,True,True,True,Current,156,104,4.8,2024-01-29,2024-02-03,5,False,Walk-in
+SH-01473,79,M,Other,33.0,False,True,True,Never,164,103,4.7,2025-06-06,2025-06-08,2,True,Walk-in
+SH-01474,38,M,South Asian,23.5,False,False,False,Never,126,85,5.0,2024-06-24,2024-06-25,1,False,GP
+SH-01475,51,M,Emirati,31.6,False,False,True,Never,125,74,6.0,2024-10-28,2024-11-04,7,False,Emergency
+SH-01476,49,F,South Asian,27.0,True,False,False,Never,100,74,9.2,2025-11-12,2025-11-17,5,False,Walk-in
+SH-01477,45,M,Emirati,31.2,True,False,True,Never,112,85,7.9,2025-11-26,2025-12-04,8,True,GP
+SH-01478,24,M,Other,26.2,True,True,False,Never,165,106,5.4,2025-01-22,2025-01-24,2,False,GP
+SH-01479,57,M,Other,28.7,False,False,False,Current,138,87,5.4,2024-02-17,2024-02-18,1,False,GP
+SH-01480,41,F,Other,22.9,False,False,False,Never,120,70,5.3,2024-11-04,2024-11-10,6,False,GP
+SH-01481,63,M,South Asian,30.9,True,True,True,Current,162,78,8.2,2024-09-09,2024-09-11,2,False,Emergency
+SH-01482,32,M,South Asian,25.5,False,False,False,Never,139,91,6.1,2024-03-15,2024-03-24,9,False,GP
+SH-01483,62,F,South Asian,30.3,False,False,True,Never,128,76,5.0,2024-04-02,2024-04-08,6,False,GP
+SH-01484,34,F,South Asian,26.5,False,False,False,Never,116,78,5.2,2025-09-24,2025-09-27,3,False,GP
+SH-01485,51,F,South Asian,29.8,True,True,False,Never,136,89,6.7,2025-09-16,2025-09-20,4,False,Emergency
+SH-01486,70,M,South Asian,29.3,False,False,False,Never,122,80,5.2,2025-09-18,2025-09-26,8,False,Emergency
+SH-01487,29,F,Emirati,25.7,False,False,False,Never,132,74,5.5,2024-08-08,2024-08-10,2,False,GP
+SH-01488,47,M,Emirati,23.1,True,True,False,Never,153,84,8.8,2024-11-12,2024-11-16,4,False,GP
+SH-01489,57,F,Emirati,25.3,False,False,False,Never,116,70,,2024-05-31,2024-06-11,11,False,Walk-in
+SH-01490,27,M,Emirati,25.9,False,False,False,Never,135,83,5.2,2024-01-23,2024-01-27,4,True,Walk-in
+SH-01491,36,M,Emirati,20.8,True,False,False,Never,136,65,7.2,2025-10-30,2025-11-02,3,True,Emergency
+SH-01492,66,M,Other,37.5,False,False,True,Never,138,74,5.2,2025-09-24,2025-10-01,7,False,Walk-in
+SH-01493,37,F,Emirati,26.7,False,False,False,Never,106,74,5.7,2025-08-02,2025-08-05,3,False,Emergency
+SH-01494,34,M,Emirati,27.5,False,False,False,Never,125,78,,2024-03-11,2024-03-17,6,True,GP
+SH-01495,38,M,Other,34.2,False,False,True,Never,120,81,5.1,2025-09-08,2025-09-10,2,False,Walk-in
+SH-01496,31,M,South Asian,25.5,False,False,False,Current,113,83,5.3,2025-03-10,2025-03-16,6,True,GP
+SH-01497,66,F,Other,28.8,False,True,False,Never,156,90,5.7,2024-03-19,2024-03-23,4,False,Emergency
+SH-01498,30,M,Emirati,24.4,False,False,False,Never,138,69,5.1,2025-07-11,2025-07-13,2,True,Walk-in
+SH-01499,50,F,South Asian,24.2,False,False,False,Never,109,84,5.2,2024-02-27,2024-02-29,2,False,Emergency
+SH-01500,64,M,Emirati,32.0,True,False,True,Former,115,68,10.3,2024-09-12,2024-09-16,4,False,Walk-in
+SH-01501,54,F,Emirati,24.0,False,False,False,Former,118,73,5.4,2025-05-12,2025-05-15,3,False,Emergency
+SH-01502,64,F,Other,19.4,False,False,False,Never,123,93,5.3,2024-02-29,2024-03-10,10,False,Emergency
+SH-01503,33,M,Emirati,22.6,False,False,False,Never,125,82,5.2,2024-11-26,2024-12-06,10,False,Emergency
+SH-01504,21,F,South Asian,19.3,False,False,False,Never,111,83,5.8,2024-10-01,2024-10-07,6,False,GP
+SH-01505,42,M,Emirati,23.6,False,False,False,Never,116,80,5.2,2024-04-01,2024-04-05,4,False,Emergency
+SH-01506,26,M,Other,18.9,False,True,False,Never,130,100,5.9,2025-02-27,2025-03-02,3,False,Walk-in
+SH-01507,40,F,Other,25.1,False,False,False,Never,117,90,5.5,2025-05-11,2025-05-13,2,False,Emergency
+SH-01508,64,F,Emirati,27.4,False,False,False,Never,124,88,,2025-11-11,2025-11-20,9,True,GP
+SH-01509,53,F,Emirati,29.8,False,False,False,Never,141,80,6.0,2025-08-18,2025-08-23,5,False,GP
+SH-01510,58,M,South Asian,26.7,False,False,False,Never,131,75,4.9,2024-09-07,2024-09-08,1,False,Walk-in
+SH-01511,72,F,Other,31.2,True,False,True,Never,104,72,8.4,2024-06-20,2024-06-24,4,False,Walk-in
+SH-01512,28,F,Emirati,30.2,False,False,True,Never,121,73,5.9,2024-04-28,2024-04-29,1,False,Walk-in
+SH-01513,26,M,Emirati,24.2,False,False,False,Never,116,78,,2025-08-19,2025-08-22,3,False,GP
+SH-01514,36,F,South Asian,21.1,False,False,False,Current,134,73,,2024-10-30,2024-11-04,5,True,Emergency
+SH-01515,46,M,Other,23.7,False,False,False,Never,126,79,5.5,2024-11-08,2024-11-13,5,False,GP
+SH-01516,32,M,Emirati,26.5,False,False,False,Never,115,83,6.2,2025-11-21,2025-11-25,4,False,Emergency
+SH-01517,49,F,Emirati,31.5,False,False,True,Never,115,80,,2024-12-20,2024-12-28,8,True,GP
+SH-01518,35,M,Emirati,24.0,False,False,False,Never,126,73,5.4,2025-02-06,2025-02-11,5,False,Walk-in
+SH-01519,63,M,Emirati,27.4,False,True,False,Never,147,91,5.5,2025-10-09,2025-10-13,4,False,Walk-in
+SH-01520,47,M,Emirati,30.8,False,False,True,Never,110,81,5.3,2025-12-11,2025-12-14,3,False,GP
+SH-01521,27,M,South Asian,21.9,False,False,False,Current,116,77,,2025-07-19,2025-07-24,5,False,Emergency
+SH-01522,38,F,Emirati,26.4,False,False,False,Never,124,77,4.9,2024-01-01,2024-01-07,6,False,Walk-in
+SH-01523,62,M,Emirati,26.1,False,False,False,Never,98,67,6.0,2024-11-06,2024-11-11,5,False,GP
+SH-01524,46,M,South Asian,35.3,False,False,True,Never,133,73,5.1,2024-09-28,2024-09-30,2,False,Walk-in
+SH-01525,47,F,South Asian,23.7,False,False,False,Never,134,74,5.6,2025-10-06,2025-10-13,7,False,Walk-in
+SH-01526,46,M,Emirati,30.6,False,False,True,Never,99,70,5.4,2025-04-14,2025-04-17,3,False,Walk-in
+SH-01527,26,F,Other,27.8,False,False,False,Never,121,72,5.1,2024-09-30,2024-10-01,1,False,GP
+SH-01528,54,M,Emirati,24.5,False,False,False,Former,100,74,5.1,2025-03-25,2025-03-28,3,True,GP
+SH-01529,64,M,Emirati,33.0,True,False,True,Never,131,78,7.3,2024-05-23,2024-05-28,5,False,Emergency
+SH-01530,60,F,Other,27.0,False,False,False,Never,114,75,5.0,2025-12-30,2025-12-31,1,False,Walk-in
+SH-01531,34,M,Emirati,26.3,False,False,False,Current,110,84,,2024-04-08,2024-04-11,3,False,GP
+SH-01532,59,M,Other,25.8,False,False,False,Never,128,75,5.2,2024-12-18,2024-12-22,4,False,Walk-in
+SH-01533,73,M,South Asian,32.7,True,True,True,Never,157,84,8.9,2024-09-03,2024-09-09,6,False,GP
+SH-01534,47,M,Emirati,28.1,True,False,False,Never,100,75,6.3,2025-07-06,2025-07-13,7,True,Emergency
+SH-01535,33,M,South Asian,25.8,False,False,False,Current,118,85,5.7,2025-03-26,2025-03-29,3,False,GP
+SH-01536,79,F,South Asian,26.7,True,False,False,Never,128,82,10.2,2025-11-05,2025-11-08,3,False,Walk-in
+SH-01537,27,M,Emirati,25.7,False,False,False,Never,146,81,5.4,2025-06-06,2025-06-08,2,False,Walk-in
+SH-01538,47,F,South Asian,23.6,True,False,False,Never,142,75,9.3,2025-11-01,2025-11-05,4,False,GP
+SH-01539,43,M,Other,24.9,False,False,False,Never,133,76,5.7,2024-08-14,2024-08-16,2,False,GP
+SH-01540,60,M,Other,28.0,True,False,False,Never,125,77,6.8,2025-01-28,2025-02-01,4,True,GP
+SH-01541,67,M,Emirati,27.3,False,False,False,Never,118,81,5.5,2024-01-27,2024-01-29,2,False,Emergency
+SH-01542,43,M,South Asian,33.2,False,False,True,Never,118,71,5.7,2025-02-21,2025-02-23,2,False,GP
+SH-01543,71,M,Other,33.9,False,False,True,Never,125,86,5.5,2025-12-23,2025-12-26,3,False,Walk-in
+SH-01544,52,M,Emirati,22.5,True,False,False,Former,128,67,9.1,2025-11-11,2025-11-14,3,True,Emergency
+SH-01545,48,M,Emirati,30.1,True,True,True,Never,153,86,8.4,2024-06-21,2024-06-26,5,True,GP
+SH-01546,74,F,South Asian,28.5,False,False,False,Never,138,75,4.7,2024-02-05,2024-02-10,5,True,Emergency
+SH-01547,27,M,Emirati,21.8,False,False,False,Never,124,88,,2025-11-22,2025-11-27,5,False,Walk-in
+SH-01548,36,F,Other,27.9,False,False,False,Never,126,75,5.3,2024-10-03,2024-10-06,3,False,Walk-in
+SH-01549,31,F,Other,24.5,False,False,False,Never,121,78,5.2,2025-02-16,2025-02-18,2,False,GP
+SH-01550,37,F,Emirati,31.4,True,True,True,Never,174,88,7.1,2024-07-28,2024-07-31,3,False,Emergency
+SH-01551,64,M,Other,26.4,False,False,False,Never,115,73,5.4,2025-03-21,2025-03-25,4,True,GP
+SH-01552,28,F,Other,27.3,False,False,False,Former,160,83,5.9,2025-02-14,2025-02-17,3,False,Emergency
+SH-01553,69,F,Emirati,28.5,False,False,False,Never,127,88,5.4,2024-01-09,2024-01-10,1,False,GP
+SH-01554,61,F,Emirati,29.8,False,False,False,Never,104,77,5.3,2025-01-19,2025-01-21,2,False,Walk-in
+SH-01555,45,M,South Asian,25.5,True,True,False,Never,144,92,9.4,2025-02-21,2025-03-02,9,False,GP
+SH-01556,30,M,Other,25.4,False,False,False,Never,115,73,6.0,2025-07-22,2025-07-29,7,False,Walk-in
+SH-01557,39,F,Other,23.0,False,False,False,Never,137,87,5.0,2025-02-04,2025-02-08,4,False,Walk-in
+SH-01558,51,M,Other,21.9,False,False,False,Never,134,87,5.0,2024-02-14,2024-02-17,3,False,Walk-in
+SH-01559,23,M,South Asian,30.3,False,False,True,Current,122,78,5.1,2024-10-14,2024-10-22,8,True,GP
+SH-01560,39,F,Emirati,23.7,False,False,False,Never,142,84,5.4,2025-09-24,2025-09-29,5,False,GP
+SH-01561,49,F,Emirati,31.1,True,False,True,Never,120,65,8.6,2024-10-07,2024-10-12,5,True,GP
+SH-01562,55,M,South Asian,25.8,True,False,False,Never,126,73,8.3,2025-08-15,2025-08-17,2,False,Walk-in
+SH-01563,32,M,South Asian,17.9,False,False,False,Former,118,74,5.4,2025-12-26,2025-12-31,5,False,Walk-in
+SH-01564,83,F,Other,31.3,False,True,True,Former,136,97,5.9,2025-04-27,2025-04-29,2,False,GP
+SH-01565,66,F,South Asian,28.1,False,True,False,Never,136,100,5.4,2024-01-03,2024-01-07,4,False,Walk-in
+SH-01566,42,F,Emirati,29.3,False,False,False,Never,114,75,5.7,2025-10-17,2025-10-20,3,False,Emergency
+SH-01567,43,F,Emirati,26.2,False,False,False,Never,118,70,5.1,2025-08-03,2025-08-09,6,False,GP
+SH-01568,40,F,Emirati,20.8,True,False,False,Never,108,82,10.2,2024-06-13,2024-06-14,1,True,GP
+SH-01569,63,F,South Asian,28.2,False,False,False,Former,113,72,5.3,2025-03-28,2025-03-31,3,False,GP
+SH-01570,63,M,Other,30.7,False,False,True,Never,113,78,5.3,2024-12-30,2025-01-01,2,True,GP
+SH-01571,45,F,South Asian,25.1,False,False,False,Never,112,74,5.4,2024-10-03,2024-10-05,2,False,Walk-in
+SH-01572,58,F,Emirati,30.6,False,False,True,Never,120,76,5.4,2025-04-10,2025-04-15,5,False,GP
+SH-01573,57,F,Emirati,29.5,False,True,False,Never,162,87,5.5,2024-03-26,2024-04-02,7,True,Walk-in
+SH-01574,54,M,Emirati,24.4,False,True,False,Never,155,87,5.4,2024-05-08,2024-05-10,2,False,Emergency
+SH-01575,56,F,Emirati,24.2,False,False,False,Current,114,79,4.4,2024-08-14,2024-08-16,2,False,Emergency
+SH-01576,88,M,South Asian,33.9,True,True,True,Never,142,84,9.6,2024-02-19,2024-02-23,4,True,Walk-in
+SH-01577,62,F,South Asian,26.2,False,True,False,Never,172,87,5.1,2024-05-02,2024-05-06,4,False,Walk-in
+SH-01578,58,F,Emirati,30.3,True,False,True,Never,119,77,6.5,2024-08-24,2024-08-26,2,False,Walk-in
+SH-01579,45,M,South Asian,26.1,False,False,False,Current,114,65,5.2,2025-07-01,2025-07-11,10,False,GP
+SH-01580,52,F,Emirati,27.6,False,False,False,Former,106,76,5.3,2024-06-29,2024-07-03,4,True,Walk-in
+SH-01581,39,F,Emirati,24.2,False,True,False,Never,159,96,5.4,2025-10-09,2025-10-14,5,False,GP
+SH-01582,74,F,South Asian,24.0,False,False,False,Never,111,80,5.7,2025-05-09,2025-05-10,1,False,Walk-in
+SH-01583,45,F,Other,22.0,False,False,False,Former,118,67,5.1,2024-08-18,2024-08-22,4,False,Emergency
+SH-01584,26,M,South Asian,16.0,False,False,False,Never,143,76,,2025-02-26,2025-02-28,2,False,GP
+SH-01585,43,F,Emirati,24.8,False,False,False,Current,113,80,5.3,2025-01-07,2025-01-12,5,False,Walk-in
+SH-01586,53,F,Emirati,34.2,True,True,True,Never,157,94,6.0,2025-02-06,2025-02-14,8,False,Walk-in
+SH-01587,23,F,South Asian,21.1,False,True,False,Never,128,90,5.5,2024-06-21,2024-06-25,4,False,GP
+SH-01588,37,F,Emirati,26.8,False,False,False,Never,128,78,5.9,2024-12-20,2024-12-22,2,False,Walk-in
+SH-01589,28,M,Emirati,27.1,False,False,False,Never,97,67,5.3,2025-12-04,2025-12-09,5,False,GP
+SH-01590,40,M,Other,29.0,False,False,False,Never,124,71,5.2,2024-08-31,2024-09-02,2,True,GP
+SH-01591,73,F,South Asian,31.2,False,True,True,Never,144,98,5.1,2025-05-25,2025-06-05,11,False,Walk-in
+SH-01592,58,F,Emirati,23.9,False,False,False,Never,127,83,6.2,2024-05-24,2024-06-02,9,False,Emergency
+SH-01593,73,F,Emirati,34.2,False,True,True,Never,140,91,6.2,2025-02-24,2025-03-04,8,False,Walk-in
+SH-01594,46,M,South Asian,26.5,False,True,False,Never,135,86,4.9,2024-03-15,2024-03-16,1,True,Walk-in
+SH-01595,38,F,Other,32.6,False,False,True,Never,111,76,5.3,2024-01-24,2024-01-30,6,False,Walk-in
+SH-01596,48,M,Other,20.6,False,True,False,Former,189,91,5.4,2025-03-31,2025-04-02,2,True,GP
+SH-01597,26,F,Emirati,24.4,False,False,False,Never,108,80,5.7,2025-03-17,2025-03-26,9,False,Emergency
+SH-01598,60,M,Emirati,30.2,False,True,True,Current,153,87,5.2,2024-10-14,2024-10-20,6,False,GP
+SH-01599,60,M,South Asian,26.1,False,True,False,Current,153,99,,2024-07-15,2024-07-18,3,False,GP
+SH-01600,39,M,South Asian,23.4,False,False,False,Never,109,78,5.4,2025-05-26,2025-05-29,3,False,Walk-in
+SH-01601,86,F,Emirati,28.8,False,True,False,Never,151,92,5.0,2025-07-09,2025-07-14,5,False,Walk-in
+SH-01602,54,M,Other,34.8,True,False,True,Former,127,80,9.4,2025-05-16,2025-05-18,2,True,Walk-in
+SH-01603,38,M,Emirati,25.0,False,False,False,Current,128,81,5.7,2025-07-07,2025-07-16,9,False,Emergency
+SH-01604,62,F,South Asian,24.6,False,False,False,Never,130,78,5.9,2025-02-20,2025-02-22,2,False,GP
+SH-01605,74,M,Emirati,29.0,True,True,False,Never,131,97,7.9,2024-03-24,2024-03-31,7,False,Walk-in
+SH-01606,34,M,Emirati,28.3,False,False,False,Current,135,86,5.0,2024-06-04,2024-06-09,5,False,Emergency
+SH-01607,30,M,Emirati,28.1,False,False,False,Never,102,71,5.9,2025-12-13,2025-12-17,4,False,Walk-in
+SH-01608,37,M,South Asian,25.4,True,False,False,Current,105,78,7.8,2025-06-25,2025-06-29,4,False,GP
+SH-01609,59,F,Other,25.7,False,True,False,Never,156,91,5.9,2025-04-25,2025-04-29,4,False,GP
+SH-01610,35,F,Other,28.5,False,False,False,Never,98,71,5.7,2024-04-18,2024-04-29,11,False,Walk-in
+SH-01611,88,M,Emirati,33.2,True,True,True,Never,163,100,6.5,2025-12-12,2025-12-15,3,False,GP
+SH-01612,47,F,Emirati,27.7,True,False,False,Never,109,79,5.3,2024-02-27,2024-03-06,8,False,Walk-in
+SH-01613,54,F,Other,30.4,True,True,True,Never,135,104,9.0,2025-10-15,2025-10-19,4,False,Emergency
+SH-01614,64,F,Other,27.7,False,False,False,Never,104,76,5.8,2024-10-11,2024-10-14,3,False,Walk-in
+SH-01615,45,F,Emirati,24.6,False,True,False,Never,144,87,5.7,2024-10-23,2024-10-28,5,False,Walk-in
+SH-01616,76,F,South Asian,35.5,False,True,True,Never,137,82,5.0,2024-08-20,2024-08-25,5,False,Walk-in
+SH-01617,49,M,South Asian,29.6,False,False,False,Never,118,71,5.7,2024-03-09,2024-03-13,4,False,GP
+SH-01618,57,M,Other,27.0,False,False,False,Current,126,79,5.2,2024-04-22,2024-05-03,11,False,Emergency
+SH-01619,48,F,Emirati,28.4,False,False,False,Never,137,79,5.2,2024-07-26,2024-08-02,7,False,GP
+SH-01620,61,F,Emirati,32.4,True,False,True,Current,131,77,7.9,2024-04-25,2024-04-30,5,False,Walk-in
+SH-01621,47,M,Other,23.9,False,False,False,Never,109,66,6.2,2025-06-17,2025-06-22,5,False,GP
+SH-01622,54,F,South Asian,24.9,True,False,False,Never,129,83,10.0,2024-06-15,2024-06-22,7,False,Walk-in
+SH-01623,34,M,Other,29.0,False,False,False,Never,128,72,,2024-02-26,2024-03-01,4,False,Walk-in
+SH-01624,62,F,Other,35.8,True,True,True,Never,142,93,7.4,2024-07-18,2024-07-21,3,True,GP
+SH-01625,55,M,Other,25.8,True,True,False,Never,157,88,7.1,2025-06-19,2025-06-23,4,False,GP
+SH-01626,58,F,Emirati,31.8,False,False,True,Never,118,80,5.5,2024-05-15,2024-05-21,6,False,Walk-in
+SH-01627,55,F,Other,27.7,False,False,False,Current,98,64,6.0,2024-05-27,2024-05-30,3,False,Emergency
+SH-01628,32,M,South Asian,26.2,False,True,False,Never,161,98,5.3,2025-02-28,2025-03-08,8,False,GP
+SH-01629,43,M,Emirati,31.8,False,False,True,Never,103,70,5.7,2024-07-09,2024-07-12,3,False,Walk-in
+SH-01630,44,M,Emirati,32.6,True,True,True,Never,147,87,7.4,2024-10-31,2024-11-02,2,True,GP
+SH-01631,61,F,Other,33.8,False,False,True,Never,115,80,5.4,2025-12-21,2025-12-30,9,False,Walk-in
+SH-01632,37,M,South Asian,22.1,False,False,False,Never,123,71,5.8,2025-11-12,2025-11-13,1,False,GP
+SH-01633,42,F,South Asian,27.4,True,False,False,Current,120,72,7.0,2025-01-16,2025-01-22,6,False,Walk-in
+SH-01634,50,F,Emirati,28.3,True,False,False,Never,106,76,6.6,2025-11-03,2025-11-15,12,False,GP
+SH-01635,35,M,Emirati,21.9,False,False,False,Current,98,72,5.1,2024-06-09,2024-06-10,1,False,GP
+SH-01636,50,M,Emirati,28.3,True,False,False,Never,119,84,9.5,2025-06-05,2025-06-11,6,False,Walk-in
+SH-01637,19,F,Other,24.4,False,False,False,Never,115,78,,2025-05-17,2025-05-22,5,False,Walk-in
+SH-01638,65,F,Emirati,31.6,False,False,True,Never,113,82,4.9,2025-12-29,2026-01-01,3,False,Walk-in
+SH-01639,27,M,South Asian,21.0,False,False,False,Current,119,72,5.1,2024-09-18,2024-09-20,2,False,Emergency
+SH-01640,53,M,Emirati,27.1,False,False,False,Never,113,77,5.6,2025-05-01,2025-05-08,7,True,Walk-in
+SH-01641,29,F,Other,24.0,False,False,False,Never,129,81,5.5,2024-12-16,2024-12-19,3,False,Walk-in
+SH-01642,72,M,Emirati,30.4,True,True,True,Never,136,87,9.8,2024-07-10,2024-07-14,4,False,GP
+SH-01643,61,M,Other,26.0,False,False,False,Never,112,78,5.3,2025-03-27,2025-03-31,4,False,GP
+SH-01644,32,M,Emirati,28.6,False,False,False,Never,143,71,5.0,2024-07-14,2024-07-20,6,False,GP
+SH-01645,63,M,Other,30.2,False,True,True,Never,166,97,,2025-06-26,2025-06-28,2,True,Walk-in
+SH-01646,51,M,Emirati,23.8,False,True,False,Current,143,92,4.8,2024-05-30,2024-06-05,6,False,GP
+SH-01647,49,M,South Asian,28.1,True,False,False,Never,130,79,8.0,2024-11-08,2024-11-11,3,False,GP
+SH-01648,34,F,Emirati,28.3,False,False,False,Never,107,82,5.6,2024-10-10,2024-10-16,6,False,GP
+SH-01649,18,M,South Asian,30.2,False,False,True,Current,128,80,5.6,2025-02-27,2025-03-04,5,False,GP
+SH-01650,49,F,Emirati,28.5,True,True,False,Never,160,91,8.1,2024-11-13,2024-11-19,6,False,Walk-in
+SH-01651,27,M,Other,29.5,False,False,False,Never,116,71,5.3,2024-06-20,2024-06-24,4,False,Walk-in
+SH-01652,46,M,Other,22.5,False,False,False,Never,133,79,5.1,2025-10-03,2025-10-09,6,False,Emergency
+SH-01653,45,M,Other,32.3,False,False,True,Never,135,76,4.8,2024-02-03,2024-02-16,13,False,Emergency
+SH-01654,47,F,Emirati,27.1,False,False,False,Never,111,80,5.3,2024-05-06,2024-05-10,4,False,Walk-in
+SH-01655,50,M,South Asian,22.3,False,False,False,Current,113,63,5.4,2024-12-26,2025-01-02,7,False,GP
+SH-01656,35,M,South Asian,27.4,True,False,False,Former,125,84,7.5,2025-07-26,2025-07-28,2,False,GP
+SH-01657,55,F,Other,22.3,False,False,False,Never,127,65,5.5,2025-03-23,2025-04-03,11,False,Walk-in
+SH-01658,59,F,Emirati,26.6,True,True,False,Never,151,86,7.3,2025-08-14,2025-08-16,2,False,GP
+SH-01659,74,F,Emirati,33.1,False,False,True,Never,109,79,4.7,2025-03-25,2025-03-29,4,True,Emergency
+SH-01660,49,M,South Asian,22.2,False,False,False,Never,121,68,5.9,2025-04-14,2025-04-18,4,True,Walk-in
+SH-01661,51,M,Emirati,29.9,True,True,False,Current,144,98,7.1,2025-06-30,2025-07-03,3,False,Walk-in
+SH-01662,31,F,Emirati,20.2,False,False,False,Never,129,70,5.8,2024-04-05,2024-04-07,2,False,Emergency
+SH-01663,69,M,Other,34.5,False,False,True,Former,115,83,6.0,2024-03-05,2024-03-17,12,False,GP
+SH-01664,45,F,South Asian,26.1,True,False,False,Never,121,88,7.3,2025-06-13,2025-06-18,5,False,Walk-in
+SH-01665,54,F,South Asian,25.3,False,False,False,Current,115,73,5.9,2025-02-13,2025-02-17,4,False,Emergency
+SH-01666,46,M,South Asian,30.1,True,False,True,Current,105,77,7.2,2025-05-15,2025-05-23,8,False,GP
+SH-01667,44,F,Emirati,20.1,True,False,False,Never,126,80,9.2,2025-01-14,2025-01-19,5,False,Walk-in
+SH-01668,39,M,South Asian,29.2,False,False,False,Never,128,80,6.0,2024-10-09,2024-10-13,4,False,GP
+SH-01669,66,F,Emirati,28.2,False,False,False,Never,113,83,5.3,2025-12-29,2026-01-01,3,False,Emergency
+SH-01670,72,M,South Asian,32.4,False,False,True,Never,122,71,5.5,2025-07-31,2025-08-02,2,False,Emergency
+SH-01671,40,M,Other,27.6,False,False,False,Former,111,76,5.4,2025-04-28,2025-05-04,6,False,GP
+SH-01672,26,M,Emirati,24.8,False,False,False,Current,124,75,5.4,2025-03-08,2025-03-14,6,False,GP
+SH-01673,57,M,South Asian,23.0,True,True,False,Never,145,95,9.0,2025-07-01,2025-07-11,10,True,Walk-in
+SH-01674,68,M,South Asian,26.6,False,False,False,Never,116,67,4.5,2024-01-28,2024-02-01,4,True,Walk-in
+SH-01675,30,M,Other,22.5,False,False,False,Current,119,76,5.2,2024-02-12,2024-02-19,7,False,Walk-in
+SH-01676,44,M,Emirati,27.2,False,False,False,Current,136,75,5.2,2025-04-17,2025-04-24,7,False,Walk-in
+SH-01677,67,M,Emirati,38.2,False,False,True,Current,109,81,4.6,2025-06-24,2025-07-01,7,False,Emergency
+SH-01678,64,M,Emirati,32.4,True,False,True,Never,121,75,7.1,2024-01-03,2024-01-06,3,False,Walk-in
+SH-01679,35,M,Emirati,25.8,False,False,False,Never,132,83,5.7,2025-08-18,2025-08-21,3,False,Walk-in
+SH-01680,74,F,Emirati,36.3,False,False,True,Never,124,78,5.3,2024-06-10,2024-06-12,2,False,GP
+SH-01681,64,M,Emirati,31.3,False,False,True,Current,118,81,4.9,2024-07-09,2024-07-14,5,False,Walk-in
+SH-01682,59,M,Emirati,33.0,False,True,True,Current,142,93,,2025-08-10,2025-08-20,10,False,Walk-in
+SH-01683,57,M,Emirati,30.9,False,True,True,Current,141,84,5.5,2025-01-14,2025-01-17,3,False,Walk-in
+SH-01684,20,M,Emirati,16.0,False,False,False,Former,114,84,5.7,2025-05-31,2025-06-02,2,False,Emergency
+SH-01685,33,F,Other,24.1,False,False,False,Never,106,62,5.6,2025-08-09,2025-08-14,5,False,Emergency
+SH-01686,30,M,Emirati,20.8,False,False,False,Current,124,81,4.5,2025-04-21,2025-04-27,6,False,Walk-in
+SH-01687,33,F,Emirati,27.1,True,False,False,Never,127,82,6.9,2024-05-17,2024-05-26,9,False,Walk-in
+SH-01688,67,M,South Asian,25.3,False,False,False,Never,124,86,5.7,2024-07-09,2024-07-11,2,True,Walk-in
+SH-01689,26,F,Emirati,30.6,False,False,True,Never,110,62,5.8,2024-10-24,2024-10-25,1,True,GP
+SH-01690,62,M,Emirati,26.4,False,False,False,Never,131,83,,2024-07-04,2024-07-09,5,False,Emergency
+SH-01691,44,M,Other,25.5,False,False,False,Never,113,68,5.4,2025-11-01,2025-11-04,3,False,Walk-in
+SH-01692,43,M,South Asian,30.3,True,True,True,Current,136,105,7.4,2025-11-06,2025-11-15,9,False,GP
+SH-01693,31,M,Emirati,16.4,False,False,False,Never,119,80,6.0,2024-08-12,2024-08-17,5,False,Walk-in
+SH-01694,40,M,Emirati,29.9,False,False,False,Current,122,85,5.8,2025-06-05,2025-06-16,11,False,GP
+SH-01695,77,M,Emirati,31.2,False,True,True,Former,153,91,5.9,2024-03-19,2024-03-29,10,False,Walk-in
+SH-01696,67,F,Other,35.9,False,False,True,Never,105,68,5.3,2024-06-19,2024-06-23,4,False,GP
+SH-01697,18,M,Other,20.6,False,False,False,Never,119,77,5.2,2024-02-14,2024-02-22,8,False,Walk-in
+SH-01698,38,F,South Asian,25.6,False,False,False,Never,114,81,5.7,2024-04-08,2024-04-09,1,False,Walk-in
+SH-01699,47,M,Other,22.1,False,True,False,Never,136,98,5.2,2025-02-02,2025-02-09,7,False,Walk-in
+SH-01700,59,M,Emirati,29.5,False,False,False,Never,132,89,5.3,2024-01-22,2024-02-01,10,False,Walk-in
+SH-01701,38,M,Emirati,36.2,False,False,True,Former,139,73,6.1,2024-04-23,2024-04-26,3,False,Walk-in
+SH-01702,30,F,South Asian,27.1,False,False,False,Never,114,73,4.8,2024-10-18,2024-10-25,7,False,Emergency
+SH-01703,31,M,South Asian,27.6,False,False,False,Never,119,75,,2024-08-27,2024-09-02,6,False,Emergency
+SH-01704,34,M,Emirati,29.1,False,False,False,Never,107,76,4.8,2025-01-14,2025-01-17,3,False,Emergency
+SH-01705,26,F,Emirati,24.8,False,False,False,Never,142,68,5.9,2024-03-26,2024-03-29,3,False,GP
+SH-01706,52,M,Emirati,21.7,True,False,False,Never,133,86,7.4,2025-10-02,2025-10-08,6,False,GP
+SH-01707,66,M,Emirati,27.6,True,True,False,Never,172,92,10.2,2025-11-27,2025-12-03,6,False,GP
+SH-01708,57,F,Other,27.5,False,False,False,Never,134,82,5.6,2024-11-25,2024-11-27,2,False,Walk-in
+SH-01709,27,F,Other,24.1,False,False,False,Never,118,66,5.1,2025-02-06,2025-02-12,6,False,Walk-in
+SH-01710,71,F,Emirati,28.1,True,True,False,Current,142,100,,2024-03-26,2024-04-01,6,True,Walk-in
+SH-01711,56,F,South Asian,28.5,True,False,False,Never,125,69,5.8,2025-03-22,2025-03-27,5,False,GP
+SH-01712,33,M,Other,25.1,False,False,False,Current,107,79,4.9,2025-01-14,2025-01-26,12,False,GP
+SH-01713,56,M,South Asian,32.1,True,False,True,Never,134,73,5.8,2025-10-15,2025-10-18,3,False,GP
+SH-01714,27,M,South Asian,21.0,False,False,False,Never,105,69,4.8,2024-01-26,2024-01-31,5,False,GP
+SH-01715,56,M,Emirati,31.5,False,False,True,Former,125,74,5.8,2025-06-02,2025-06-09,7,True,Emergency
+SH-01716,47,F,Emirati,27.4,False,False,False,Never,121,74,5.7,2025-10-04,2025-10-06,2,False,GP
+SH-01717,39,F,South Asian,19.0,False,False,False,Never,125,76,6.2,2025-02-07,2025-02-11,4,False,GP
+SH-01718,25,M,Emirati,29.1,False,True,False,Never,148,90,5.3,2025-08-11,2025-08-15,4,False,GP
+SH-01719,60,M,South Asian,28.6,False,True,False,Never,148,81,5.2,2024-10-31,2024-11-02,2,False,Walk-in
+SH-01720,47,F,South Asian,30.0,False,False,True,Never,137,78,5.8,2025-05-16,2025-05-18,2,False,GP
+SH-01721,38,F,South Asian,17.7,False,False,False,Current,117,84,5.7,2025-05-04,2025-05-11,7,False,Walk-in
+SH-01722,37,F,Emirati,24.9,False,False,False,Never,127,73,5.4,2024-06-07,2024-06-12,5,False,Walk-in
+SH-01723,41,F,Other,27.6,True,True,False,Never,135,91,8.4,2025-01-28,2025-01-31,3,False,GP
+SH-01724,48,M,Emirati,30.3,False,False,True,Never,118,85,5.4,2025-05-05,2025-05-10,5,False,GP
+SH-01725,59,M,Other,29.2,False,True,False,Never,138,99,,2024-05-08,2024-05-12,4,False,Walk-in
+SH-01726,39,M,South Asian,31.3,False,True,True,Never,179,90,5.4,2025-09-18,2025-09-26,8,False,GP
+SH-01727,63,F,Emirati,26.8,False,False,False,Never,123,70,4.9,2025-03-13,2025-03-26,13,True,GP
+SH-01728,43,F,Emirati,28.5,False,False,False,Never,114,74,5.5,2025-10-08,2025-10-10,2,True,Emergency
+SH-01729,70,F,Other,29.8,True,True,False,Never,172,95,4.9,2025-05-15,2025-05-23,8,False,Walk-in
+SH-01730,57,F,South Asian,27.8,True,False,False,Never,120,67,6.9,2025-09-09,2025-09-18,9,False,Walk-in
+SH-01731,42,F,Emirati,29.9,False,False,False,Current,114,82,5.5,2024-06-26,2024-07-05,9,False,Emergency
+SH-01732,36,F,South Asian,29.4,False,False,False,Never,114,85,5.3,2024-02-20,2024-02-22,2,False,Walk-in
+SH-01733,47,M,South Asian,30.5,False,True,True,Never,135,98,4.9,2025-12-11,2025-12-13,2,False,Walk-in
+SH-01734,47,F,Emirati,27.6,False,False,False,Never,122,70,5.7,2024-02-13,2024-02-17,4,False,Emergency
+SH-01735,64,M,Emirati,28.8,False,False,False,Never,115,74,6.0,2025-08-23,2025-08-25,2,False,GP
+SH-01736,46,M,South Asian,27.1,True,False,False,Former,114,83,9.5,2025-03-10,2025-03-17,7,False,Walk-in
+SH-01737,43,M,Other,23.9,False,False,False,Never,142,76,5.4,2025-02-13,2025-02-20,7,False,GP
+SH-01738,33,F,Emirati,20.9,False,False,False,Never,121,80,5.7,2024-01-21,2024-01-29,8,False,GP
+SH-01739,63,M,Other,27.9,False,True,False,Current,135,102,5.2,2024-05-09,2024-05-11,2,False,Walk-in
+SH-01740,51,M,Emirati,26.2,True,True,False,Never,150,108,8.2,2025-11-10,2025-11-17,7,False,Emergency
+SH-01741,41,F,Emirati,26.8,False,False,False,Never,107,80,5.1,2025-06-13,2025-06-21,8,False,GP
+SH-01742,39,M,Other,24.5,False,False,False,Never,110,80,5.5,2024-05-11,2024-05-16,5,False,Walk-in
+SH-01743,63,F,Other,27.9,False,False,False,Never,133,72,5.6,2024-07-08,2024-07-13,5,False,Emergency
+SH-01744,22,M,Other,22.3,False,False,False,Never,134,74,5.2,2024-11-15,2024-11-16,1,False,Walk-in
+SH-01745,56,M,Emirati,33.2,True,False,True,Never,134,81,5.3,2025-12-23,2025-12-28,5,False,Walk-in
+SH-01746,56,M,Emirati,31.7,False,False,True,Former,132,68,5.3,2025-05-16,2025-05-21,5,False,Walk-in
+SH-01747,55,F,South Asian,33.0,False,False,True,Never,122,76,5.1,2025-09-25,2025-10-08,13,False,GP
+SH-01748,47,M,Other,27.3,False,True,False,Never,130,96,5.6,2025-02-03,2025-02-09,6,False,Walk-in
+SH-01749,34,M,South Asian,33.4,False,False,True,Current,113,83,5.7,2025-08-15,2025-08-17,2,False,GP
+SH-01750,30,F,Emirati,25.2,False,False,False,Never,127,85,5.4,2025-08-04,2025-08-10,6,False,Walk-in
+SH-01751,53,M,Other,32.2,False,True,True,Never,135,94,5.5,2024-10-25,2024-11-01,7,False,Walk-in
+SH-01752,54,M,Other,28.6,False,False,False,Never,111,70,6.0,2025-01-29,2025-02-02,4,False,Walk-in
+SH-01753,70,F,South Asian,26.5,True,False,False,Never,121,83,,2025-12-10,2025-12-14,4,False,Walk-in
+SH-01754,38,M,Emirati,23.2,False,True,False,Never,170,92,5.8,2025-04-08,2025-04-15,7,False,GP
+SH-01755,21,F,Emirati,24.4,False,False,False,Never,130,86,,2025-02-22,2025-02-27,5,False,GP
+SH-01756,52,M,Emirati,24.8,False,False,False,Never,120,74,6.0,2024-11-27,2024-12-05,8,True,Walk-in
+SH-01757,29,M,Emirati,34.7,False,False,True,Former,110,82,4.9,2025-10-29,2025-11-03,5,False,Walk-in
+SH-01758,36,F,Emirati,26.9,False,True,False,Never,141,85,5.1,2024-09-12,2024-09-19,7,False,Walk-in
+SH-01759,38,M,Emirati,24.2,False,False,False,Current,115,79,6.0,2025-09-15,2025-09-18,3,True,Emergency
+SH-01760,62,M,Emirati,29.9,True,False,False,Never,128,81,7.3,2024-02-09,2024-02-12,3,False,GP
+SH-01761,39,M,Emirati,23.7,False,False,False,Never,133,87,5.7,2025-07-23,2025-07-26,3,False,Walk-in
+SH-01762,45,F,Emirati,25.2,False,True,False,Never,161,104,4.4,2025-03-17,2025-03-19,2,True,Walk-in
+SH-01763,47,M,Emirati,20.6,False,True,False,Never,171,92,5.3,2024-06-28,2024-07-01,3,False,GP
+SH-01764,68,F,South Asian,27.3,False,True,False,Never,154,91,4.8,2025-05-02,2025-05-08,6,False,Emergency
+SH-01765,38,M,Other,24.0,False,True,False,Never,140,95,5.5,2025-02-16,2025-02-21,5,False,GP
+SH-01766,37,M,South Asian,24.1,False,False,False,Never,140,72,5.5,2025-05-05,2025-05-17,12,False,Walk-in
+SH-01767,58,F,Emirati,31.6,False,False,True,Never,103,75,4.9,2025-12-26,2025-12-27,1,False,Walk-in
+SH-01768,71,M,South Asian,33.3,False,False,True,Current,108,76,5.0,2024-06-04,2024-06-07,3,False,Walk-in
+SH-01769,37,M,South Asian,27.2,False,False,False,Never,119,76,5.6,2024-02-16,2024-02-25,9,False,GP
+SH-01770,73,M,Other,34.8,False,True,True,Never,160,83,,2024-08-12,2024-08-16,4,True,GP
+SH-01771,45,F,South Asian,25.2,False,True,False,Never,123,86,5.6,2024-09-20,2024-09-23,3,False,Walk-in
+SH-01772,33,F,Emirati,25.6,False,True,False,Never,131,98,5.4,2025-04-22,2025-04-25,3,False,GP
+SH-01773,60,F,South Asian,28.5,False,True,False,Never,146,80,6.2,2025-05-08,2025-05-11,3,False,Walk-in
+SH-01774,55,F,Emirati,36.4,True,False,True,Never,114,70,8.4,2024-05-31,2024-06-09,9,True,Walk-in
+SH-01775,72,F,Emirati,28.1,True,True,False,Never,128,79,6.1,2025-05-14,2025-05-16,2,True,Walk-in
+SH-01776,34,M,South Asian,23.0,True,True,False,Never,141,87,6.6,2025-06-16,2025-06-17,1,False,Walk-in
+SH-01777,64,F,South Asian,27.9,False,True,False,Never,140,93,5.6,2024-05-28,2024-05-30,2,False,GP
+SH-01778,42,M,Emirati,21.3,False,False,False,Never,147,75,5.7,2024-12-16,2024-12-21,5,False,GP
+SH-01779,37,M,Emirati,26.0,False,False,False,Current,112,81,5.5,2025-11-02,2025-11-11,9,True,Walk-in
+SH-01780,57,F,Emirati,30.6,True,False,True,Current,126,83,7.0,2025-07-21,2025-07-29,8,False,GP
+SH-01781,74,M,Emirati,37.0,True,True,True,Never,130,92,6.6,2024-01-26,2024-01-30,4,False,Walk-in
+SH-01782,49,M,South Asian,30.6,False,True,True,Former,157,93,5.4,2024-10-16,2024-10-18,2,False,Walk-in
+SH-01783,56,F,Emirati,35.7,True,False,True,Never,118,73,,2025-08-15,2025-08-17,2,False,Walk-in
+SH-01784,62,F,Other,29.3,False,False,False,Never,110,77,5.3,2024-03-01,2024-03-04,3,False,Walk-in
+SH-01785,46,F,South Asian,20.6,True,False,False,Former,122,84,5.1,2025-08-14,2025-08-17,3,False,Walk-in
+SH-01786,40,M,Emirati,26.7,False,False,False,Never,114,71,5.9,2024-11-10,2024-11-16,6,False,Walk-in
+SH-01787,55,M,Emirati,28.5,False,False,False,Never,129,77,4.7,2024-01-22,2024-01-27,5,False,GP
+SH-01788,52,M,Emirati,33.4,False,False,True,Current,126,74,5.6,2024-11-25,2024-11-29,4,False,Walk-in
+SH-01789,55,M,South Asian,32.7,False,False,True,Current,108,70,6.4,2024-01-02,2024-01-05,3,False,Emergency
+SH-01790,53,F,Other,23.6,False,False,False,Never,116,80,5.7,2025-08-19,2025-08-23,4,False,Emergency
+SH-01791,58,F,South Asian,27.8,False,False,False,Never,103,70,5.8,2024-08-20,2024-08-24,4,True,Emergency
+SH-01792,22,F,South Asian,26.7,True,False,False,Never,142,77,7.1,2024-08-07,2024-08-10,3,False,Walk-in
+SH-01793,61,F,Emirati,29.5,True,True,False,Never,141,111,8.1,2024-08-30,2024-09-07,8,False,Emergency
+SH-01794,89,F,Emirati,29.8,True,True,False,Never,149,95,4.7,2024-07-24,2024-07-27,3,False,GP
+SH-01795,51,F,South Asian,32.8,False,True,True,Never,134,89,5.8,2025-06-29,2025-07-06,7,False,GP
+SH-01796,53,F,South Asian,30.5,False,True,True,Never,156,96,5.5,2025-01-09,2025-01-19,10,True,GP
+SH-01797,72,M,Emirati,37.4,False,True,True,Never,154,88,5.9,2024-04-06,2024-04-07,1,False,GP
+SH-01798,33,F,South Asian,21.0,False,False,False,Current,131,75,5.2,2024-04-11,2024-04-21,10,False,GP
+SH-01799,38,F,Emirati,28.6,False,False,False,Never,119,69,4.5,2025-04-29,2025-05-06,7,False,Walk-in
+SH-01800,18,F,South Asian,17.0,False,False,False,Never,112,76,5.3,2024-01-12,2024-01-15,3,False,Emergency
+SH-01801,42,F,South Asian,31.8,False,False,True,Never,105,79,,2025-02-25,2025-02-26,1,False,Walk-in
+SH-01802,30,F,Emirati,24.4,False,True,False,Never,137,96,5.2,2025-05-22,2025-05-26,4,False,GP
+SH-01803,54,M,Emirati,26.1,True,True,False,Never,152,86,9.2,2025-02-14,2025-02-16,2,False,GP
+SH-01804,27,M,South Asian,21.3,False,False,False,Never,126,73,5.5,2024-11-05,2024-11-08,3,False,GP
+SH-01805,47,M,Emirati,26.8,False,False,False,Current,128,82,5.5,2025-07-04,2025-07-11,7,False,GP
+SH-01806,23,M,South Asian,25.8,False,False,False,Never,130,87,5.4,2024-02-16,2024-02-18,2,False,Emergency
+SH-01807,36,M,South Asian,29.6,False,False,False,Never,123,74,5.6,2025-02-04,2025-02-08,4,False,Walk-in
+SH-01808,65,M,South Asian,31.3,False,False,True,Former,121,78,5.3,2025-04-06,2025-04-09,3,False,GP
+SH-01809,62,M,South Asian,32.2,True,False,True,Current,134,78,9.5,2025-10-31,2025-11-03,3,False,Walk-in
+SH-01810,22,F,Other,24.7,False,False,False,Never,136,72,5.0,2025-07-17,2025-07-20,3,False,Emergency
+SH-01811,56,F,Other,27.1,True,False,False,Never,135,78,7.0,2025-04-25,2025-04-28,3,False,Walk-in
+SH-01812,43,M,South Asian,30.1,True,False,True,Current,111,81,7.7,2024-03-28,2024-04-01,4,False,Walk-in
+SH-01813,25,M,Emirati,23.2,False,False,False,Never,109,75,6.1,2025-02-12,2025-02-16,4,False,Walk-in
+SH-01814,70,M,Emirati,30.2,False,True,True,Never,155,87,4.8,2024-11-07,2024-11-11,4,False,Emergency
+SH-01815,32,F,Emirati,25.2,False,False,False,Never,109,79,,2024-12-05,2024-12-09,4,False,Walk-in
+SH-01816,22,M,Emirati,21.2,False,False,False,Former,107,76,5.7,2024-03-19,2024-04-07,19,False,GP
+SH-01817,53,F,South Asian,32.6,False,False,True,Never,119,88,4.9,2024-02-13,2024-02-15,2,False,GP
+SH-01818,79,M,Emirati,32.4,False,True,True,Never,138,102,5.1,2024-05-06,2024-05-14,8,False,Walk-in
+SH-01819,67,M,South Asian,35.0,True,True,True,Never,131,101,10.1,2025-09-26,2025-10-01,5,True,GP
+SH-01820,50,M,South Asian,25.6,True,True,False,Never,145,99,9.1,2025-02-15,2025-02-22,7,False,Walk-in
+SH-01821,33,F,Emirati,19.5,False,False,False,Never,129,78,4.9,2024-06-18,2024-06-23,5,False,GP
+SH-01822,57,M,Other,32.5,False,False,True,Former,128,76,5.5,2025-04-21,2025-04-22,1,False,Walk-in
+SH-01823,46,M,South Asian,24.8,False,False,False,Never,112,70,5.3,2024-04-11,2024-04-15,4,False,GP
+SH-01824,48,M,Other,32.5,False,False,True,Current,138,71,5.2,2024-12-16,2024-12-20,4,False,GP
+SH-01825,27,M,Emirati,25.0,False,False,False,Current,121,78,5.6,2024-07-10,2024-07-13,3,False,Walk-in
+SH-01826,60,F,Other,26.7,False,False,False,Never,119,76,4.9,2025-02-20,2025-02-22,2,False,Walk-in
+SH-01827,56,F,Emirati,26.7,False,False,False,Never,101,70,5.3,2025-02-02,2025-02-09,7,False,GP
+SH-01828,42,M,South Asian,26.3,True,False,False,Never,137,74,8.0,2025-04-02,2025-04-07,5,False,GP
+SH-01829,60,F,Emirati,30.0,False,False,True,Never,116,77,5.2,2025-05-23,2025-06-03,11,False,GP
+SH-01830,59,M,South Asian,32.2,False,False,True,Former,107,74,5.6,2025-05-12,2025-05-17,5,True,Emergency
+SH-01831,49,M,Other,25.8,False,False,False,Never,136,76,6.1,2024-07-30,2024-08-01,2,False,Walk-in
+SH-01832,69,F,South Asian,27.1,False,False,False,Never,121,82,5.1,2025-03-04,2025-03-07,3,False,GP
+SH-01833,52,F,Emirati,27.2,False,False,False,Never,114,85,4.7,2024-12-25,2024-12-27,2,True,Walk-in
+SH-01834,45,F,Emirati,21.6,False,False,False,Never,109,80,5.6,2024-06-03,2024-06-07,4,False,Walk-in
+SH-01835,56,M,South Asian,26.4,False,False,False,Never,101,71,5.2,2025-05-22,2025-05-26,4,False,Walk-in
+SH-01836,55,M,South Asian,30.7,False,False,True,Current,121,71,5.2,2025-09-07,2025-09-11,4,False,GP
+SH-01837,28,M,Emirati,28.2,False,False,False,Never,128,76,5.6,2025-10-17,2025-10-20,3,False,Walk-in
+SH-01838,53,M,Emirati,28.6,True,False,False,Never,128,74,,2024-08-15,2024-08-21,6,False,GP
+SH-01839,65,M,Other,29.2,False,True,False,Never,140,70,5.1,2025-05-06,2025-05-09,3,False,Walk-in
+SH-01840,51,F,South Asian,35.8,False,False,True,Never,134,76,4.9,2025-04-22,2025-04-30,8,False,GP
+SH-01841,74,M,South Asian,32.4,False,True,True,Never,136,91,5.4,2025-08-20,2025-08-22,2,True,Walk-in
+SH-01842,48,M,Emirati,23.8,False,False,False,Former,139,76,5.3,2025-08-28,2025-08-30,2,False,Emergency
+SH-01843,22,F,Other,31.2,False,False,True,Never,143,80,5.8,2025-09-30,2025-10-12,12,False,Walk-in
+SH-01844,65,M,Emirati,34.5,False,True,True,Never,139,94,5.5,2024-12-03,2024-12-08,5,True,GP
+SH-01845,66,M,Emirati,28.1,False,False,False,Current,106,73,,2025-10-10,2025-10-15,5,False,Walk-in
+SH-01846,46,M,Emirati,26.8,False,False,False,Former,115,78,4.9,2024-09-12,2024-09-14,2,False,GP
+SH-01847,26,F,Emirati,26.1,False,False,False,Never,124,87,5.2,2024-10-21,2024-10-25,4,False,GP
+SH-01848,35,F,South Asian,19.8,False,False,False,Never,99,72,5.1,2025-04-30,2025-05-03,3,False,Emergency
+SH-01849,40,F,Other,26.7,False,True,False,Never,135,82,5.5,2025-11-14,2025-11-17,3,False,GP
+SH-01850,50,F,Emirati,28.1,True,False,False,Never,115,82,8.7,2025-06-04,2025-06-07,3,False,Emergency
+SH-01851,71,M,Emirati,28.4,False,True,False,Never,153,85,5.0,2024-08-23,2024-09-06,14,False,Walk-in
+SH-01852,70,F,Emirati,28.4,False,True,False,Never,135,107,6.0,2024-04-23,2024-04-30,7,False,GP
+SH-01853,44,M,Emirati,27.4,False,False,False,Never,110,78,5.6,2025-11-12,2025-11-18,6,False,GP
+SH-01854,39,F,South Asian,30.8,True,False,True,Current,111,83,8.6,2024-03-12,2024-03-19,7,True,GP
+SH-01855,55,M,Emirati,25.8,False,False,False,Never,121,77,6.5,2024-05-17,2024-05-26,9,False,GP
+SH-01856,66,M,Emirati,24.1,True,False,False,Never,112,79,5.9,2024-01-25,2024-02-05,11,False,Walk-in
+SH-01857,62,F,Emirati,24.2,True,False,False,Never,135,81,7.6,2025-02-07,2025-02-11,4,False,Emergency
+SH-01858,62,F,Other,27.4,True,True,False,Never,151,108,9.7,2025-01-22,2025-01-24,2,False,Walk-in
+SH-01859,77,M,South Asian,30.6,True,True,True,Current,145,98,8.0,2024-09-20,2024-09-23,3,False,Emergency
+SH-01860,43,F,Emirati,29.2,True,False,False,Never,116,66,9.0,2024-11-06,2024-11-09,3,False,GP
+SH-01861,42,M,Emirati,28.6,False,False,False,Current,107,69,5.1,2024-06-17,2024-06-20,3,False,Emergency
+SH-01862,43,M,South Asian,23.9,False,False,False,Never,128,81,5.4,2024-10-22,2024-10-29,7,False,Walk-in
+SH-01863,34,F,South Asian,21.1,False,False,False,Never,119,67,5.2,2024-05-09,2024-05-15,6,True,GP
+SH-01864,38,M,Emirati,31.8,False,False,True,Never,101,76,5.6,2025-05-20,2025-05-23,3,False,Walk-in
+SH-01865,60,M,Emirati,23.8,False,True,False,Current,153,92,5.5,2025-11-21,2025-11-24,3,False,Walk-in
+SH-01866,76,M,Emirati,21.7,False,False,False,Current,110,81,5.9,2025-12-01,2025-12-04,3,False,Walk-in
+SH-01867,37,M,South Asian,23.9,False,False,False,Never,112,74,5.5,2024-05-15,2024-05-19,4,False,Walk-in
+SH-01868,42,F,Emirati,27.1,False,False,False,Never,109,74,5.2,2025-02-12,2025-02-17,5,False,Walk-in
+SH-01869,73,M,Emirati,34.3,True,False,True,Current,110,78,7.9,2025-09-02,2025-09-05,3,False,GP
+SH-01870,38,M,Other,23.6,False,False,False,Never,108,80,5.7,2024-02-29,2024-03-02,2,False,GP
+SH-01871,75,M,Emirati,32.6,True,False,True,Never,110,69,6.5,2024-09-26,2024-10-02,6,False,Emergency
+SH-01872,32,F,South Asian,28.0,False,False,False,Never,142,80,5.7,2024-05-09,2024-05-14,5,False,Walk-in
+SH-01873,18,M,Emirati,16.0,False,False,False,Current,119,66,5.5,2025-05-14,2025-05-16,2,False,Walk-in
+SH-01874,57,F,Emirati,34.3,True,True,True,Never,148,93,10.5,2024-04-13,2024-04-17,4,False,Emergency
+SH-01875,80,M,Other,30.2,False,True,True,Never,152,105,5.1,2025-05-23,2025-05-31,8,True,GP
+SH-01876,61,F,South Asian,35.8,True,False,True,Never,128,81,10.1,2025-02-14,2025-02-16,2,False,GP
+SH-01877,73,M,South Asian,34.0,True,True,True,Current,153,87,9.6,2025-05-23,2025-05-26,3,False,Walk-in
+SH-01878,45,M,South Asian,25.3,False,False,False,Never,139,80,5.5,2024-08-24,2024-08-27,3,True,Walk-in
+SH-01879,49,F,Emirati,30.8,False,False,True,Never,125,72,4.8,2024-01-03,2024-01-08,5,False,GP
+SH-01880,73,M,Emirati,29.1,False,False,False,Current,124,81,5.3,2024-10-02,2024-10-03,1,False,Walk-in
+SH-01881,67,M,Emirati,27.9,False,True,False,Never,133,98,4.6,2025-11-05,2025-11-09,4,True,Walk-in
+SH-01882,29,M,Emirati,22.7,False,False,False,Never,133,70,6.1,2025-05-09,2025-05-11,2,False,GP
+SH-01883,67,M,Emirati,30.3,False,False,True,Former,110,73,5.2,2024-05-22,2024-05-26,4,False,GP
+SH-01884,42,M,South Asian,27.0,False,False,False,Never,129,65,5.1,2025-10-20,2025-10-27,7,False,GP
+SH-01885,35,M,South Asian,25.2,True,True,False,Never,144,101,8.0,2025-07-15,2025-07-19,4,False,GP
+SH-01886,65,M,Emirati,35.9,False,True,True,Never,156,85,4.7,2024-05-16,2024-05-18,2,False,Emergency
+SH-01887,55,F,South Asian,24.2,True,False,False,Current,110,72,9.2,2025-06-05,2025-06-07,2,False,GP
+SH-01888,71,F,Emirati,35.7,True,True,True,Never,159,95,11.6,2025-01-07,2025-01-11,4,False,GP
+SH-01889,39,F,Emirati,20.8,False,False,False,Never,109,78,,2024-03-23,2024-03-25,2,False,Walk-in
+SH-01890,22,F,South Asian,26.0,False,False,False,Never,118,76,4.8,2025-09-12,2025-09-13,1,False,Emergency
+SH-01891,78,F,Emirati,29.3,True,True,False,Never,139,76,10.2,2025-05-06,2025-05-13,7,False,Walk-in
+SH-01892,23,F,South Asian,16.0,False,False,False,Never,122,77,6.2,2025-10-31,2025-11-04,4,False,GP
+SH-01893,72,M,South Asian,35.7,False,True,True,Never,131,96,5.5,2024-12-22,2024-12-27,5,False,Walk-in
+SH-01894,26,F,Emirati,17.1,False,False,False,Never,135,76,5.4,2024-10-10,2024-10-17,7,False,GP
+SH-01895,57,F,Emirati,33.3,True,True,True,Never,119,83,5.7,2025-02-02,2025-02-07,5,False,Walk-in
+SH-01896,65,M,Emirati,35.2,False,True,True,Never,140,102,4.8,2024-09-24,2024-10-05,11,False,GP
+SH-01897,59,F,Emirati,31.8,False,True,True,Never,124,78,4.8,2025-10-20,2025-10-29,9,False,Emergency
+SH-01898,50,F,South Asian,26.2,False,False,False,Never,116,73,,2024-01-08,2024-01-17,9,False,GP
+SH-01899,61,F,Emirati,28.2,False,True,False,Never,118,85,5.5,2024-04-18,2024-04-26,8,True,Walk-in
+SH-01900,62,M,Emirati,30.8,True,True,True,Current,123,79,9.2,2024-04-13,2024-04-19,6,False,GP
+SH-01901,52,F,South Asian,18.1,False,False,False,Never,130,78,5.6,2024-05-27,2024-06-02,6,False,GP
+SH-01902,18,M,South Asian,28.3,True,False,False,Never,129,77,6.1,2025-10-23,2025-10-27,4,False,Emergency
+SH-01903,65,M,Other,29.0,True,True,False,Never,155,100,6.7,2025-02-17,2025-02-20,3,False,GP
+SH-01904,42,F,South Asian,27.6,False,False,False,Never,108,74,5.7,2024-04-18,2024-04-20,2,False,Walk-in
+SH-01905,44,F,Other,21.1,False,False,False,Never,125,87,5.2,2024-04-30,2024-05-04,4,False,Walk-in
+SH-01906,41,F,Emirati,26.1,False,True,False,Never,147,89,5.7,2024-11-13,2024-11-15,2,False,Walk-in
+SH-01907,49,M,Emirati,18.3,False,False,False,Current,128,67,,2025-08-27,2025-08-30,3,False,GP
+SH-01908,66,M,Emirati,33.9,True,True,True,Never,159,101,6.4,2024-09-13,2024-09-18,5,True,GP
+SH-01909,32,F,Emirati,21.2,True,True,False,Never,151,89,7.7,2025-06-14,2025-06-24,10,True,GP
+SH-01910,52,F,Emirati,20.2,False,False,False,Never,129,75,6.0,2025-02-14,2025-02-23,9,False,Walk-in
+SH-01911,62,F,South Asian,28.9,False,False,False,Current,122,75,5.7,2025-02-28,2025-03-06,6,False,Emergency
+SH-01912,33,F,South Asian,33.8,False,False,True,Never,123,76,5.7,2024-10-02,2024-10-04,2,False,Walk-in
+SH-01913,61,M,South Asian,35.3,False,True,True,Never,141,79,5.2,2024-01-04,2024-01-14,10,False,GP
+SH-01914,39,M,Emirati,23.9,False,False,False,Never,108,74,5.8,2024-04-18,2024-04-21,3,False,GP
+SH-01915,33,F,Emirati,19.8,False,False,False,Never,112,87,4.9,2025-06-26,2025-07-01,5,False,Walk-in
+SH-01916,51,M,Emirati,30.3,False,False,True,Current,143,84,4.8,2024-06-27,2024-07-03,6,False,GP
+SH-01917,72,M,Emirati,32.8,True,True,True,Never,127,95,7.8,2024-12-10,2024-12-13,3,True,GP
+SH-01918,57,F,Other,22.2,False,False,False,Never,131,79,6.0,2024-06-11,2024-06-21,10,True,Emergency
+SH-01919,52,M,Emirati,31.8,True,False,True,Former,124,72,7.4,2024-04-11,2024-04-14,3,False,Walk-in
+SH-01920,31,M,Emirati,23.8,False,False,False,Never,128,68,,2024-06-05,2024-06-13,8,False,Walk-in
+SH-01921,21,F,Other,30.1,False,True,True,Never,149,96,5.3,2025-07-10,2025-07-13,3,False,Emergency
+SH-01922,38,F,Emirati,27.1,False,False,False,Never,118,83,5.7,2025-07-08,2025-07-14,6,False,Walk-in
+SH-01923,54,M,Emirati,33.1,False,False,True,Never,137,78,5.5,2025-07-10,2025-07-18,8,False,Walk-in
+SH-01924,52,F,Emirati,30.2,True,True,True,Current,156,102,,2024-08-12,2024-08-15,3,False,Walk-in
+SH-01925,52,F,Emirati,33.4,True,False,True,Never,109,72,9.6,2025-11-01,2025-11-03,2,False,Emergency
+SH-01926,71,M,Emirati,24.3,True,True,False,Never,153,86,8.9,2025-12-15,2025-12-17,2,True,Emergency
+SH-01927,36,M,Other,33.5,False,False,True,Never,124,70,5.0,2025-05-24,2025-05-26,2,True,Walk-in
+SH-01928,53,M,South Asian,27.0,False,False,False,Never,111,78,5.6,2024-10-10,2024-10-18,8,False,Walk-in
+SH-01929,45,F,Emirati,29.2,False,True,False,Never,156,93,5.6,2025-10-07,2025-10-09,2,False,GP
+SH-01930,37,F,Emirati,31.7,True,True,True,Never,142,84,8.6,2025-05-01,2025-05-10,9,False,Walk-in
+SH-01931,40,F,Other,27.4,False,False,False,Never,116,83,5.4,2025-04-29,2025-05-01,2,False,Walk-in
+SH-01932,62,M,Other,28.4,True,False,False,Former,109,82,8.1,2024-11-12,2024-11-14,2,False,Emergency
+SH-01933,54,F,Emirati,31.9,False,True,True,Never,134,90,5.9,2025-08-27,2025-09-07,11,False,GP
+SH-01934,66,M,Emirati,29.4,False,True,False,Never,151,96,5.7,2025-03-07,2025-03-10,3,True,Walk-in
+SH-01935,59,F,South Asian,29.6,False,False,False,Never,143,81,5.1,2025-09-15,2025-09-17,2,False,Emergency
+SH-01936,28,M,Emirati,27.7,True,True,False,Never,130,86,7.2,2025-04-25,2025-05-04,9,True,Walk-in
+SH-01937,23,M,South Asian,27.7,True,False,False,Never,140,81,7.3,2025-06-23,2025-06-27,4,True,GP
+SH-01938,52,M,Emirati,24.6,False,False,False,Former,131,73,5.4,2025-09-08,2025-09-12,4,False,Emergency
+SH-01939,58,F,South Asian,30.2,False,False,True,Never,143,71,6.1,2024-09-19,2024-09-26,7,False,Emergency
+SH-01940,64,F,South Asian,31.2,False,False,True,Current,116,67,5.2,2024-07-06,2024-07-21,15,False,GP
+SH-01941,59,M,Emirati,22.0,True,False,False,Never,119,83,7.5,2024-01-30,2024-02-05,6,False,GP
+SH-01942,26,F,South Asian,20.1,False,False,False,Never,118,79,5.8,2025-01-12,2025-01-14,2,False,Walk-in
+SH-01943,53,F,Emirati,28.9,False,False,False,Never,109,72,5.5,2024-03-07,2024-03-13,6,False,GP
+SH-01944,42,M,South Asian,31.2,False,False,True,Never,114,77,5.0,2025-03-05,2025-03-12,7,False,Walk-in
+SH-01945,72,F,Emirati,30.0,False,False,True,Never,113,73,5.1,2024-07-12,2024-07-13,1,False,Walk-in
+SH-01946,55,F,Emirati,26.9,False,False,False,Never,135,76,5.3,2025-02-22,2025-03-02,8,False,Emergency
+SH-01947,62,M,South Asian,30.3,False,False,True,Never,118,81,5.2,2024-08-07,2024-08-14,7,False,Emergency
+SH-01948,54,F,Emirati,24.1,False,False,False,Never,110,84,5.4,2025-07-14,2025-07-19,5,True,GP
+SH-01949,63,F,South Asian,34.9,False,False,True,Never,119,76,5.8,2025-04-22,2025-04-27,5,False,GP
+SH-01950,64,F,Emirati,29.1,False,True,False,Never,152,97,5.6,2025-07-30,2025-08-04,5,False,Emergency
+SH-01951,36,F,Emirati,25.8,False,False,False,Never,135,73,4.9,2024-05-09,2024-05-13,4,False,GP
+SH-01952,62,F,Other,35.0,False,True,True,Never,146,91,6.4,2024-06-04,2024-06-11,7,False,Walk-in
+SH-01953,69,M,Emirati,30.6,False,True,True,Never,115,73,4.4,2025-07-25,2025-08-03,9,True,Walk-in
+SH-01954,31,F,Other,30.2,False,False,True,Never,115,70,6.2,2025-10-28,2025-11-07,10,False,GP
+SH-01955,51,M,Other,27.9,False,False,False,Current,120,76,5.1,2025-08-31,2025-09-03,3,False,Walk-in
+SH-01956,19,M,Emirati,16.0,False,False,False,Never,134,64,5.5,2025-10-06,2025-10-09,3,False,GP
+SH-01957,46,M,Emirati,29.0,False,True,False,Current,136,91,5.1,2025-12-29,2025-12-31,2,False,Walk-in
+SH-01958,35,M,Emirati,20.5,False,False,False,Never,111,70,5.9,2024-11-04,2024-11-09,5,False,Emergency
+SH-01959,36,M,South Asian,24.3,False,False,False,Never,129,74,5.1,2024-09-20,2024-09-23,3,False,Emergency
+SH-01960,66,M,Emirati,32.7,True,True,True,Never,171,78,5.3,2025-06-30,2025-07-05,5,True,GP
+SH-01961,76,M,Other,32.6,True,True,True,Never,153,91,6.5,2025-04-04,2025-04-11,7,False,GP
+SH-01962,36,F,Emirati,20.1,False,False,False,Never,122,72,6.0,2024-03-19,2024-03-26,7,False,GP
+SH-01963,73,M,South Asian,29.4,True,True,False,Former,137,96,7.5,2025-03-08,2025-03-12,4,True,GP
+SH-01964,77,M,South Asian,37.4,True,True,True,Former,145,89,10.1,2025-09-02,2025-09-04,2,False,Walk-in
+SH-01965,37,F,Other,21.4,False,False,False,Never,125,84,5.9,2024-10-24,2024-11-01,8,False,GP
+SH-01966,67,M,Emirati,28.1,True,True,False,Former,170,94,6.6,2024-01-24,2024-01-28,4,True,GP
+SH-01967,66,M,Other,22.2,False,False,False,Never,124,71,5.2,2025-07-28,2025-08-02,5,False,Walk-in
+SH-01968,64,F,Emirati,30.0,True,False,True,Never,123,83,7.9,2024-10-02,2024-10-06,4,False,Walk-in
+SH-01969,69,F,Emirati,29.7,True,True,False,Never,154,93,9.7,2024-10-04,2024-10-13,9,True,GP
+SH-01970,34,M,South Asian,24.5,False,False,False,Former,111,76,,2024-06-23,2024-06-25,2,False,Emergency
+SH-01971,70,F,South Asian,34.6,False,False,True,Never,123,76,5.0,2025-04-01,2025-04-03,2,True,Walk-in
+SH-01972,60,M,South Asian,32.8,False,False,True,Current,138,74,,2025-08-03,2025-08-08,5,False,GP
+SH-01973,51,F,Emirati,27.1,True,False,False,Never,120,76,5.8,2025-07-06,2025-07-17,11,False,Emergency
+SH-01974,31,M,Emirati,26.6,False,False,False,Never,125,80,4.9,2024-02-11,2024-02-14,3,False,GP
+SH-01975,38,M,Emirati,24.3,False,False,False,Current,122,78,5.3,2024-08-05,2024-08-11,6,False,Emergency
+SH-01976,43,M,Emirati,21.7,False,False,False,Never,108,72,5.0,2024-04-01,2024-04-07,6,False,Walk-in
+SH-01977,53,M,Emirati,27.5,False,False,False,Never,139,81,5.6,2024-09-06,2024-09-08,2,False,Walk-in
+SH-01978,38,M,Emirati,25.8,False,False,False,Former,103,69,5.7,2024-10-07,2024-10-12,5,False,Emergency
+SH-01979,38,M,Emirati,19.0,False,False,False,Never,130,83,5.2,2025-07-18,2025-07-20,2,False,Walk-in
+SH-01980,67,M,Emirati,31.7,True,True,True,Never,157,108,8.5,2025-12-21,2025-12-22,1,True,Walk-in
+SH-01981,42,M,Other,33.6,True,False,True,Former,133,75,7.5,2024-10-04,2024-10-07,3,False,Walk-in
+SH-01982,50,M,Other,26.1,False,False,False,Current,126,77,5.3,2024-06-20,2024-06-25,5,False,GP
+SH-01983,65,M,Other,36.8,True,True,True,Current,148,75,7.2,2024-03-02,2024-03-06,4,False,GP
+SH-01984,57,M,Emirati,16.5,False,False,False,Former,127,80,5.6,2024-08-03,2024-08-05,2,False,Walk-in
+SH-01985,65,M,South Asian,24.2,False,False,False,Former,107,75,5.8,2024-02-23,2024-03-04,10,False,Walk-in
+SH-01986,71,M,Emirati,26.8,True,False,False,Never,118,89,8.0,2024-03-09,2024-03-14,5,False,GP
+SH-01987,23,M,Emirati,21.9,False,True,False,Never,136,81,4.8,2025-06-27,2025-07-02,5,False,GP
+SH-01988,61,M,Other,28.5,False,False,False,Never,147,65,4.6,2025-03-09,2025-03-25,16,False,GP
+SH-01989,60,M,Emirati,22.6,False,False,False,Never,123,86,5.7,2025-11-01,2025-11-04,3,True,GP
+SH-01990,81,F,South Asian,30.5,False,False,True,Never,131,79,5.3,2025-01-21,2025-01-30,9,True,Walk-in
+SH-01991,60,M,Emirati,26.3,False,False,False,Never,140,76,5.7,2025-12-12,2025-12-17,5,True,GP
+SH-01992,51,M,South Asian,31.5,False,False,True,Current,115,81,5.4,2024-04-15,2024-04-22,7,True,GP
+SH-01993,68,F,South Asian,26.0,False,False,False,Former,106,64,5.5,2024-07-12,2024-07-17,5,False,Emergency
+SH-01994,37,M,South Asian,28.9,False,False,False,Never,132,77,4.3,2024-10-06,2024-10-09,3,False,GP
+SH-01995,62,M,South Asian,32.3,False,False,True,Never,96,71,5.4,2024-05-20,2024-05-30,10,False,Walk-in
+SH-01996,67,M,Other,28.5,True,True,False,Former,176,99,9.8,2024-10-31,2024-11-04,4,True,GP
+SH-01997,68,M,Emirati,28.2,False,True,False,Never,138,107,5.1,2025-12-13,2025-12-15,2,False,Walk-in
+SH-01998,18,M,South Asian,27.8,False,False,False,Never,123,68,4.8,2025-01-04,2025-01-08,4,False,Emergency
+SH-01999,63,M,Other,26.3,False,False,False,Never,128,78,5.4,2024-08-01,2024-08-05,4,False,Walk-in
+SH-02000,58,M,Emirati,38.1,False,False,True,Never,108,76,5.9,2024-02-18,2024-02-20,2,False,Walk-in

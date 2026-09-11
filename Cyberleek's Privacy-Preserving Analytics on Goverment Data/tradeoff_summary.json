@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "Cyberleek Privacy-Utility Trade-Off Summary",
+    "role": "Person 4 - Trade-Off & Evaluation Lead",
+    "trials_per_epsilon": 20
+  },
+  "dp_analytics_track": {
+    "true_value": 0.2663333333333333,
+    "curve": [
+      {
+        "epsilon": 0.01,
+        "mae": 0.03099712680328029,
+        "rmse": 0.04039800904050159,
+        "std": 0.03884997709768961,
+        "mae_pct_of_true": 11.638470639529523,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 0.05,
+        "mae": 0.0061994253606560525,
+        "rmse": 0.008079601808100315,
+        "std": 0.007769995419537917,
+        "mae_pct_of_true": 2.327694127905902,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 0.1,
+        "mae": 0.003099712680328029,
+        "rmse": 0.004039800904050156,
+        "std": 0.003884997709768959,
+        "mae_pct_of_true": 1.1638470639529521,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 0.2,
+        "mae": 0.0015498563401640185,
+        "rmse": 0.0020199004520250825,
+        "std": 0.0019424988548844826,
+        "mae_pct_of_true": 0.5819235319764776,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 0.5,
+        "mae": 0.0006199425360656014,
+        "rmse": 0.0008079601808100279,
+        "std": 0.0007769995419537883,
+        "mae_pct_of_true": 0.23276941279058877,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 1.0,
+        "mae": 0.0003099712680328104,
+        "rmse": 0.00040398009040502105,
+        "std": 0.0003884997709769003,
+        "mae_pct_of_true": 0.11638470639529802,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 2.0,
+        "mae": 0.00015498563401639687,
+        "rmse": 0.0002019900452025056,
+        "std": 0.000194249885488445,
+        "mae_pct_of_true": 0.05819235319764589,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 5.0,
+        "mae": 6.199425360656208e-05,
+        "rmse": 8.079601808100606e-05,
+        "std": 7.769995419538135e-05,
+        "mae_pct_of_true": 0.023276941279059604,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 10.0,
+        "mae": 3.099712680328104e-05,
+        "rmse": 4.039800904050158e-05,
+        "std": 3.8849977097689956e-05,
+        "mae_pct_of_true": 0.011638470639529802,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 20.0,
+        "mae": 1.5498563401636355e-05,
+        "rmse": 2.0199004520249844e-05,
+        "std": 1.94249885488436e-05,
+        "mae_pct_of_true": 0.005819235319763338,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 50.0,
+        "mae": 6.199425360658983e-06,
+        "rmse": 8.079601808099843e-06,
+        "std": 7.769995419538607e-06,
+        "mae_pct_of_true": 0.0023276941279070026,
+        "n_trials": 20
+      }
+    ]
+  },
+  "dp_fedavg_track": {
+    "non_dp_ceiling": {
+      "roc_auc": 0.639262740439211,
+      "accuracy": 0.5886666666666667
+    },
+    "curve": [
+      {
+        "epsilon": 0.5,
+        "mean_roc_auc": 0.49739128915599506,
+        "std_roc_auc": 0.07816642802305625,
+        "mean_accuracy": 0.47268333333333334,
+        "std_accuracy": 0.10025170960027455,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 1.0,
+        "mean_roc_auc": 0.5011366900190429,
+        "std_roc_auc": 0.07903959982057884,
+        "mean_accuracy": 0.47623333333333323,
+        "std_accuracy": 0.09798061599679353,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 2.0,
+        "mean_roc_auc": 0.5088597285067873,
+        "std_roc_auc": 0.07757096557136992,
+        "mean_accuracy": 0.48216666666666663,
+        "std_accuracy": 0.09660000575109254,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 5.0,
+        "mean_roc_auc": 0.5361552088610912,
+        "std_roc_auc": 0.07267005925977595,
+        "mean_accuracy": 0.4992166666666667,
+        "std_accuracy": 0.09917175197045221,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 10.0,
+        "mean_roc_auc": 0.5726064047240518,
+        "std_roc_auc": 0.05968063460035537,
+        "mean_accuracy": 0.5206833333333332,
+        "std_accuracy": 0.09606817457757104,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 20.0,
+        "mean_roc_auc": 0.605114589702825,
+        "std_roc_auc": 0.03755681410310065,
+        "mean_accuracy": 0.5446000000000001,
+        "std_accuracy": 0.08015849577209172,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 50.0,
+        "mean_roc_auc": 0.6302907108789462,
+        "std_roc_auc": 0.00820599517859729,
+        "mean_accuracy": 0.5695833333333333,
+        "std_accuracy": 0.04355059318386681,
+        "n_trials": 20
+      },
+      {
+        "epsilon": 100.0,
+        "mean_roc_auc": 0.6358378028966265,
+        "std_roc_auc": 0.0032258417471220215,
+        "mean_accuracy": 0.5799999999999998,
+        "std_accuracy": 0.02606892573331109,
+        "n_trials": 20
+      }
+    ]
+  },
+  "policy_recommendations": {
+    "dp_analytics_operating_epsilon": 5.0,
+    "dp_analytics_rationale": "First epsilon (ascending) at which MAE on national diabetes prevalence falls below 0.03% of the true value (a tiny fraction of a percentage point, well below the sampling noise of any real epidemiological survey).",
+    "dp_fedavg_operating_epsilon": 20.0,
+    "dp_fedavg_rationale": "First epsilon (ascending) at which mean test ROC-AUC comes within 0.05 of the non-DP FedAvg ceiling -- a gap small enough to be operationally indistinguishable for a clinical risk-stratification tool.",
+    "note": "These are independent recommendations for two independent deployments; do not reuse one track's epsilon for the other."
+  }
+}
