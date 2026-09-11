@@ -105,14 +105,4 @@ Every script is independently seeded and deterministic — `generate_dataset.py`
 2. **30-Day Hospital Readmission Risk:** Decentralized FedAvg training achieves **58.9% accuracy / 0.639 ROC-AUC** across 3 hospitals with zero raw data sharing, matching the centralized baseline's discriminative power (0.626 ROC-AUC). Under DP-FedAvg (total ε=2.0 over the full run), utility drops substantially (ROC-AUC ≈ 0.48) — see HANDOVER.md §2 for the full trade-off and why the DP-analytics "ε≈1" operating point does not carry over to this model (its own knee sits around ε≈20, per the trade-off sweep).
 3. **Attack validation:** both a membership-inference and a differencing/reconstruction attack succeed against the naive, non-private outputs and collapse to near-chance under the corresponding privacy technique — see `attack_results.json` and Section 4 of `Cyberleek_Report.pdf`.
 
-## Grading Rubric Coverage
-
-| Minimum deliverable (from the brief) | Where it's satisfied |
-| :--- | :--- |
-| Realistic synthetic dataset across 2+ entities, no raw-data sharing | `data/*.csv` (3 hospitals), `generate_dataset.py`, 42/42 checks in `validate_dataset.py` |
-| One core technique correctly implemented, stated ε budget | **Both** DP (`dp_core.py`, `dp_analytics.py` — cryptographic `PrivacyBudgetTracker`) and FL (`federated_learning.py` — local training, only weight updates shared), plus DP-FedAvg combining both with zCDP composition |
-| Concrete task with a measurable answer | Population statistics (diabetes/hypertension/readmission prevalence, mean HbA1c/BP) **and** a trained classifier (30-day readmission risk, ROC-AUC 0.639) |
-| Privacy demonstration: attack succeeds on naive, fails under technique | `attack_demo.py` — MIA (naive 0.65 AUC → DP-FedAvg 0.49 AUC) and differencing attack (naive 1.00 AUC/advantage → DP 0.05 advantage, 95% reduction) |
-| Utility/privacy trade-off shown explicitly, assumptions stated | `tradeoff_analysis.py` → `tradeoff_curves.png` / `tradeoff_summary.json`, with separate policy recommendations per track and stated methodology (20 trials/ε, threshold definitions) |
-
 See `Cyberleek_Report.pdf` for the assembled 5-page write-up (objective → proposed solution → validation → results → conclusions & limitations).
